@@ -1,10 +1,10 @@
-# System Status
+﻿# System Status
 
-<u><strong>System Status in Wireless Router Mode</strong></u>
+- System Status in Wireless Router Mode
 
 <img src="../../../images/wr3600/wr3600 (36).png" alt="" width="800px" style="border: 1px solid #eee;" />
 
-<u><strong>System Status in Wireless Access Point Mode</strong></u>
+- System Status in Wireless Access Point Mode
 
 <img src="../../../images/wr3600/wr3600 (37).png" alt="" width="800px" style="border: 1px solid #eee;" />
 
@@ -12,7 +12,7 @@
 shows the Router’s Internet connection status and current work mode, as well as the Interface type. Click *Quick Setup* to redirect to the [Quick Setup](quick_setup.md) page for a change.
 
 ## Device
-shows the number of devices connected to this Router, via Ethernet cable or 2.4G WiFi or 5G WiFi. Click *More Details* to know more information about these devices, or make some configurations.
+shows the number of devices connected to this Router, via Ethernet cable or 2.4G WiFi or 5G WiFi. Click *More Details* to know more information about these devices, or configure the settings.
 
 - **Internet:** Click to enable/disable the Internet for the devices.
 - **VPN:** Click to enable/disable VPN for the devices.

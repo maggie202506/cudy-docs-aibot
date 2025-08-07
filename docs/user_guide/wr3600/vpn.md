@@ -19,7 +19,7 @@
 
 2) Go to General Settings ->VPN. Enable VPN, and select PPTP Server as Protocol. 
 
-3) Select Client Address (Internet and Local Network/Internet/Local Network).
+3) Select Client Access (Internet and Local Network/Internet/Local Network).
 
 4) Configure the PPTP Server.
 
@@ -65,7 +65,7 @@
 
 2) Go to General Settings ->VPN. Enable VPN, and select L2TP Server as Protocol. 
 
-3) Select Client Address (Internet and Local Network/Internet/Local Network).
+3) Select Client Access (Internet and Local Network/Internet/Local Network).
 
 4) Configure the L2TP Server.
 
@@ -163,7 +163,7 @@
 
 2) Go to General Settings ->VPN. Enable VPN, and select WireGuard Server as Protocol. 
 
-3) Select Client Address (Internet and Local Network / Internet / Local Network).
+3) Select Client Access (Internet and Local Network / Internet / Local Network).
 
 4) Configure the WireGuard Server:
 
@@ -234,7 +234,7 @@ IP Address: Enter the Client IP address.
 
 2) Go to General Settings ->VPN. Enable VPN, and select ZeroTier Master as Protocol. 
 
-3) Select Client Address (Internet and Local Network/Internet/Local Network).
+3) Select Client Access (Internet and Local Network/Internet/Local Network).
 
 4) Enter the ZeroTier Network ID noted down previously.
 

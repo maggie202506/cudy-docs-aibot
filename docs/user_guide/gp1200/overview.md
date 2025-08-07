@@ -1,129 +1,138 @@
-## Front Panel
-<p><img src="../../../images/wr3600/frontpanel.png" width="500" alt=""></p>
-<div>
-<table>
-    <thead>
-    <tr>
-    <th>LED</th>
-    <th>Status</th>
-    <th>Description</th>
-    </tr>
-    </thead>
-<tbody>
-    <tr>
-    <td rowspan="3" style="text-align: center; vertical-align: middle;">
-    <img src="../../../images/wr3600/wr3600 (5).png" alt="System Icon" width="20" height="20"><br>(System)</td>
-    <td><strong>On</strong></td>
-    <td>The system has started up successfully.</td>
-    </tr>
-    <tr>
-    <td><strong>Flash</strong></td>
-    <td>The system is starting up or the firmware is being upgraded. Do not disconnect or power off your Router in the process.</td>
-    </tr>
-    <tr>
-    <td><strong>Off</strong></td>
-    <td>Power is off.</td>
-    </tr>
-    <tr>
-    <td rowspan="2" style="text-align: center; vertical-align: middle;">
-    <img src="../../../images/wr3600/wr3600 (6).png" alt="Internet Icon" width="20" height="20"><br>(Internet)</td>
-    <td><strong>On</strong></td>
-    <td>Internet service is available.</td>
-    </tr>
-    <tr>
-    <td><strong>Off</strong></td>
-    <td>The Router’s Internet port is unplugged or no Internet available.</td>
-    </tr>
-    <tr>
-    <td rowspan="2" style="text-align: center; vertical-align: middle;">    <img src="../../../images/wr3600/wr3600 (7).png" alt="LAN Icon" width="20" height="20"><br>(LAN)</td>
-    <td><strong>On</strong></td>
-    <td>1~4 powered-on device is connected to the Router’s LAN port.</td>
-    </tr>
-    <tr>
-    <td><strong>Off</strong></td>
-    <td>No powered-on device is connected to the Router’s LAN port.</td>
-    </tr>
-    <tr>
-    <td rowspan="2" style="text-align: center; vertical-align: middle;">
-    <img src="../../../images/wr3600/wr3600 (8).png" alt="WAN Icon" width="20" height="20"><br>(WAN)</td>
-    <td><strong>On</strong></td>
-    <td>The Router’s WAN port is connected.</td>
-    </tr>
-    <tr>
-    <td><strong>Off</strong></td>
-    <td>The Router’s WAN port is not connected.</td>
-    </tr>
-    <tr>
-    <td rowspan="3" style="text-align: center; vertical-align: middle;">
-    <img src="../../../images/wr3600/wr3600 (9).png" alt="WAN Icon" width="20" height="20"><br>(2.4GHz Wireless)</td>
-    <td><strong>On</strong></td>
-    <td>2.4GHz Wireless Band is enabled.</td>
-    </tr>
-    <tr>
-    <td><strong>Flash</strong></td>
-    <td>2.4GHz WPS Connection is in process.</td>
-    </tr>
-    <tr>
-    <td><strong>Off</strong></td>
-    <td>2.4GHz Wireless Band is disabled.</td>
-    </tr>
-    <tr>
-    <td rowspan="3" style="text-align: center; vertical-align: middle;">
-    <img src="../../../images/wr3600/wr3600 (10).png" alt="WAN Icon" width="20" height="20"><br>(5GHz Wireless)</td>
-    <td><strong>On</strong></td>
-    <td>5GHz Wireless Band is enabled.</td>
-    </tr>
-    <tr>
-    <td><strong>Flash</strong></td>
-    <td>5GHz WPS Connection is in process.</td>
-    </tr>
-    <tr>
-    <td><strong>Off</strong></td>
-    <td>5GHz Wireless Band is disabled.</td>
-    </tr>
-</tbody>
-    </table>
-</div>
+## Package Content
+<img src="../../../images/gp1200/package content.png"  width="500" alt="">
 
-## Back Panel
-<p><img src="../../../images/wr3600/wr3600 (11).png" width="500" alt=""></p>
-<div>
+---
+## Front Panel & LEDs
+<img src="../../../images/gp1200/front-panel.png"  width="500" alt="">
 <table>
+  <thead>
     <tr>
-<th>Interface</th>
-<th>Description</th>
+      <th>LED</th>
+      <th>Status</th>
+      <th>Indication</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <!-- Power -->
+    <tr>
+      <td rowspan="2" style="text-align:left; vertical-align:middle;">
+        <img src="../../../images/gp1200/power.png" alt="" width="20" height="20"><br>(Power)
+      </td>
+      <td><strong>On</strong></td>
+      <td>Power is on.</td>
     </tr>
     <tr>
-<td>ON/OFF Button</td>
-<td>Press to turn on/off the PON Router.</td>
+      <td><strong>Off</strong></td>
+      <td>Power is off.</td>
+    </tr>
+    <!-- PON -->
+    <tr>
+      <td rowspan="3" style="text-align:left; vertical-align:middle;">
+        <img src="../../../images/gp1200/PON.png" alt="" width="20" height="20"><br>(PON)
+      </td>
+      <td><strong>On</strong></td>
+      <td>PON is registered successfully.</td>
     </tr>
     <tr>
-<td>Power Jack</td>
-<td>Plug the provided power adapter to supply power.</td>
+      <td><strong>Flash</strong></td>
+      <td>PON is registering.</td>
     </tr>
     <tr>
-<td>LAN1/2/3 Port</td>
-<td>Connect to an Ethernet device.</td>
+      <td><strong>Off</strong></td>
+      <td>PON is not connected or registered.</td>
+    </tr>
+    <!-- LOS -->
+    <tr>
+      <td rowspan="2" style="text-align:left; vertical-align:middle;">
+        <img src="../../../images/gp1200/LOS.png" alt="WAN Icon" width="20" height="20"><br>(LOS)
+      </td>
+      <td><strong>Flash</strong></td>
+      <td>Optical signal is weak or lost.</td>
     </tr>
     <tr>
-<td>LAN4/WAN Port</td>
-<td>Connect to an Ethernet device or Internet. </td>
+      <td><strong>Off</strong></td>
+      <td>Optical signal is normal.</td>
+    </tr>
+    <!-- Internet -->
+    <tr>
+      <td rowspan="2" style="text-align:left; vertical-align:middle;">
+        <img src="../../../images/gp1200/internet.png" alt="Internet Icon" width="20" height="20"><br>(Internet)
+      </td>
+      <td><strong>On</strong></td>
+      <td>Internet is connected.</td>
     </tr>
     <tr>
-<td>WPS Button</td>
-<td>Press for 1 second to authorize WPS connection.</td>
+      <td><strong>Off</strong></td>
+      <td>Internet is disconnected.</td>
+    </tr>
+    <!-- 2.4 GHz Wireless -->
+    <tr>
+      <td rowspan="2" style="text-align:left; vertical-align:middle;">
+        <img src="../../../images/gp1200/2.4G.png" alt="WAN Icon" width="20" height="20"><br>(2.4GHz Wireless)
+      </td>
+      <td><strong>On</strong></td>
+      <td>2.4GHz Wireless is enabled.</td>
     </tr>
     <tr>
-<td>WLAN Button</td>
-<td>Press for 2 seconds to turn on/off Wi-Fi.</td>
+      <td><strong>Off</strong></td>
+      <td>2.4GHz Wireless is disabled.</td>
+    </tr>
+    <!-- 5 GHz Wireless -->
+    <tr>
+      <td rowspan="2" style="text-align:left; vertical-align:middle;">
+        <img src="../../../images/gp1200/5G.png" alt="WAN Icon" width="20" height="20"><br>(5GHz Wireless)
+      </td>
+      <td><strong>On</strong></td>
+      <td>5GHz Wireless is enabled.</td>
     </tr>
     <tr>
-<td>RESET Button</td>
-<td>Press for 5 seconds to restore factory defaults.</td>
+      <td><strong>Off</strong></td>
+      <td>5GHz Wireless is disabled.</td>
+    </tr>
+    <!-- WPS -->
+    <tr>
+      <td rowspan="3" style="text-align:left; vertical-align:middle;">
+        <img src="../../../images/gp1200/WPS.png" alt="LAN Icon" width="20" height="20"><br>(WPS)
+      </td>
+      <td><strong>Flash</strong></td>
+      <td>In WPS process.</td>
     </tr>
     <tr>
-<td>PON Port</td>
-<td>Connect to the Internet with an optical fiber.</td>
+      <td><strong>On</strong></td>
+      <td>On for about 1 minute when WPS is successful.</td>
     </tr>
+    <tr>
+      <td><strong>Off</strong></td>
+      <td>Not in the WPS process.</td>
+    </tr>
+    <!-- LAN -->
+    <tr>
+      <td rowspan="2" style="text-align:left; vertical-align:middle;">
+        <img src="../../../images/gp1200/LAN1.png" alt="LAN Icon" width="100" height="20"><br>(LAN1~4)
+      </td>
+      <td><strong>On</strong></td>
+      <td>LAN port is connected.</td>
+    </tr>
+    <tr>
+      <td><strong>Off</strong></td>
+      <td>LAN port is not connected.</td>
+    </tr>
+  </tbody>
 </table>
-</div>
+----
+
+## Interfaces
+| Interface | Description |
+|-----------|-------------|
+| <img src="../../../images/gp1200/back.png" width="400" alt=""> |  |
+| **ON/OFF Button**| Press to turn on/off the PON router. |
+| **Power Jack**| Plug the provided power adapter to supply power. |
+| **LAN4/WAN Port**| Connect to an Ethernet device or Internet. |
+| **LAN1/2/3 Port**| Connect to an Ethernet device. |
+| <img src="../../../images/gp1200/side.png" width="400" alt=""> |  |
+| **WPS Button**| Press for 1 seconds to authorize WPS connection. |
+| **WLAN Button**| Press for 2 seconds to turn on/off Wi-Fi. |
+| **RESET Button**| Press for 5 seconds to restore factory defaults. |
+| <img src="../../../images/gp1200/pon-port.png" width="400" alt=""> |  |
+| **PON Port**| Connect to the Internet with an optical fiber. |

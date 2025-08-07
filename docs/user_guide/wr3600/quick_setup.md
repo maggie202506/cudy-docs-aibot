@@ -1,6 +1,6 @@
 # Quick Setup
 
-## - Web Quick Setup
+## Web Quick Setup
 
   With a web-based utility, it is easy to configure and manage the router. The web-based utility can be used on any Windows, Mac OS or UNIX OS with a web browser, such as Microsoft Internet Explorer, Mozilla Firefox or Apple Safari. Follow the steps below to log in to your router.
 
@@ -23,15 +23,14 @@
 9. Confirm your settings or click *Back* to make adjustments. Then click *Save and Apply*.
 
 
-Note:
+<img src="../../../images/noteicon.png"> 
 
 - If the login window does not appear, please refer to the FAQ or contact [support@cudy.com](mailto:support@cudy.com).
-
-- For more details about different WAN mode settings, you may refer to the user guide.
+- For more details about different WAN mode settings, refer to [General Settings -> WAN Mode](wan.md).
 - It may take a few minutes for the router to successfully connect to the Internet.
 
 
-## - Cudy App Setup
+## Cudy App Setup
 
  Cudy App runs on iOS and Android devices, such as smart phones and tablets.
 
