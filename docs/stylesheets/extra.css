@@ -94,3 +94,16 @@ img.cudyboxshadow  {
 .md-footer-meta__inner {
     color: white !important;
 }
+
+/* 一级列表：实心圆（默认） */ 
+.md-typeset ul li { 
+  list-style-type: disc; 
+} 
+/* 二级列表：空心圆 */ 
+.md-typeset ul ul li { 
+  list-style-type: circle; 
+} 
+/* 三级列表：方形（可选） */ 
+.md-typeset ul ul ul li { 
+  list-style-type: square; 
+} 
