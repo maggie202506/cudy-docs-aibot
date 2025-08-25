@@ -1,11 +1,11 @@
 # How to set up parent control on the Cudy router?
+
 Parent control is used to control the internet access time and websites of certain devices, such as the phone of the kid, and at the same time it will allow other devices to have free access.
 
 Take WR3000 as an example to introduce how to set up the parental control function. The setting requirements are as follows:    
+<li> The phone of the kid can only use the Internet from 8:00 am to 10:00 pm on weekends. </li>
+<li> Prevent kid from accessing designated websites, such as <i>www.facebook.com</i> and <i>www.youtube.com</i>. </li>
 
-    1.The phone of the kid can only use the Internet from 8:00 am to 10:00 pm on weekends.
-
-    2.Prevent kid from accessing designated websites, such as *www.facebook.com* and *www.youtube.com*.
 
 1. Please login to the web page of WR3000 by [http://cudy.net/](http://cudy.net/) or [http://192.168.10.1/](http://192.168.10.1/). Input the password to login.
 

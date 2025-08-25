@@ -16,7 +16,7 @@ To configure and manage wireless network settings for the controlled APs.
 
 - <img src="../../../images/c200p/add.png" alt="" width="50px"/>: Click to add a new entry for an AP group's wireless configuration.
 
-    <img src="../../../images/c200p/general-wireless-edit.png" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;"/>
+    <img src="../../../images/c200p/general-wireless-add.png" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;"/>
 
     - Name: Modify or customize the wireless network name.
     - Band: Tick or untick 2.4GHz/5GHz to specify the frequency range.

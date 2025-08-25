@@ -21,6 +21,4 @@ Some customers get a warning when play games with Cudy router. The router's NAT 
 
     <img src="../../images/FAQ/10006/xbox_example.png" alt="add" width="800px" style="display: block; margin: 0 auto;">
 
-    Other game consoles may need other ports to be forwarded. You can refer to this website.
-
-    [Port forward on different Games](https://portforward.com/games/)
+    Other game consoles may need other ports to be forwarded. You can refer to this website [Port forward on different Games](https://portforward.com/games/).
