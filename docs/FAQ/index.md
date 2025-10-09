@@ -14,9 +14,7 @@ Learn how to solve some common problems and better use our products.
 * [How to configure IP Reservation on the Cudy router?](10005_How_to_configure_IP_Reservation_on_the_Cudy_router.md)
 * [How to change the NAT type on the Cudy router for game console?](10006_How_to_change_the_NAT_type_on_the_Cudy_router_for_game_console.md)
 * [How to setup your Cudy Router via Cudy APP?](10007_How_to_setup_your_Cudy_Router_via_Cudy_APP.md)
-
-* [What if I forget my wireless password?](forgot_wireless_password.md)
-* [What if I forget my web management password?](forgot_management_password.md)
-* [What if I cannot log in to the router's web management page?](cannot_login.md)
-* [What if I cannot access the Internet even though the configuration is finished?](cannot_access_Internet.md)
-* [What if I cannot find my wireless network or connect the wireless network?](cannot_find_wireless_network.md)
+* [What if I forget my wireless password?](What_if_I_forget_my_wireless_password.md)
+* [What if I forget my web management password?](What_if_i_forget_my_web_management_password.md)
+* [What if I cannot access the Internet even though the configuration is finished?](What_if_i_cannot_access_Internet.md)
+* [What if I cannot find my wireless network or connect the wireless network?](What_if_i_cannot_find_wireless_network.md)

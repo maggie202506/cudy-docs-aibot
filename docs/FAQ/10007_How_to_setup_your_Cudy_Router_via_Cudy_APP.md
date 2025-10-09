@@ -11,17 +11,12 @@ We suggest you to register and login a Cudy APP account which can be used to man
 
 **Preparations:**
 
-    - Unplug your modem and move the backup battery if it has one.
-
-    - Connect the router's WAN port to the powered-off modem via an Ethernet cable.
-
-    - Power on the modem, and then wait about 2 minutes for it to restart.
-
-    - Connect the power adapter to the router and wait the System LED turn to solid on (red or blue).
-
-    - Connect your phone to the router via Wi-Fi or Ethernet.
-
-    - Check the LEDs to confirm the hardware connections are correct.
+- Unplug your modem and move the backup battery if it has one.
+- Connect the router's WAN port to the powered-off modem via an Ethernet cable.
+- Power on the modem, and then wait about 2 minutes for it to restart.
+- Connect the power adapter to the router and wait the System LED turn to solid on (red or blue).
+- Connect your phone to the router via Wi-Fi or Ethernet.
+- Check the LEDs to confirm the hardware connections are correct.
 
 !!! note
     Please make sure you can access internet when you connect the computer directly to the modem. This means that your broadband line is working normally. If you fail to access the internet, please contact your Internet Service Provider to solve the problem with the line first.

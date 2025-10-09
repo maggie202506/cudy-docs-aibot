@@ -10,8 +10,8 @@
 3. Manually configure the DNS server, for your computer might not recognize any DNS server addresses.  
     - Go to Advanced Settings - > Network -> DHCP Server.  
     - Enter 8.8.8.8 as Primary DNS, click SAVE.
-
-    <img src="../../images/noteicon.png"> 8.8.8.8 is a safe and public DNS server operated by Google.
+    !!!Note
+        8.8.8.8 is a safe and public DNS server operated by Google.
 
 4. Restart the modem and the Router .
     - Power off your modem and Router, and leave them off for 1 minute.
@@ -50,7 +50,6 @@
 
 6. Upgrade the firmware of the Router.
 
-<img src="../../images/noteicon.png">  
-
-- If your existing ADSL modem/Router  happens to be in the range of 192.168.10.x, Cudy Router  will change its default LAN IP address from 192.168.10.1 to be 10.1.1.1 to avoid IP conflicts.
-- If you’ve tried all the above methods but still cannot access the Internet, please contact the technical support via support@cudy.com.
+!!!Note
+    - If your existing ADSL modem/Router  happens to be in the range of 192.168.10.x, Cudy Router  will change its default LAN IP address from 192.168.10.1 to be 10.1.1.1 to avoid IP conflicts.
+    - If you’ve tried all the above methods but still cannot access the Internet, please contact the technical support via support@cudy.com.

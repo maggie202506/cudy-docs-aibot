@@ -10,7 +10,7 @@ Please follow the steps below.
     <img src="../../images/FAQ/10002/tftp_tool_firmware.png" alt="tftp" width="600px" style="display: block; margin: 0 auto;" >
 
 3. Disconnect the power to the router; connect the computer to the " **LAN** " port of the router with a network cable, and manually configure the computer network interface card to the static IP of the "**192.168.1.88**" .
-    <img src="../../images/FAQ/10002/IP_SETTINGS.png" alt="ipsetting" width="500px" style="display: block; margin: 0 auto;" >
+    <img src="../../images/FAQ/10002/ip_settings.png" alt="ipsetting" width="500px" style="display: block; margin: 0 auto;" >
 
 4. Turn off the computer's firewall (you can turn off the firewall by typing '**netsh advfirewall set allprofiles state off** 'on the command line), or turn off the firewall on the settings page.
     <img src="../../images/FAQ/10002/turn_off_firewall.png" alt="turn off firewall" width="500px" style="display: block; margin: 0 auto;" >

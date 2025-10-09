@@ -15,4 +15,5 @@ IP Reservation, is used to allocate a static IPv4 address to a MAC address.
 
 Disconnect the device and connect again. Then you can check the IP address of the device if the IP Address you set.
 
-<img src="../../images/noteicon.png" alt=""/> The IP Address and MAC Address of these entries also ARP bind.
+!!!Note
+    The IP Address and MAC Address of these entries also ARP bind.
