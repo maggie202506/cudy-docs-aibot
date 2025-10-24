@@ -45,6 +45,7 @@ plugins:
   - include-markdown
   - glightbox 
 
+
 # Customization
 extra:
   # analytics:
@@ -87,6 +88,8 @@ extra_javascript:
   - javascripts/analytics.js
   - javascripts/extra.js
   - javascripts/cookieconsent.js
+  - javascripts/lazyload.js
+
 
 markdown_extensions:
   - attr_list
