@@ -1,12 +1,12 @@
 # Overview
 ## Package Content
-<img src="../../../images/gs1024e/package.jpg" width="500" alt="">
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/gs1024e/package.jpg" width="500" alt="">
 
 ---
 
 ## Appearance
 
-<img src="../../../images/gs1024e/frontpanel.webp" width="500" alt="">
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/gs1024e/frontpanel.webp" width="500" alt="">
 
 ## LED & DIP
 <table>
@@ -56,6 +56,6 @@
 ---
 
 ## Topology
-<img src="../../../images/gs1024e/topology-vlan.jpg" width="500" alt="">
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/gs1024e/topology-vlan.jpg" width="500" alt="">
 
-<img src="../../../images/gs1024e/topology-qos.jpg" width="500" alt="">
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/gs1024e/topology-qos.jpg" width="500" alt="">

@@ -1,10 +1,10 @@
 # Overview
 
 ## Package Content
-<img src="../../../images/c200p/package-content.webp"  width="600" alt="">
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/c200p/package-content.webp"  width="600" alt="">
 
 ## Appearance
-<img src="../../../images/c200p/front-panel.webp"  width="400" alt="">
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/c200p/front-panel.webp"  width="400" alt="">
 
 ----
 
