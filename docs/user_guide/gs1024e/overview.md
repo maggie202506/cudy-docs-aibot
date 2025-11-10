@@ -1,6 +1,6 @@
 # Overview
 ## Package Content
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/gs1024e/package.jpg" width="500" alt="">
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/gs1024e/package.webp" width="500" alt="">
 
 ---
 
@@ -56,6 +56,6 @@
 ---
 
 ## Topology
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/gs1024e/topology-vlan.jpg" width="500" alt="">
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/gs1024e/topology-vlan.webp" width="500" alt="">
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/gs1024e/topology-qos.jpg" width="500" alt="">
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/gs1024e/topology-qos.webp" width="500" alt="">
