@@ -1,5 +1,8 @@
 # Protocol Management
 
+!!! Note
+    Images of GS1024E are for reference only; details may vary by model.
+
 ## SNMP
 SNMP is a widely used protocol for managing and monitoring network devices. It allows network administrators to collect information from and configure devices such as routers, switches, and servers.
 
@@ -12,9 +15,9 @@ SNMP is a widely used protocol for managing and monitoring network devices. It a
 
 **Communities**
 
-- read community: A community string used by SNMP agents to allow read-only access to managed devices, enabling monitoring but not configuration changes. Select it to be Public or Private.
-- write community: A community string that grants read-write access, allowing both monitoring and configuration changes to managed devices. Select it to be Public or Private.
-- trap community: A community string used for sending SNMP trap messages, which are asynchronous notifications from agents to managers about significant events. Select it to be Public or Private.
+- Read community: A community string used by SNMP agents to allow read-only access to managed devices, enabling monitoring but not configuration changes. Select it to be Public or Private.
+- Write community: A community string that grants read-write access, allowing both monitoring and configuration changes to managed devices. Select it to be Public or Private.
+- Trap community: A community string used for sending SNMP trap messages, which are asynchronous notifications from agents to managers about significant events. Select it to be Public or Private.
   
 **Trap**
 
@@ -23,7 +26,7 @@ SNMP is a widely used protocol for managing and monitoring network devices. It a
 - Trap Server: Select to specify the destination for trap messages, either By name (hostname) or By IP (address), where the SNMP manager listens for traps.
 - Trap type: Select a type of traps that indicate specific events, such as a device reboot (cold/warm start), a network link becoming active or inactive (link up/down), or a failure in authentication.
 
-*- Apply:* Click to save and apply the settings or changes.
+- Apply: Click to save and apply the settings or changes.
 
 ---
 
@@ -63,7 +66,7 @@ IGMP Snooping is a technique used by switches to monitor IGMP messages between h
 - Static: Indicates that the port configuration is manually set and does not change automatically.
 - Dynamic: Indicates that the port configuration can change automatically based on network conditions or protocols.
 
-*- Apply:* Click to save and apply the settings or changes.
+- Apply:Click to save and apply the settings or changes.
 
 ---
 
@@ -72,7 +75,7 @@ A security feature used on switches to prevent unauthorized DHCP servers from as
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/dhcp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
-DHCP Snooping: Select to Enable or Disable DHCP Snooping.
+- DHCP Snooping: Select to Enable or Disable DHCP Snooping.
 
 **Port Configuration**
 
@@ -85,7 +88,7 @@ DHCP Snooping: Select to Enable or Disable DHCP Snooping.
 - Remote ID Custom (MAC Address, IP Address or User Config): Select how to define the source of the Remote ID in DHCP, whether the MAC address, IP address, or a user-defined value.
 - Remote ID Sub-option: Only when *User Config* is selected in *Remote ID Custom* field can you customize a specific part of the Remote ID.
 
-*- Apply:* Click to save and apply the settings or changes.
+- Apply:Click to save and apply the settings or changes.
 
 ---
 
@@ -96,7 +99,7 @@ Loop prevention mechanisms are used in networks to avoid the creation of loops t
 
 - Loop prevention state: Select to Enable or Disable Loop Prevention. Enable it to avoid network loops and potential broadcast storms; Disable it when necessary in specific controlled environments where loops are managed differently.
 
-*- Apply:* Click to save and apply the settings or changes.
+- Apply:Click to save and apply the settings or changes.
 
 *Normal* State indicates the port is functioning correctly without any detected loop conditions or issues. The loop prevention mechanisms are in place and are not currently triggered, allowing normal traffic flow through the port.
 
@@ -123,7 +126,7 @@ Spanning Tree Protocol (STP) is a network protocol that prevents loops in a netw
 - State: Displays the current operational state of the port.
 - Role: Displays the role of the port in the STP topology.
 
-*- Apply:* Click to save and apply the settings or changes.
+- Apply:Click to save and apply the settings or changes.
 
 ---
 
@@ -148,7 +151,7 @@ LLDP is a protocol used to exchange information between adjacent network devices
     - Rx Only: The port receives LLDP packets but does not transmit them, allowing it to gather information without broadcasting.
     - Tx & Rx: The port both transmits and receives LLDP packets, enabling full bidirectional communication for comprehensive network discovery.
 
-*- Apply:* Click to save and apply the settings or changes.
+- Apply:Click to save and apply the settings or changes.
 
 ---
 

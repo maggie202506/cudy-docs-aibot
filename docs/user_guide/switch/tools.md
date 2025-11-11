@@ -1,5 +1,8 @@
 # Tools
 
+!!! Note
+    Images of GS1024E are for reference only; details may vary by model.
+
 ## Cable Diagnostics
 Supports to test and assess the condition of the cables connected to specific ports. 
 
@@ -21,9 +24,9 @@ Updates the switch to its latest firmware, enhancing functionality, fixing bugs,
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/firmware-upgrade.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
-*- Select file*: Click to locate and upload the firmware file to be upgraded.
+- Select file: Click to locate and upload the firmware file to be upgraded.
 
-*- Apply*: Click to start the firmware upgrading process.
+- Apply: Click to start the firmware upgrading process.
 
 !!! Note
     - Do not power off during the process, otherwise the machine may be damaged.
@@ -39,9 +42,9 @@ Tests connectivity to another device by sending ICMP echo requests and measuring
 - Host Name/IP Address: Enter the destination address or hostname to which the ping packets will be sent.
 - Number of Pings: Enter the number (between 1 to 65535) of ICMP echo requests to be sent to the specified host. Default number is 4.
 
-*- Start Ping*: Click to start the Ping process.
+- Start Ping: Click to start the Ping process.
 
-*- Cancel*: Click to stop or clear the Ping process.
+- Cancel: Click to stop or clear the Ping process.
 
 **Ping Status**
 
@@ -63,13 +66,13 @@ Saves or retrieves switch configuration settings, allowing you to back up curren
 
 **System Configuration Backup**
 
-*- Configuration backup*：Click to download and backup the configuration file.
+- Configuration backup: Click to download and backup the configuration file.
 
 **System Configuration Restore**
 
-*- Select File*：Click to locate and upload the configuration file.
+- Select File: Click to locate and upload the configuration file.
 
-*- Configuration Restore*：Click to start the restore process.
+- Configuration Restore: Click to start the restore process.
 
 ---
 
@@ -78,7 +81,7 @@ Resets the switch to its factory default settings, erasing all custom configurat
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/reset.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
-*- Reset*: Click to restore the factory settings and restart the system.
+- Reset: Click to restore the factory settings and restart the system.
 
 ---
 
@@ -87,7 +90,7 @@ Restarts the switch, reloading the current firmware and configuration without er
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/reboot.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
-*- Reboot*: Click to restart the switch.
+- Reboot: Click to restart the switch.
 
 !!! Note 
     To avoid damage to the device, please do not turn off the power during the restart process.

@@ -110,6 +110,7 @@ nav:
     - GP1200: user_guide/pon_router/gp1200.md
     - IR04: user_guide/industrial_router/ir04.md      
     - GS1024E: user_guide/switch/gs1024e.md
+    - GS1016E: user_guide/switch/gs1016e.md
     - C200P: user_guide/ap_controller/c200p.md       
   - Tutorials:
     - Turtorials: tutorials/index.md    

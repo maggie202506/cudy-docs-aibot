@@ -1,3 +1,8 @@
+# Log in / Log out
+
+!!! Note
+    Images of GS1024E are for reference only; details may vary by model.
+
 ## Login
 The switch supports further management on the GUI web page. Log into it and start management.
 
