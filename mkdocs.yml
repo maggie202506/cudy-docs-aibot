@@ -20,7 +20,10 @@ theme:
     - search.highlight
     - navigation.indexes
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
+    - navigation.tracking
+    - navigation.sections
     - footer.social
   palette:
     # Light Mode
@@ -98,20 +101,24 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details
-  - toc:
-      permalink: true
   - admonition
+  - toc:
+        toc_depth: 4
 
 nav:
   - Home: index.md
   - User Guide:
     - Overview: user_guide/index.md
-    - WR3600: user_guide/wireless_router/wr3600.md
-    - GP1200: user_guide/pon_router/gp1200.md
-    - IR04: user_guide/industrial_router/ir04.md      
-    - GS1024E: user_guide/switch/gs1024e.md
-    - GS1016E: user_guide/switch/gs1016e.md
-    - C200P: user_guide/ap_controller/c200p.md       
+    - Wireless Router:
+      - WR3600: user_guide/wireless_router/wr3600.md
+      - GP1200: user_guide/pon_router/gp1200.md
+    - Industrial Router:
+      - IR04: user_guide/industrial_router/ir04.md
+    - Switch:
+      - GS1024E: user_guide/switch/gs1024e.md
+      - GS1016E: user_guide/switch/gs1016e.md
+    - AP Controller:
+      - C200P: user_guide/ap_controller/c200p.md       
   - Tutorials:
     - Turtorials: tutorials/index.md    
   - FAQ:
