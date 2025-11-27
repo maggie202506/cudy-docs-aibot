@@ -3,7 +3,7 @@
 !!! Note
     Images of GS1024E are for reference only; details may vary by model.
     
-VLAN (Virtual Local Area Network) is a network technique that solves broadcasting issues in local area networks. It is usually applied in the following occasions:
+**VLAN** (Virtual Local Area Network) is a network technique that solves broadcasting issues in local area networks. It is usually applied in the following occasions:
 
 - To restrict broadcast domain: VLAN technique divides a big local area network into several VLANs, and all VLAN traffic remains within its VLAN. It reduces the influence of broadcast traffic in Layer 2 network to the whole network.
 - To enhance network security: Devices from different VLANs cannot achieve Layer 2 communication, and thus users can group and isolate devices to enhance network security.
@@ -11,10 +11,10 @@ VLAN (Virtual Local Area Network) is a network technique that solves broadcastin
 
 There are 4 types of VLAN modes supported on the switch:
 
-- MTU VLAN (Multi-Tenant Unit VLAN) defines an uplink port which will build up several VLANs with each of the other ports. Each VLAN contains two ports, the uplink port and one of the other ports in the switch, so the device connected to the uplink port can communicate with the device connected to any other port, but devices connected to other ports cannot communicate with each other.
-- Port-Based VLANs are divided based on ports. In port based VLAN mode, each port can only be added to one VLAN.
-- 802.1Q VLAN protocol defines a new format of VLAN data frame (Tagged Frame). As the following figure shows, compared to the traditional Ethernet data frame (Untagged Frame), the VLAN data frame (Tagged Frame) adds a VLAN tag.
-- Voice VLAN is dedicated specifically for IP phone traffic, often prioritizing it (via QoS) and separating it from data traffic for better quality and security. Typically uses 802.1Q tagging 3. Configured by enabling Voice VLAN on an access port, setting the Voice VLAN ID, and often using LLDP for auto-provisioning phones.
+- **MTU VLAN** (Multi-Tenant Unit VLAN) defines an uplink port which will build up several VLANs with each of the other ports. Each VLAN contains two ports, the uplink port and one of the other ports in the switch, so the device connected to the uplink port can communicate with the device connected to any other port, but devices connected to other ports cannot communicate with each other.
+- **Port-Based VLAN**s are divided based on ports. In port based VLAN mode, each port can only be added to one VLAN.
+- **802.1Q VLAN** protocol defines a new format of VLAN data frame (Tagged Frame). As the following figure shows, compared to the traditional Ethernet data frame (Untagged Frame), the VLAN data frame (Tagged Frame) adds a VLAN tag.
+- **Voice VLAN** is dedicated specifically for IP phone traffic, often prioritizing it (via QoS) and separating it from data traffic for better quality and security. Typically uses 802.1Q tagging 3. Configured by enabling Voice VLAN on an access port, setting the Voice VLAN ID, and often using LLDP for auto-provisioning phones.
 
 !!! Note
     - The switch works in one and only one VLAN mode at any time. When a specific VLAN mode is enabled, the other two VLAN modes will be disabled automatically and the corresponding VLAN configuration will be lost.
