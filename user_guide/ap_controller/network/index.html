@@ -944,11 +944,13 @@
 <li>Enable IP Routed Subnet as needed. If it is enabled, you need to enter the IP Address and Subnet Mask as well.</li>
 <li>Click <em>Save &amp; Apply</em>.</li>
 </ol>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <ul>
 <li>If you have set the Port Forwarding, DMZ or DHCP address reservation, and the new LAN IP address is not in the same subnet with the old one, then you should reconfigure these features.</li>
 <li>If in conflict with the WAN IP address, the LAN IP will automatically change into 10.1.1.1.</li>
 </ul>
+</div>
 <hr />
 <h2 id="dhcp-server">DHCP Server<a class="headerlink" href="#dhcp-server" title="Permanent link">&para;</a></h2>
 <p>DHCP Server is enabled by default and dynamically assigns TCP/lP parameters to client devices from the IP Address Pool. DO NOT disable DHCP server unless you have another DHCP server, or you want to manually assign the TCP/P parameters to every clients on the network. </p>
@@ -961,12 +963,14 @@
 <li>Set the <em>Leasetime</em>.</li>
 <li>Click <em>Save &amp; Apply</em>.</li>
 </ol>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> If you want to reserve for a specified client device an IP address, which is assigned by the AP controller as a DHCP server, you may use the <a href="../security/#ipmac-binding">IP/MAC binding</a> function.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you want to reserve for a specified client device an IP address, which is assigned by the AP controller as a DHCP server, you may use the <a href="../security/#ipmac-binding">IP/MAC binding</a> function.</p>
+</div>
 <hr />
 <h2 id="ipv6">IPv6<a class="headerlink" href="#ipv6" title="Permanent link">&para;</a></h2>
 <p><strong>This is only available in Main Router and AP Controller mode.</strong></p>
 <p>IPv6 may not be supported in the current version of the firewall, VPN, block list, etc.Therefore, the IPv6 function can only be used for configuration on this interface. There are 7 types of  IPv6 Internet connection, including Relay, Dynamic IP(SLAAC/DHCPv6), Static (Fixed lP), Passthrough, 464XLAT, MAP-E, and DS-Lite. Please choose the appropriate one and configure the parameters according to your ISP.</p>
-<p><a href="../IPv6/">&gt;&gt;&gt;&gt; How to set up IPv6 connection</a></p>
 <hr />
 <h2 id="qos">QoS<a class="headerlink" href="#qos" title="Permanent link">&para;</a></h2>
 <p><strong>This is only available in Main Router and AP Controller mode.</strong></p>
@@ -1009,7 +1013,10 @@
 <h2 id="ddns">DDNS<a class="headerlink" href="#ddns" title="Permanent link">&para;</a></h2>
 <p><strong>This is only available in Main Router and AP Controller mode.</strong></p>
 <p>Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a domain name to the dynamic IP address of a network device. Most ISPs assign a dynamic IP address to the AP controller and you can use this IP address to access your AP controller remotely. However, the IP address can change from time to time and you don't know when it changes. In this case, you might apply the DDNS feature on the AP controller to allow you to access your AP controller and local servers (FTP, HTTP, etc.) using a domain name without checking and remembering the IP address.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> DDNS would not work if the ISP assigns a private WAN IP address (e.g. 192.168.1.x) to the AP controller.  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>DDNS would not work if the ISP assigns a private WAN IP address (e.g. 192.168.1.x) to the AP controller.  </p>
+</div>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ddns.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ddns.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" /></a></p>
 <p><em>To set up DDNS, please follow the steps below.</em></p>
 <ol>
@@ -1091,11 +1098,13 @@
 </ol>
 <p>Now users on the Internet can enter <em>http://WAN IP</em> (in this example: <em>http://218.18.232.154</em>) to visit your personal website.</p>
 <p>If you want to provide several services in a AP controller, please add multiple port forwarding rules.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <ul>
 <li>The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN (<a href="#ddns">How to set up a Dynamic DNS service account</a>). Then users on the Internet can use <em>http://domain name</em> to visit the website.</li>
 <li>If you have changed the default External Port, you should use <em>http://WAN IP:external port</em> or <em>http://domain name:external port</em> to visit the website.</li>
 </ul>
+</div>
 <hr />
 <h2 id="port-trigger">Port Trigger<a class="headerlink" href="#port-trigger" title="Permanent link">&para;</a></h2>
 <p><strong>This is only available in Main Router and AP Controller mode.</strong></p>
@@ -1126,7 +1135,10 @@
 <p><strong>This is only available in Main Router and AP Controller mode.</strong></p>
 <p>A DMZ (Demilitarized Zone) host on the local network will become a virtual server with all ports opened and totally exposed to the Internet, causing the unlimited bi-directional communication between internal and external hosts. </p>
 <p>The DMZ host becomes a virtual server with all ports opened. When you are not clear about which ports to open in some special applications, such as IP camera and database software, you can set the PC to be a DMZ host.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> Due to the total exposure of DMZ host to the Internet, it will bring about certain potential safety hazards. So remember to dis-enable DMZ when not in use.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Due to the total exposure of DMZ host to the Internet, it will bring about certain potential safety hazards. So remember to dis-enable DMZ when not in use.</p>
+</div>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/dmz.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/dmz.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" /></a></p>
 <p>For example, you want to get the home PC to join an online game without port restriction. You can set your PC as a DMZ host with all ports open. Please follow the steps below to configure it.</p>
 <ol>
@@ -1198,12 +1210,14 @@
 <p>Enable UPnP if you want to use applications for multi-player gaming, peer-to-peer connections, real-time communication (such as VoIP or telephone conference) or remote assistance, etc. </p>
 <p>For example, when you connect your Xbox to the AP controller which has connected to the Internet to play online games, UPnP will send request to the AP controller to open the corresponding  ports allowing the following data penetrating the NAT to transmit. Therefore, you can play Xbox online games without a hitch.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/upnp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/upnp.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" /></a></p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <ul>
 <li>UPnP is enabled by default in this AP controller.</li>
 <li>Only the application supporting UPnP protocol can use this feature.</li>
 <li>UPnP feature needs the support of operating system. Some operating systems need to install the UPnP components.</li>
 </ul>
+</div>
 <hr />
 <h2 id="usb-sharing">USB Sharing<a class="headerlink" href="#usb-sharing" title="Permanent link">&para;</a></h2>
 <p>It allows network-connected devices to access USB peripherals (e.g., modems, drives, security dongles) plugged into the AP controller's USB port via SMB/NFS/FTP protocols. For example, share diagnostic logs from USB drives with remote engineers; connect serial-to-USB converters for aging PLCs; host software license dongles for centralized access, and so on.</p>
