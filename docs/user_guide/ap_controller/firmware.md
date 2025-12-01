@@ -10,7 +10,8 @@ It allows the AP controller to automatically update firmware to the latest versi
 2. Specify the *Update Time*
 3. Click *Save & Apply*.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> Backup your AP controller’s configurations before firmware update. Do NOT turn off the AP controller during the firmware update.
+!!! Note
+     Backup your AP controller’s configurations before firmware update. Do NOT turn off the AP controller during the firmware update.
 
 ## Online Update
 - If there is a new firmware available for the AP controller, a prompt will appear upon your login to the AP controller web management page. Click *Update Now* and then *Update* to upgrade the firmware to the latest version.
@@ -19,4 +20,5 @@ It allows the AP controller to automatically update firmware to the latest versi
 ## Local Update
 Click *Browse...* to locate and upload the latest firmware file you’ve downloaded from <a href="http://www.cudy.com">www.cudy.com</a>. Wait a few minutes for the update and reboot to complete.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> If you fail to update the firmware for the AP controller, please contact our <a href="mailto:support@cudy.com">technical support</a>.
+!!! Note
+     If you fail to update the firmware for the AP controller, please contact our <a href="mailto:support@cudy.com">technical support</a>.

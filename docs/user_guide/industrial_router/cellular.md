@@ -1,9 +1,41 @@
 # Cellular
 
-## APN
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-apn.webp" alt="" width="800px" style="border:  2px solid #eee;" />
+## Status
+
+On **System Status >> Cellular >> Status/Statistics** section, you can check the current status and statistics of the cellular network.
+
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/status-cellular1.webp" alt="" width="800px" style="border: 1px solid #eee;" />
+
+- Network Type: The cellular technology standard in use (e.g., LTE, 5G).
+- Upload/Download: Data transfer speeds for sending/receiving data.
+- RSSI: Received Signal Strength Indicator, reflecting signal quality (closer to 0 is stronger).
+- Public IP: The external IP address assigned by the carrier for internet communication.
+- IP Address: The local/internal IP of the router within the cellular network.
+- Connected Time: Duration since the router established the cellular connection.
+- IMSI: International Mobile Subscriber Identity, unique subscriber identity stored in the SIM card.
+- IMEI: International Mobile Equipment Identity, unique hardware identifier for the router.
+- ICCID: Integrated Circuit Card Identifier, SIM card serial number.
+- Mode: Current operational mode.
+- MCC/MNC: Mobile Country Code and Mobile Network Code, identifying the carrier/country.
+- Cell ID/PCID: Cell ID is Physical cell tower identifier, and PCID physical cell identity.
+- Band/UL Bandwidth: Frequency band and uplink bandwidth for data transmission.
+- DL Bandwidth: Downlink bandwidth allocated by the carrier for receiving data.
+- RSRP: Reference Signal Received Power, Average power of LTE/5G reference signals.
+- RSRQ: Reference Signal Received Quality, Signal quality ratio of RSRP to total interference/noise.
+- SINR: Signal-to-Interference-plus-Noise Ratio, Measures signal purity by comparing useful signal to interference/noise.
+- CSQ: Command Signal Quality, Legacy metric for signal strength (0–31 scale), often used in 2G/3G.
+
+- Current Traffic:Real-time data usage of the active cellular connection, to monitor immediate bandwidth consumption to detect anomalies.
+- Monthly Traffic: Cumulative data usage within the current billing cycle, critical for cost control in metered plans.
+- Total Traffic: Lifetime data transmitted/received since the router was deployed or reset. Long-term usage analysis for capacity planning and maintenance scheduling.
+
  
-On the **Cellular >> APN** page，you can configure the cellular APN. Please follow the steps:
+## Settings
+
+On the **System Status >> Cellular >> Settings** or **General Settings >> Cellular** page，you can configure the following cellular features. 
+
+### APN
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-apn.webp" alt="" width="800px" style="border:  2px solid #eee;" />
 
 1) Enable the APN feature. 
  
@@ -29,37 +61,44 @@ On the **Cellular >> APN** page，you can configure the cellular APN. Please fol
  
 10) Click *Save & Apply* to save and activate the new settings or changes.  Displays the current state of cellular network connectivity, Connected or Disconnected.
 
-----
-## SMS
+
+### SMS
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-sms.webp" alt="" width="800px" style="border:  2px solid #eee;" />
 
 Click *Enable* and then *Save & Apply* to manage or monitor the router remotely by sending simple text commands or receiving automated alerts.
 
-----
-## Data Settings
+
+### Data Settings
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-data-settings2.webp" alt="" width="800px" style="border:  2px solid #eee;" />
 
-- **SIM Slot**: Select SIM Slot 1 or 2 for your settings.
-- **Monthly Data Statistics**: Enable to tracks total data usage within the current billing cycle.
-- **Start Date**: Set the reset date for monthly data calculation. Enter a positive integer value.
-- **Monthly Used**: Display the amount of data consumed in the current cycle.
-- **Correct**: If necessary, enable it to manually adjust the inaccurate data usage records.
-- **Data Limit**: Enable to set the maximum allowed data per month; triggers actions (e.g., shutdown) when exceeded.
-- **Monthly Allowance**: Limit the monthly total data allocated for the billing cycle (e.g., 10GB).
-- **SMS Alert for Usage**: Enable to get SMS notifications when data reaches predefined thresholds.
-- **Usage Alert**: Set the percentage-based triggers (e.g., 80%, 90%) to activate alerts before reaching the data limit.
-- **Usage Alert Message**: Customize SMS content, or keep the default warnings.
-- **Phone Number**: Enter the recipient number(s) for receiving usage alerts.
-- Save & Apply: Click to save and activate the new settings or changes.
+1) Select SIM Slot 1 or 2 for your settings.
 
-----
-## AT Command
+2) Enable *Monthly Data Statistics* to tracks total data usage within the current billing cycle.
+
+3) Set a *Start Date* to reset date for monthly data calculation. Enter a positive integer value.
+
+4) Check *Monthly Used* for the amount of data consumed in the current cycle. If necessary, enable *Correct* to manually adjust the inaccurate data usage records.
+
+5) Enable *Data Limit* to set the maximum allowed data per month; triggers actions (e.g., shutdown) when exceeded.
+
+6) Set *Monthly Allowance* to limit the monthly total data allocated for the billing cycle (e.g., 10GB).
+
+7) Enable *SMS Alert for Usage* to get SMS notifications when data reaches predefined thresholds.
+
+8) Set the percentage-based triggers (e.g., 80%, 90%) as *Usage Alert* to activate alerts before reaching the data limit.
+
+9) Customize *Usage Alert Message* content, or keep the default warnings.
+
+10) Enter the recipient *Phone Number* for receiving usage alerts.
+
+11) Click *Save & Apply* to save and activate the new settings or changes.
+
+### AT Command
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-at.webp" alt="" width="800px" style="border:  2px solid #eee;" />
 
 AT Commands are standardized text-based instructions (e.g., AT+CSQ) used to configure, diagnose, and control cellular modules (4G/5G) in industrial routers, enabling APN setup, signal checks, and data management.
 
----
-## Modem Reset
+### Modem Reset
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-modem-reset.webp" alt="" width="800px" style="border:  2px solid #eee;" />
 
 Click *Modem Reset* to reset the cellular modules (4G/5G) to factory settings, which may help to restore connectivity during network failures or configuration errors. 

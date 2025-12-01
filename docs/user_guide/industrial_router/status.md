@@ -2,10 +2,10 @@
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/status.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 ## Status
-shows whether the router has connected to the Internet or not, and its work mode and interface. Click *Quick Setup* to redirect to the [Quick Setup](quick_setup.md).
+shows whether the router has connected to the Internet or not, and its work mode and interface. Click *Quick Setup* to redirect to the [Quick Setup](quick_setup.md){ data-preview }.
 
 ## Mesh
-shows the router’s Mesh network status (SOLE or MESH), the mesh device name and the amount of mesh units. Click *More Details* to know more or configure some *settings* (refer to [Mesh](mesh.md)).
+shows the router’s Mesh network status (SOLE or MESH), the mesh device name and the amount of mesh units. Click *More Details* to know more or configure some *settings* (refer to [Mesh](mesh.md){ data-preview }).
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/status-mesh1.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
@@ -21,7 +21,7 @@ shows the amount of devices connected to this router, and the connection method 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/status-device-setting-operation.webp" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 ## Cellular
-shows whether the router has connected to the cellular network, its network type and upload/download rate. Click *More Details* to know more information on the *Status* and *Statistics* sub-pages, or configure some *settings* (refer to [Cellular](cellular.md)).
+shows whether the router has connected to the cellular network, its network type and upload/download rate. Click *More Details* to know more information on the *Status* and *Statistics* sub-pages, or configure some *settings* (refer to [Cellular](cellular.md){ data-preview }).
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/status-cellular1.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
@@ -53,12 +53,12 @@ shows whether the router has connected to the cellular network, its network type
 - Total Traffic: Lifetime data transmitted/received since the router was deployed or reset. Long-term usage analysis for capacity planning and maintenance scheduling.
 
 ## LAN
-shows whether the router's LAN network connection is enabled or not, its IP address and MAC address. Click *More Details* to know more information on the *Status* sub-page, or configure some *settings* (refer to [LAN](network.md#lan)).
+shows whether the router's LAN network connection is enabled or not, its IP address and MAC address. Click *More Details* to know more information on the *Status* sub-page, or configure some *settings* (refer to [LAN](network.md#lan){ data-preview }).
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/status-lan1.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 ## Wireless 2.4G
-shows whether ther router's Wireless 2.4G network is enabled or not, its SSID and channel. Click *More Details* to know more information on the *Status* sub-page, or configure some *settings* (refer to [Wireless 2.4G](wireless_2.4g.md)).
+shows whether ther router's Wireless 2.4G network is enabled or not, its SSID and channel. Click *More Details* to know more information on the *Status* sub-page, or configure some *settings* (refer to [Wireless 2.4G](wireless_2.4g.md){ data-preview }).
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/status-2.4g.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
@@ -70,7 +70,7 @@ shows whether ther router's Wireless 2.4G network is enabled or not, its SSID an
 - Channel Width: Bandwidth allocated, wider channels offer higher speed but may increase interference.
 
 ## DHCP Server
-shows whether the DHCP Server is enabled or not, and its starting/ending IP. Click *More Details* to know more information on the *Status* and *DHCP Leases* sub-pages, or configure some *settings* (refer to [DHCP Server](network.md#dhcp-server)).
+shows whether the DHCP Server is enabled or not, and its starting/ending IP. Click *More Details* to know more information on the *Status* and *DHCP Leases* sub-pages, or configure some *settings* (refer to [DHCP Server](network.md#dhcp-server){ data-preview }).
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/status-dhcp.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
@@ -81,7 +81,7 @@ shows whether the DHCP Server is enabled or not, and its starting/ending IP. Cli
 - Lease Time: Duration an assigned IP address remains valid before renewal is required. 
 
 ## System
-shows the router's firmware version, current local time and uptime. Click *More Details* to know more information on the *Status*, *Statistics*, *ARP*, *Active IP Routes* and *[System Log](diagnostic_tools.md#system-log)* sub-pages.
+shows the router's firmware version, current local time and uptime. Click *More Details* to know more information on the *Status*, *Statistics*, *ARP*, *Active IP Routes* and *[System Log](diagnostic_tools.md#system-log){ data-preview }* sub-pages.
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/status-system1.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
@@ -119,5 +119,5 @@ shows the router's firmware version, current local time and uptime. Click *More 
 - Table: The routing table type where this route is stored.
 - Interface: The physical/virtual port used for this route's traffic.
 
-**[System Log](diagnostic_tools.md#system-log)** records timestamped system events, errors, and operational messages for diagnostics and auditing.
+**[System Log](diagnostic_tools.md#system-log){ data-preview }** records timestamped system events, errors, and operational messages for diagnostics and auditing.
 

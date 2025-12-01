@@ -6,7 +6,8 @@ To configure and manage wireless network settings for the controlled APs.
 
 - Name: Displays the wireless network name (SSID) visible to wireless clients.
 
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" alt="" /> APs in the same AP group will share an identical SSID, while different AP groups should have different SSIDs.
+    !!! Note
+     APs in the same AP group will share an identical SSID, while different AP groups should have different SSIDs.
 
 - Broadcasting AP Group: Displays the AP Group of access points sharing this wireless configuration.
 - Security: Displays the encryption and authentication methods for network protection.

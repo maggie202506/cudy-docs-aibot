@@ -28,7 +28,8 @@ The current firmware version and hardware version will be displayed. Click Brows
 
 For more about firmware upgrading, please refer to [Advanced Settings-> Firmware](firmware.md)
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> If you fail to update the firmware for the router, please contact our technical support [support@cudy.com](mailto:support@cudy.com).
+!!! Note
+    If you fail to update the firmware for the router, please contact our technical support [support@cudy.com](mailto:support@cudy.com).
 
 ---
 ## Backup/Restore
@@ -61,7 +62,8 @@ allows you to access and manage the router from the local network devices via Lo
 
 *Save & Apply* the above settings, and then the devices on the Internet can log in to **https://router’s WAN IP address:port number* to manage the router.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> You can find the WAN IP address of the router on *System Status -> WAN*. The router’s WAN IP is usually a dynamic IP. Please refer to *Advanced Settings -> Network -> DDNS* if you want to log into the router via a domain name.
+!!! Note
+    You can find the WAN IP address of the router on *System Status -> WAN*. The router’s WAN IP is usually a dynamic IP. Please refer to *Advanced Settings -> Network -> DDNS* if you want to log into the router via a domain name.
 
 ---
 ## Admin Account
@@ -75,7 +77,8 @@ is to change your login password for the router’s web management page.
 
 3. Click *Save & Apply* for the new password to take effect. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> The password should be a value between 8 and 64 characters long.
+!!! Note
+    The password should be a value between 8 and 64 characters long.
 
 ---
 ## Language
@@ -108,7 +111,8 @@ Rebooting the router after working for a long periods of time can release some s
 
 Click *OK* to reboot the system immediately. Wait a few minutes for the system to reboot. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> You may also reboot the router by turning off its power supply.
+!!! Note
+    You may also reboot the router by turning off its power supply.
 
 ---
 ## Reset
@@ -120,10 +124,9 @@ Before clicking *OK* to reset it, please note down the SSID and password (or ref
 
 Wait a moment for it to reboot and reset. When completed, it will pop up the login page requiring you to create a password again. Create a new login password and reconfigure your router.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> 
-
-1. During the rebooting process, do not turn off or reset the router. 
-2. It's recommended to [back up](#backuprestore) the current configurations before resetting the router.
+!!! Note
+    - During the rebooting process, do not turn off or reset the router. 
+    - It's recommended to [back up](#backuprestore) the current configurations before resetting the router.
 
 ---
 ## TR069
@@ -133,20 +136,18 @@ TR-069, also known as CWMP (CPE WAN Management), allows Auto-Configuration Serve
 
 Configure the parameters according to your ISP instructions, and click *Save & Apply*.
 
-- **Enable**: Click to enable the TR069/CWMP function.
-- **Inform**: Enable to send an inform message to the ACS periodically.
-- **Inform Interval**: Enter the time interval when the inform message will be sent to the ACS.
-- **Data Model**: Select the data model of the inform message sent to the ACS, according to your ISP’s 
+- *Enable*: Click to enable the TR069/CWMP function.
+- *Inform*: Enable to send an inform message to the ACS periodically.
+- *Inform Interval*: Enter the time interval when the inform message will be sent to the ACS.
+- *Data Model*: Select the data model of the inform message sent to the ACS, according to your ISP’s 
 instructions. 
+    - TR-098: Legacy data model for basic home gateways.
+    - TR-181: Modern unified CPE standard with hierarchical nodes, supporting IoT/SDN and mandatory for industrial deployments post-2025.
 
-    ◦  TR-098: Legacy data model for basic home gateways.
-
-    ◦  TR-181: Modern unified CPE standard with hierarchical nodes, supporting IoT/SDN and mandatory for industrial deployments post-2025.
-
-- **ACS URL**: Enter the web address of the ACS provided by your ISP.
-- **ACS Username/Password**: (Optional) Enter the username/password to log in to the ACS server.
-- **Connection Request Auth**: If enabled, you may optionally enter the *Username* and *Password* for the ACS server to log in to the router; otherwise just ignore it.
-- **Port**: Enter the port (a value from 1024~65535) that connects to the ACS server.
-- **STUN**: If enabled, you need to enter the STUN server port and keepalive period, and optionally the STUN username / password / server address to log in the router.
+- *ACS URL*: Enter the web address of the ACS provided by your ISP.
+- *ACS Username/Password*: (Optional) Enter the username/password to log in to the ACS server.
+- *Connection Request Auth*: If enabled, you may optionally enter the *Username* and *Password* for the ACS server to log in to the router; otherwise just ignore it.
+- *Port*: Enter the port (a value from 1024~65535) that connects to the ACS server.
+- *STUN*: If enabled, you need to enter the STUN server port and keepalive period, and optionally the STUN username / password / server address to log in the router.
 
 ----

@@ -18,10 +18,9 @@ The AP controller is preset with a default LAN IP 192.168.10.1, which you can us
 3. Enable IP Routed Subnet as needed. If it is enabled, you need to enter the IP Address and Subnet Mask as well.
 4. Click *Save & Apply*.
   
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> 
-
-- If you have set the Port Forwarding, DMZ or DHCP address reservation, and the new LAN IP address is not in the same subnet with the old one, then you should reconfigure these features.
-- If in conflict with the WAN IP address, the LAN IP will automatically change into 10.1.1.1.
+!!! Note
+    - If you have set the Port Forwarding, DMZ or DHCP address reservation, and the new LAN IP address is not in the same subnet with the old one, then you should reconfigure these features.
+    - If in conflict with the WAN IP address, the LAN IP will automatically change into 10.1.1.1.
 
 ---
 ## DHCP Server
@@ -37,7 +36,8 @@ DHCP Server is enabled by default and dynamically assigns TCP/lP parameters to c
 4. Set the *Leasetime*.
 5. Click *Save & Apply*.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> If you want to reserve for a specified client device an IP address, which is assigned by the AP controller as a DHCP server, you may use the [IP/MAC binding](security.md#ipmac-binding) function.
+!!! Note
+    If you want to reserve for a specified client device an IP address, which is assigned by the AP controller as a DHCP server, you may use the [IP/MAC binding](security.md#ipmac-binding) function.
 
 ---
 ## IPv6
@@ -45,8 +45,6 @@ DHCP Server is enabled by default and dynamically assigns TCP/lP parameters to c
 **This is only available in Main Router and AP Controller mode.**
 
 IPv6 may not be supported in the current version of the firewall, VPN, block list, etc.Therefore, the IPv6 function can only be used for configuration on this interface. There are 7 types of  IPv6 Internet connection, including Relay, Dynamic IP(SLAAC/DHCPv6), Static (Fixed lP), Passthrough, 464XLAT, MAP-E, and DS-Lite. Please choose the appropriate one and configure the parameters according to your ISP.
-
-[>>>> How to set up IPv6 connection](IPv6.md)
 
 ---
 ## QoS
@@ -92,7 +90,8 @@ If you set custom DNS servers, any DNS name will be resolved through the DNS Ser
 
 Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a domain name to the dynamic IP address of a network device. Most ISPs assign a dynamic IP address to the AP controller and you can use this IP address to access your AP controller remotely. However, the IP address can change from time to time and you don't know when it changes. In this case, you might apply the DDNS feature on the AP controller to allow you to access your AP controller and local servers (FTP, HTTP, etc.) using a domain name without checking and remembering the IP address.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> DDNS would not work if the ISP assigns a private WAN IP address (e.g. 192.168.1.x) to the AP controller.  
+!!! Note
+    DDNS would not work if the ISP assigns a private WAN IP address (e.g. 192.168.1.x) to the AP controller.  
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ddns.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
@@ -171,10 +170,9 @@ Now users on the Internet can enter *http://WAN IP* (in this example: *http://21
 
 If you want to provide several services in a AP controller, please add multiple port forwarding rules.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> 
-
-- The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN ([How to set up a Dynamic DNS service account](#ddns)). Then users on the Internet can use *http://domain name* to visit the website.
-- If you have changed the default External Port, you should use *http://WAN IP:external port* or *http://domain name:external port* to visit the website.
+!!! Note
+    - The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN ([How to set up a Dynamic DNS service account](#ddns)). Then users on the Internet can use *http://domain name* to visit the website.
+    - If you have changed the default External Port, you should use *http://WAN IP:external port* or *http://domain name:external port* to visit the website.
 
 ----
 ## Port Trigger
@@ -212,7 +210,8 @@ A DMZ (Demilitarized Zone) host on the local network will become a virtual serve
 
 The DMZ host becomes a virtual server with all ports opened. When you are not clear about which ports to open in some special applications, such as IP camera and database software, you can set the PC to be a DMZ host.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> Due to the total exposure of DMZ host to the Internet, it will bring about certain potential safety hazards. So remember to dis-enable DMZ when not in use.
+!!! Note
+    Due to the total exposure of DMZ host to the Internet, it will bring about certain potential safety hazards. So remember to dis-enable DMZ when not in use.
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/dmz.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
@@ -294,11 +293,10 @@ For example, when you connect your Xbox to the AP controller which has connected
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/upnp.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> 
-
-- UPnP is enabled by default in this AP controller.
-- Only the application supporting UPnP protocol can use this feature.
-- UPnP feature needs the support of operating system. Some operating systems need to install the UPnP components.
+!!! Note
+    - UPnP is enabled by default in this AP controller.
+    - Only the application supporting UPnP protocol can use this feature.
+    - UPnP feature needs the support of operating system. Some operating systems need to install the UPnP components.
 
 ----
 ## USB Sharing

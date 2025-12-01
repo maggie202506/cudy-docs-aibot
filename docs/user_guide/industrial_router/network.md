@@ -6,8 +6,8 @@ converts the WAN/LAN port between local network switching (LAN mode) and wide-ar
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/lan-wan-switch.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
-- **Current Status**: Displays the current working mode of the WAN/LAN port.
-- **LAN/WAN Switch**: Click *Switch to WAN* to change working mode from LAN to WAN; or click *Switch to LAN* to change it from WAN to LAN.
+- *Current Status*: Displays the current working mode of the WAN/LAN port.
+- *LAN/WAN Switch*: Click *Switch to WAN* to change working mode from LAN to WAN; or click *Switch to LAN* to change it from WAN to LAN.
 
 ---
 ## LAN
@@ -23,10 +23,9 @@ The router is preset with a default LAN IP 192.168.10.1, which you can use to lo
 
 4. Click *Save & Apply*.
   
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> 
-
-- If you have set the Port Forwarding, DMZ or DHCP address reservation, and the new LAN IP address is not in the same subnet with the old one, then you should reconfigure these features.
-- If in conflict with the WAN IP address, the LAN IP will automatically change into 10.1.1.1.
+!!! Note
+    - If you have set the Port Forwarding, DMZ or DHCP address reservation, and the new LAN IP address is not in the same subnet with the old one, then you should reconfigure these features.
+    - If in conflict with the WAN IP address, the LAN IP will automatically change into 10.1.1.1.
 
 ---
 ## Guest Network
@@ -54,7 +53,6 @@ DHCP Server is enabled by default and dynamically assigns TCP/lP parameters to c
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/dhcp.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
-
 *To specify the IP address that the router assigns, please take the steps below.*
 
 1. Enable *DHCP Server*.
@@ -67,13 +65,12 @@ DHCP Server is enabled by default and dynamically assigns TCP/lP parameters to c
 
 5. Click *Save & Apply*.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> If you want to reserve for a specified client device an IP address, which is assigned by the router as a DHCP server, you may use the [IP/MAC binding](security.md#ipmac-binding) function.
+!!! Note
+    If you want to reserve for a specified client device an IP address, which is assigned by the router as a DHCP server, you may use the [IP/MAC binding](security.md#ipmac-binding) function.
 
 ---
 ## IPv6
 IPv6 may not be supported in the current version of the firewall, VPN, block list, etc.Therefore, the IPv6 function can only be used for configuration on this interface. There are 7 types of  IPv6 Internet connection, including Relay, Dynamic IP(SLAAC/DHCPv6), Static (Fixed lP), Passthrough, 464XLAT, MAP-E, and DS-Lite. Please choose the appropriate one and configure the parameters according to your ISP.
-
-[>>>> How to set up IPv6 connection](IPv6.md)
 
 ---
 ## IGMP
@@ -85,13 +82,13 @@ With IGMP proxy configured, IPTV can work under your router now. Then connect yo
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/igmp.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
-- **No enforcement**: It supports all three IGMP version: Enforce IGMPv1/v2/v3. You can select this option if not sure about the exact one.
+- *No enforcement*: It supports all three IGMP version: Enforce IGMPv1/v2/v3. You can select this option if not sure about the exact one.
 
-- **Enforce IGMPv1**: In this version, the router provides basic multicast group membership reporting, sufficient for simple home networks where multicast traffic is not heavily utilized .
+- *Enforce IGMPv1*: In this version, the router provides basic multicast group membership reporting, sufficient for simple home networks where multicast traffic is not heavily utilized .
 
-- **Enforce IGMPv2**: In this version, the router offers an improvement over IGMPv1 by allowing hosts to send 'leave' messages, thus to improve the efficiency of multicast traffic management in home networks with dynamic multicast group memberships .
+- *Enforce IGMPv2*: In this version, the router offers an improvement over IGMPv1 by allowing hosts to send 'leave' messages, thus to improve the efficiency of multicast traffic management in home networks with dynamic multicast group memberships .
 
-- **Enforce IGMPv3**: In this most advanced version, the router supports source-specific multicast (SSM), allowing for more granular control over multicast traffic. This can be beneficial in home networks where users may want to receive multicast streams from specific sources only .
+- *Enforce IGMPv3*: In this most advanced version, the router supports source-specific multicast (SSM), allowing for more granular control over multicast traffic. This can be beneficial in home networks where users may want to receive multicast streams from specific sources only .
 
 ---
 ## QoS
@@ -113,31 +110,26 @@ If you set custom DNS servers, any DNS name will be resolved through the DNS Ser
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/custom-dns.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
-- **Rebind protection**: This function may cause private DNS lookup failure. Do not enable it if your network has a captive portal.
+- *Rebind protection*: This function may cause private DNS lookup failure. Do not enable it if your network has a captive portal.
 
-- **Override All Clients' DNS**: If Enabled, your router will bypass hard-coded DNS settings on all clients, such as Chrome cast, TV boxes, etc.
+- *Override All Clients' DNS*: If Enabled, your router will bypass hard-coded DNS settings on all clients, such as Chrome cast, TV boxes, etc.
 
-- **DNS Settings**: Select a type of DNS settings.
+- *DNS Settings*: Select a type of DNS settings.
+    - Default: Uses ISP-provided DNS. Fast but lacks privacy.
+    - DNS over TLS: Encrypts queries via TLS. Secure but may add 5-10ms latency.
+        - Cloudflare: Fast global Anycast (1.1.1.1) with TLS 1.3, ideal for low-latency IoT.
+        - Google: GCP-integrated (8.8.8.8), avoid in censored regions.
+        - Quad9: Threat-blocking (9.9.9.9), best for critical infrastructure.
+        - Custom: Use internal/enterprise DNS (e.g., 10.10.1.53:853) with certificate validation.
 
-    ◦ Default: Uses ISP-provided DNS. Fast but lacks privacy.
-
-    ◦ DNS over TLS: Encrypts queries via TLS. Secure but may add 5-10ms latency.
-
-     - Cloudflare: Fast global Anycast (1.1.1.1) with TLS 1.3, ideal for low-latency IoT.
-
-     - Google: GCP-integrated (8.8.8.8), avoid in censored regions.
-
-     - Quad9: Threat-blocking (9.9.9.9), best for critical infrastructure.
-
-     - Custom: Use internal/enterprise DNS (e.g., 10.10.1.53:853) with certificate validation.
-
-    ◦ Manual: Customize DNS, entering the *preferred/alternate DNS*.
+    - Manual: Customize DNS, entering the *preferred/alternate DNS*.
 
 ---
 ## DDNS
 Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a domain name to the dynamic IP address of a network device. Most ISPs assign a dynamic IP address to the router and you can use this IP address to access your router remotely. However, the IP address can change from time to time and you don't know when it changes. In this case, you might apply the DDNS feature on the router to allow you to access your router and local servers (FTP, HTTP, etc.) using a domain name without checking and remembering the IP address.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> DDNS would not work if the ISP assigns a private WAN IP address (e.g. 192.168.1.x) to the router.  
+!!! Note
+    DDNS would not work if the ISP assigns a private WAN IP address (e.g. 192.168.1.x) to the router.  
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ddns.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
@@ -175,14 +167,10 @@ To configure the static routing so that you can surf the Internet and visit my c
 3. Click *Add* and then enter the parameters as required.
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/static-routing2.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
     - Interface: Select the type of interface that sends out data packets to the gateway.
-
-        ◦  WAN: Connect to external networks (ISP/MPLS) with NAT/firewall.
-
-        ◦  LAN: Local device switching (VLAN-aware for OT segmentation).
-
-        ◦  WISP: Wireless ISP client mode (bridge/route to upstream AP).
-
-        ◦  4G: Cellular failover/Primary WAN (AT&T FirstNet certified for critical infra).
+        - WAN: Connect to external networks (ISP/MPLS) with NAT/firewall.
+        - LAN: Local device switching (VLAN-aware for OT segmentation).
+        - WISP: Wireless ISP client mode (bridge/route to upstream AP).
+        - 4G: Cellular failover/Primary WAN (AT&T FirstNet certified for critical infra).
 
     - Target: Enter the Host-IP or Network IP address you want to assign to a static route. This IP address cannot be on the same subnet with the WAN IP or LAN IP of router A.
 
@@ -214,10 +202,8 @@ For example, I want to share my personal website I've built on the local network
     - Name: Give a name for the entry.
 
     - Protocol: Select *TCP+UDP* if you are unsure of which protocol you are using. 
-
-        ◦  TCP: Usually used for web browsing, file transfers, and most client-server applications.
-
-        ◦  UDP: Used for streaming services, online gaming, and other applications that require fast transmission of data.
+        - TCP: Usually used for web browsing, file transfers, and most client-server applications.
+        - UDP: Used for streaming services, online gaming, and other applications that require fast transmission of data.
 
     - Interface: Select *WAN* or *VPN* according to the source of traffic you want to forward.
 
@@ -235,10 +221,9 @@ Done! Users on the Internet can enter *http://WAN IP* (in this example: *http://
 
 If you want to provide several services in a router, please add multiple port forwarding rules.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> 
-
-- The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN ([How to set up a Dynamic DNS service account](#ddns)). Then users on the Internet can use *http://domain name* to visit the website.
-- If you have changed the default External Port, you should use *http://WAN IP:external port* or *http://domain name:external port* to visit the website.
+!!! Note
+    - The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN ([How to set up a Dynamic DNS service account](#ddns)). Then users on the Internet can use *http://domain name* to visit the website.
+    - If you have changed the default External Port, you should use *http://WAN IP:external port* or *http://domain name:external port* to visit the website.
 
 ----
 ## Port Trigger
@@ -276,7 +261,8 @@ A DMZ (Demilitarized Zone) host on the local network will become a virtual serve
 
 The DMZ host becomes a virtual server with all ports opened. When you are not clear about which ports to open in some special applications, such as IP camera and database software, you can set the PC to be a DMZ host.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> Due to the total exposure of DMZ host to the Internet, it will bring about certain potential safety hazards. So remember to dis-enable DMZ when not in use.
+!!! Note
+    Due to the total exposure of DMZ host to the Internet, it will bring about certain potential safety hazards. So remember to dis-enable DMZ when not in use.
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/dmz.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
@@ -321,10 +307,10 @@ TTL (Time To Live) sets the maximum time for packets to survive in the network, 
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ttl.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
-- **Disabled**: No TTL values for any specific reason.
-- **Extend the TTL Value**: To increase the TTL of incoming packets.
-- **Spoof LAN TTL Value**: To override outgoing packets' TTL to the router's default value.
-- **Custom**: Required to enter a specific IPv4 TTL value.
+- *Disabled*: No TTL values for any specific reason.
+- *Extend the TTL Value*: To increase the TTL of incoming packets.
+- *Spoof LAN TTL Value*: To override outgoing packets' TTL to the router's default value.
+- *Custom*: Required to enter a specific IPv4 TTL value.
 
 ----
 ## Wake on LAN
@@ -361,11 +347,10 @@ For example, when you connect your Xbox to the router which has connected to the
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/upnp.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> 
-
-- UPnP is enabled by default in this router.
-- Only the application supporting UPnP protocol can use this feature.
-- UPnP feature needs the support of operating system. Some operating systems need to install the UPnP components.
+!!! Note
+    - UPnP is enabled by default in this router.
+    - Only the application supporting UPnP protocol can use this feature.
+    - UPnP feature needs the support of operating system. Some operating systems need to install the UPnP components.
 
 ----
 ## USB Sharing

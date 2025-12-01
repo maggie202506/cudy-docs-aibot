@@ -928,8 +928,8 @@
 <p>converts the WAN/LAN port between local network switching (LAN mode) and wide-area routing (WAN mode), enabling flexible topology adaptation in industrial networks.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/lan-wan-switch.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/lan-wan-switch.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" /></a></p>
 <ul>
-<li><strong>Current Status</strong>: Displays the current working mode of the WAN/LAN port.</li>
-<li><strong>LAN/WAN Switch</strong>: Click <em>Switch to WAN</em> to change working mode from LAN to WAN; or click <em>Switch to LAN</em> to change it from WAN to LAN.</li>
+<li><em>Current Status</em>: Displays the current working mode of the WAN/LAN port.</li>
+<li><em>LAN/WAN Switch</em>: Click <em>Switch to WAN</em> to change working mode from LAN to WAN; or click <em>Switch to LAN</em> to change it from WAN to LAN.</li>
 </ul>
 <hr />
 <h2 id="lan">LAN<a class="headerlink" href="#lan" title="Permanent link">&para;</a></h2>
@@ -949,11 +949,13 @@
 <p>Click <em>Save &amp; Apply</em>.</p>
 </li>
 </ol>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <ul>
 <li>If you have set the Port Forwarding, DMZ or DHCP address reservation, and the new LAN IP address is not in the same subnet with the old one, then you should reconfigure these features.</li>
 <li>If in conflict with the WAN IP address, the LAN IP will automatically change into 10.1.1.1.</li>
 </ul>
+</div>
 <hr />
 <h2 id="guest-network">Guest Network<a class="headerlink" href="#guest-network" title="Permanent link">&para;</a></h2>
 <p>Guest Network allows you to provide Wi-Fi access for guests without disclosing your main network. When you have guests in your house, apartment, or workplace, you can create a guest network for them. In addition, you can customize guest network options to ensure network security and privacy. Please follow the steps below to set up a guest network.</p>
@@ -999,11 +1001,13 @@
 <p>Click <em>Save &amp; Apply</em>.</p>
 </li>
 </ol>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> If you want to reserve for a specified client device an IP address, which is assigned by the router as a DHCP server, you may use the <a href="../security/#ipmac-binding">IP/MAC binding</a> function.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you want to reserve for a specified client device an IP address, which is assigned by the router as a DHCP server, you may use the <a href="../security/#ipmac-binding">IP/MAC binding</a> function.</p>
+</div>
 <hr />
 <h2 id="ipv6">IPv6<a class="headerlink" href="#ipv6" title="Permanent link">&para;</a></h2>
 <p>IPv6 may not be supported in the current version of the firewall, VPN, block list, etc.Therefore, the IPv6 function can only be used for configuration on this interface. There are 7 types of  IPv6 Internet connection, including Relay, Dynamic IP(SLAAC/DHCPv6), Static (Fixed lP), Passthrough, 464XLAT, MAP-E, and DS-Lite. Please choose the appropriate one and configure the parameters according to your ISP.</p>
-<p><a href="../IPv6/">&gt;&gt;&gt;&gt; How to set up IPv6 connection</a></p>
 <hr />
 <h2 id="igmp">IGMP<a class="headerlink" href="#igmp" title="Permanent link">&para;</a></h2>
 <p>is useful in home network to manage and optimize multicast traffic, reduce network load, and enhance network security and efficiency, for instance, you would like to enjoy streaming video content or using IPTV services.</p>
@@ -1012,16 +1016,16 @@
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/igmp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/igmp.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" /></a></p>
 <ul>
 <li>
-<p><strong>No enforcement</strong>: It supports all three IGMP version: Enforce IGMPv1/v2/v3. You can select this option if not sure about the exact one.</p>
+<p><em>No enforcement</em>: It supports all three IGMP version: Enforce IGMPv1/v2/v3. You can select this option if not sure about the exact one.</p>
 </li>
 <li>
-<p><strong>Enforce IGMPv1</strong>: In this version, the router provides basic multicast group membership reporting, sufficient for simple home networks where multicast traffic is not heavily utilized .</p>
+<p><em>Enforce IGMPv1</em>: In this version, the router provides basic multicast group membership reporting, sufficient for simple home networks where multicast traffic is not heavily utilized .</p>
 </li>
 <li>
-<p><strong>Enforce IGMPv2</strong>: In this version, the router offers an improvement over IGMPv1 by allowing hosts to send 'leave' messages, thus to improve the efficiency of multicast traffic management in home networks with dynamic multicast group memberships .</p>
+<p><em>Enforce IGMPv2</em>: In this version, the router offers an improvement over IGMPv1 by allowing hosts to send 'leave' messages, thus to improve the efficiency of multicast traffic management in home networks with dynamic multicast group memberships .</p>
 </li>
 <li>
-<p><strong>Enforce IGMPv3</strong>: In this most advanced version, the router supports source-specific multicast (SSM), allowing for more granular control over multicast traffic. This can be beneficial in home networks where users may want to receive multicast streams from specific sources only .</p>
+<p><em>Enforce IGMPv3</em>: In this most advanced version, the router supports source-specific multicast (SSM), allowing for more granular control over multicast traffic. This can be beneficial in home networks where users may want to receive multicast streams from specific sources only .</p>
 </li>
 </ul>
 <hr />
@@ -1046,36 +1050,37 @@
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/custom-dns.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/custom-dns.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" /></a></p>
 <ul>
 <li>
-<p><strong>Rebind protection</strong>: This function may cause private DNS lookup failure. Do not enable it if your network has a captive portal.</p>
+<p><em>Rebind protection</em>: This function may cause private DNS lookup failure. Do not enable it if your network has a captive portal.</p>
 </li>
 <li>
-<p><strong>Override All Clients' DNS</strong>: If Enabled, your router will bypass hard-coded DNS settings on all clients, such as Chrome cast, TV boxes, etc.</p>
+<p><em>Override All Clients' DNS</em>: If Enabled, your router will bypass hard-coded DNS settings on all clients, such as Chrome cast, TV boxes, etc.</p>
 </li>
 <li>
-<p><strong>DNS Settings</strong>: Select a type of DNS settings.</p>
-<p>◦ Default: Uses ISP-provided DNS. Fast but lacks privacy.</p>
-<p>◦ DNS over TLS: Encrypts queries via TLS. Secure but may add 5-10ms latency.</p>
+<p><em>DNS Settings</em>: Select a type of DNS settings.</p>
 <ul>
+<li>Default: Uses ISP-provided DNS. Fast but lacks privacy.</li>
 <li>
-<p>Cloudflare: Fast global Anycast (1.1.1.1) with TLS 1.3, ideal for low-latency IoT.</p>
+<p>DNS over TLS: Encrypts queries via TLS. Secure but may add 5-10ms latency.</p>
+<ul>
+<li>Cloudflare: Fast global Anycast (1.1.1.1) with TLS 1.3, ideal for low-latency IoT.</li>
+<li>Google: GCP-integrated (8.8.8.8), avoid in censored regions.</li>
+<li>Quad9: Threat-blocking (9.9.9.9), best for critical infrastructure.</li>
+<li>Custom: Use internal/enterprise DNS (e.g., 10.10.1.53:853) with certificate validation.</li>
+</ul>
 </li>
 <li>
-<p>Google: GCP-integrated (8.8.8.8), avoid in censored regions.</p>
-</li>
-<li>
-<p>Quad9: Threat-blocking (9.9.9.9), best for critical infrastructure.</p>
-</li>
-<li>
-<p>Custom: Use internal/enterprise DNS (e.g., 10.10.1.53:853) with certificate validation.</p>
+<p>Manual: Customize DNS, entering the <em>preferred/alternate DNS</em>.</p>
 </li>
 </ul>
-<p>◦ Manual: Customize DNS, entering the <em>preferred/alternate DNS</em>.</p>
 </li>
 </ul>
 <hr />
 <h2 id="ddns">DDNS<a class="headerlink" href="#ddns" title="Permanent link">&para;</a></h2>
 <p>Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a domain name to the dynamic IP address of a network device. Most ISPs assign a dynamic IP address to the router and you can use this IP address to access your router remotely. However, the IP address can change from time to time and you don't know when it changes. In this case, you might apply the DDNS feature on the router to allow you to access your router and local servers (FTP, HTTP, etc.) using a domain name without checking and remembering the IP address.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> DDNS would not work if the ISP assigns a private WAN IP address (e.g. 192.168.1.x) to the router.  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>DDNS would not work if the ISP assigns a private WAN IP address (e.g. 192.168.1.x) to the router.  </p>
+</div>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ddns.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ddns.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" /></a></p>
 <p><em>To set up DDNS, please follow the steps below.</em></p>
 <ol>
@@ -1123,10 +1128,12 @@
 <ul>
 <li>
 <p>Interface: Select the type of interface that sends out data packets to the gateway.</p>
-<p>◦  WAN: Connect to external networks (ISP/MPLS) with NAT/firewall.</p>
-<p>◦  LAN: Local device switching (VLAN-aware for OT segmentation).</p>
-<p>◦  WISP: Wireless ISP client mode (bridge/route to upstream AP).</p>
-<p>◦  4G: Cellular failover/Primary WAN (AT&amp;T FirstNet certified for critical infra).</p>
+<ul>
+<li>WAN: Connect to external networks (ISP/MPLS) with NAT/firewall.</li>
+<li>LAN: Local device switching (VLAN-aware for OT segmentation).</li>
+<li>WISP: Wireless ISP client mode (bridge/route to upstream AP).</li>
+<li>4G: Cellular failover/Primary WAN (AT&amp;T FirstNet certified for critical infra).</li>
+</ul>
 </li>
 <li>
 <p>Target: Enter the Host-IP or Network IP address you want to assign to a static route. This IP address cannot be on the same subnet with the WAN IP or LAN IP of router A.</p>
@@ -1165,8 +1172,10 @@
 </li>
 <li>
 <p>Protocol: Select <em>TCP+UDP</em> if you are unsure of which protocol you are using. </p>
-<p>◦  TCP: Usually used for web browsing, file transfers, and most client-server applications.</p>
-<p>◦  UDP: Used for streaming services, online gaming, and other applications that require fast transmission of data.</p>
+<ul>
+<li>TCP: Usually used for web browsing, file transfers, and most client-server applications.</li>
+<li>UDP: Used for streaming services, online gaming, and other applications that require fast transmission of data.</li>
+</ul>
 </li>
 <li>
 <p>Interface: Select <em>WAN</em> or <em>VPN</em> according to the source of traffic you want to forward.</p>
@@ -1191,11 +1200,13 @@
 </ol>
 <p>Done! Users on the Internet can enter <em>http://WAN IP</em> (in this example: <em>http://218.18.232.154</em>) to visit your personal website.</p>
 <p>If you want to provide several services in a router, please add multiple port forwarding rules.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <ul>
 <li>The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN (<a href="#ddns">How to set up a Dynamic DNS service account</a>). Then users on the Internet can use <em>http://domain name</em> to visit the website.</li>
 <li>If you have changed the default External Port, you should use <em>http://WAN IP:external port</em> or <em>http://domain name:external port</em> to visit the website.</li>
 </ul>
+</div>
 <hr />
 <h2 id="port-trigger">Port Trigger<a class="headerlink" href="#port-trigger" title="Permanent link">&para;</a></h2>
 <p>Port Trigger can specify a triggering port and its corresponding external ports. When a host on the local network initiates a connection to the triggering port, all the external ports will be opened for subsequent connections. </p>
@@ -1236,7 +1247,10 @@
 <h2 id="dmz">DMZ<a class="headerlink" href="#dmz" title="Permanent link">&para;</a></h2>
 <p>A DMZ (Demilitarized Zone) host on the local network will become a virtual server with all ports opened and totally exposed to the Internet, causing the unlimited bi-directional communication between internal and external hosts. </p>
 <p>The DMZ host becomes a virtual server with all ports opened. When you are not clear about which ports to open in some special applications, such as IP camera and database software, you can set the PC to be a DMZ host.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> Due to the total exposure of DMZ host to the Internet, it will bring about certain potential safety hazards. So remember to dis-enable DMZ when not in use.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Due to the total exposure of DMZ host to the Internet, it will bring about certain potential safety hazards. So remember to dis-enable DMZ when not in use.</p>
+</div>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/dmz.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/dmz.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" /></a></p>
 <p>For example, you want to get the home PC to join an online game without port restriction. You can set your PC as a DMZ host with all ports open. Please follow the steps below to configure it.</p>
 <ol>
@@ -1288,10 +1302,10 @@
 <p>TTL (Time To Live) sets the maximum time for packets to survive in the network, and is filled in according to the requirements of the operator. By default, the router forwards the TTL of the incoming client device minus one. </p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ttl.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ttl.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" /></a></p>
 <ul>
-<li><strong>Disabled</strong>: No TTL values for any specific reason.</li>
-<li><strong>Extend the TTL Value</strong>: To increase the TTL of incoming packets.</li>
-<li><strong>Spoof LAN TTL Value</strong>: To override outgoing packets' TTL to the router's default value.</li>
-<li><strong>Custom</strong>: Required to enter a specific IPv4 TTL value.</li>
+<li><em>Disabled</em>: No TTL values for any specific reason.</li>
+<li><em>Extend the TTL Value</em>: To increase the TTL of incoming packets.</li>
+<li><em>Spoof LAN TTL Value</em>: To override outgoing packets' TTL to the router's default value.</li>
+<li><em>Custom</em>: Required to enter a specific IPv4 TTL value.</li>
 </ul>
 <hr />
 <h2 id="wake-on-lan">Wake on LAN<a class="headerlink" href="#wake-on-lan" title="Permanent link">&para;</a></h2>
@@ -1331,12 +1345,14 @@
 <p>Enable UPnP if you want to use applications for multi-player gaming, peer-to-peer connections, real-time communication (such as VoIP or telephone conference) or remote assistance, etc. </p>
 <p>For example, when you connect your Xbox to the router which has connected to the Internet to play online games, UPnP will send request to the router to open the corresponding  ports allowing the following data penetrating the NAT to transmit. Therefore, you can play Xbox online games without a hitch.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/upnp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/upnp.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" /></a></p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <ul>
 <li>UPnP is enabled by default in this router.</li>
 <li>Only the application supporting UPnP protocol can use this feature.</li>
 <li>UPnP feature needs the support of operating system. Some operating systems need to install the UPnP components.</li>
 </ul>
+</div>
 <hr />
 <h2 id="usb-sharing">USB Sharing<a class="headerlink" href="#usb-sharing" title="Permanent link">&para;</a></h2>
 <p>allows network-connected devices to access USB peripherals (e.g., modems, drives, security dongles) plugged into the router's USB port via SMB/NFS/FTP protocols. For example, share diagnostic logs from USB drives with remote engineers; connect serial-to-USB converters for aging PLCs; host software license dongles for centralized access, and so on.</p>

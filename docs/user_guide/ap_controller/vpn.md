@@ -6,7 +6,8 @@ VPN (Virtual Private Network) helps you access Internet resources remotely, secu
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/general-vpn2.webp" alt="" width="800px" style="display: block; margin: 0 auto;"/> 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" alt="" /> 
+!!! Note
+     
 Here demonstrates with AP controller working in *Main Router and AP Controller* mode as Router A (VPN server) and the other router as Router B (VPN Client). 
 
 Before you enable VPN server, it is recommended to configure Dynamic DNS service or assign a static IP address for router's WAN port and synchronize your system time with Internet. 
@@ -240,7 +241,8 @@ Zerotier is a third-party cloud platform for VPN connections. It can establish a
 4. Set *Access Control* to be Public for later convenient settings, and note down the Network ID.
     <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/wr3600 (100).webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> Private Access Control requires authorization for the terminal or router to access the network, which is more secure but inconvenient. While Public Access Control allows for a direct the network access with authentication rather than authorization. You may choose either one accordingly.
+    !!! Note
+     Private Access Control requires authorization for the terminal or router to access the network, which is more secure but inconvenient. While Public Access Control allows for a direct the network access with authentication rather than authorization. You may choose either one accordingly.
 
 **STEP 2. Configure ZeroTier Master on Router A.**
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/vpn-zerotier-master.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
@@ -332,7 +334,8 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 
 Then, you can go confirm the connection between Headquarter Router and Branch Router.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> 
+!!! Note
+     
 
 - If one of the routers does not have a public IP address, for instance the Branch Router, but the Headquarter Router has a public IP address, you can: 
 - Set Branch Router in the Initiator Mode and change the Headquarter Router from Initiator Mode to Responder Mode.

@@ -1,11 +1,8 @@
 # Mesh
 
-Manage the Mesh features via *System Status -> Mesh -> More details*.
+On the **System Status -> Mesh** page to add or manage a Mesh Unit, please follow the steps:
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;"/>
-
-## Add a Mesh Unit
-**Follow the steps below to add a new mesh unit into the system.**
 
 1. Click <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/add-icon.webp" alt=""  width="20px"/> on the left to add new mesh unit.
 
@@ -28,27 +25,18 @@ Manage the Mesh features via *System Status -> Mesh -> More details*.
     <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh-relocate.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 ----
-## Status
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh-add-status(1).webp" alt="" width="800px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+**Status** section displays information about the mesh units, including Status, Model, Device Name, IP Address, MAC-Address, Firmware Version, and two more for add-on mesh units Backhaul and 2.4G Pre-Hop.
 
-It displays information about the mesh units, including Status, Model, Device Name, IP Address, MAC-Address, Firmware Version, and two more for add-on mesh units Backhaul and 2.4G Pre-Hop.
+- *Backhaul*: Main link between mesh nodes for fast and stable data transfer. Could be Wired, 2.4G WiFi or 5G WiFi.
+- *2.4G Pre-Hop*: Backup 2.4GHz path used when stronger signals fail, prioritizing coverage over speed.
 
-- Backhaul: Main link between mesh nodes for fast and stable data transfer. Could be Wired, 2.4G WiFi or 5G WiFi.
-- 2.4G Pre-Hop: Backup 2.4GHz path used when stronger signals fail, prioritizing coverage over speed.
+**Operation** section facilitates the following configurations:
 
-## Operation
+- *Management*: (only for add-on mesh units) Toggle to disconnect the add-on mesh unit. 
+- *Device Name*: Customize the device name of the mesh unit.
+- *Firmware*: Check the current firmware version or upgrade it to the latest version that has been downloaded and stored in the local file.
+- *Reboot*: Reboot the system to refresh and improve performance or have new settings take effect.
+- *Reset*: Restore the mesh unit to its factory defaults.
+- *LED Control*: (only for add-on mesh units) Toggle to turn off the LEDs when necessary, and then the LEDs will not light up unless manually turned on or triggered by a special event.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh-add-operation(1).webp" alt="" width="800px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
-
-- **Management**: (only for add-on mesh units) Toggle to disconnect the add-on mesh unit. 
-- **Device Name**: Customize the device name of the mesh unit.
-- **Firmware**: Check the current firmware version or upgrade it to the latest version that has been downloaded and stored in the local file.
-- **Reboot**: Reboot the system to refresh and improve performance or have new settings take effect.
-- **Reset**: Restore the mesh unit to its factory defaults.
-- **LED Control**: (only for add-on mesh units) Toggle to turn off the LEDs when necessary, and then the LEDs will not light up unless manually turned on or triggered by a special event.
-
-## Connected Devices
-
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh-connected-device.webp" alt="" width="800px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
-
-It displays information about the devices connected to the mesh unit, including hostname and its connection method, IP and MAC address, realtime rate and the connection duration.
+**Connected Devices** section displays information about the devices connected to the mesh unit, including hostname and its connection method, IP and MAC address, realtime rate and the connection duration.

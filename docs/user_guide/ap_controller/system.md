@@ -64,7 +64,8 @@ It allows you to access and manage the AP controller from the local network devi
 
 Click *Save & Apply* to save and activate the settings, and then the devices on the Internet can log in to *https://AP controller's WAN IP address:port number* to manage the AP controller.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> You can find the WAN IP address of the AP controller on *System Status -> WAN*. The AP controller's WAN IP is usually a dynamic IP. Please refer to *Advanced Settings -> Network -> DDNS* if you want to log into the AP controller via a domain name.
+!!! Note
+    You can find the WAN IP address of the AP controller on *System Status -> WAN*. The AP controller's WAN IP is usually a dynamic IP. Please refer to *Advanced Settings -> Network -> DDNS* if you want to log into the AP controller via a domain name.
 
 ---
 ## Admin Account
@@ -76,7 +77,8 @@ To change your login password for the AP controller's web management page.
 2. Create a new password and Confirm it. 
 3. Click *Save & Apply* for the new password to take effect. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> The password should be a value between 8 and 64 characters long.
+!!! Note
+    The password should be a value between 8 and 64 characters long.
 
 ---
 ## Language
@@ -106,7 +108,8 @@ Rebooting the AP controller after working for a long periods of time can release
 
 Click *OK* to reboot the system immediately. Wait a few minutes for the system to reboot. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> You may also reboot the AP controller by turning off its power supply.
+!!! Note
+    You may also reboot the AP controller by turning off its power supply.
 
 ---
 ## Reset
@@ -118,10 +121,9 @@ Before clicking *OK* to reset it, please note down the SSID and password (or ref
 
 Wait a moment for it to reboot and reset. When completed, it will pop up the login page requiring you to create a password again. Create a new login password and reconfigure your AP controller.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> 
-
-1. During the rebooting process, do not turn off or reset the AP controller. 
-2. It's recommended to [back up](#backuprestore) the current configurations before resetting the AP controller.
+!!! Note
+    - During the rebooting process, do not turn off or reset the AP controller. 
+    - It's recommended to [back up](#backuprestore) the current configurations before resetting the AP controller.
 
 ---
 ## TR069

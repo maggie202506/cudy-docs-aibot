@@ -97,7 +97,8 @@ IP/MAC Binding, namely, ARP (Address Resolution Protocol) Binding, is used to bi
 
 Now you don't need to worry about ARP spoofing and ARP attacks.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> The IP/MAC Binding also can work as an IP reservation. The device will get the IP address via DHCP.
+!!! Note
+     The IP/MAC Binding also can work as an IP reservation. The device will get the IP address via DHCP.
 
 ---
 ## ALG
@@ -124,4 +125,5 @@ It allows the router's wireless network to turn on or off automatically at a spe
     - Toggle *Enable* to easily enable or disable the entry;
 3. Click *Save & Apply*.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> The effective time schedule is based on the time of the router. You can go to Advanced Settings -> System -> System Time to modify the time.
+!!! Note
+     The effective time schedule is based on the time of the router. You can go to Advanced Settings -> System -> System Time to modify the time.

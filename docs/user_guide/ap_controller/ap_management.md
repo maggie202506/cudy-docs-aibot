@@ -2,7 +2,8 @@
 
 This enables centralized control, configuration, and monitoring of wireless APs (Access Points), including auto-discovery, group policies, and real-time status tracking.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" alt="" /> A maxium of 10 APs or 100 clients are allowed in *Main Router and AP Controller* mode; while a maxium of 200 APs are allowed in *AP Controller* mode.
+!!! Note
+    A maxium of 10 APs or 100 clients are allowed in *Main Router and AP Controller* mode; while a maxium of 200 APs are allowed in *AP Controller* mode.
 
 ----
 ## AP List 
@@ -68,4 +69,5 @@ Enables batch configuration for the APs in the same AP group, which can be creat
 
 - <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/reboot.webp" alt=""/>: Reboot the AP systems remotely for fixes/updates.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" alt="" /> APs in the same AP group will share an identical SSID, while different AP groups should have different SSIDs. Refer to [General Settings -> Wireless](wireless.md) for more detailed configurations.
+!!! Note
+     APs in the same AP group will share an identical SSID, while different AP groups should have different SSIDs. Refer to [General Settings -> Wireless](wireless.md) for more detailed configurations.

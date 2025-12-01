@@ -3,7 +3,8 @@ AP controller supports 7 types of IPv6 Internet connection, including Relay, Dyn
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> 
+!!! Note
+     
  
 - If the current version of the firewall (or VPN, block list, and etc.) does not support IPv6, you may enable and configure the IPv6 function on this page.
 - If you use VPN and IPv6 functions at the same time, it's likely to cause IPv6 data leakage.
