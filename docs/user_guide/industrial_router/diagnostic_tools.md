@@ -12,12 +12,10 @@ The diagnosis result will indicate the status of Cellular, Wireless, Devices, Se
 is used to test the connectivity between the router and the tested host, and measure the round-trip time. 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ping.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-**To use PING for diagnosis, please follow the steps below.**
+To use PING for diagnosis, please follow the steps below.
 
 1. Select the tested Interface, either 4G or LAN.
-
 2. Enter the IP Address or Hostname of the tested host.
-
 3. Click *PING* to start the diagnosis.
 
 The figure below indicates the proper connection between the router and the Cudy server (www.cudy.com) tested through Ping.
@@ -28,12 +26,10 @@ The figure below indicates the proper connection between the router and the Cudy
 is used to test the route (path) your router has passed to reach the tested host, and measure transit delays of packets across an Internet Protocol network.
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/traceroute.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-**To use TRACEROUTE for diagnosis, please follow the steps below.**
+To use TRACEROUTE for diagnosis, please follow the steps below.
 
 1. Select 4G as the tested Interface.
-
 2. Enter the IP Address or Hostname of the tested host.
-
 3. Click *TRACEROUTE* to start the diagnosis.
 
 The figure below indicates the proper connection between the router and the Cudy server (www.cudy.com) tested through Traceroute.
@@ -44,10 +40,8 @@ The figure below indicates the proper connection between the router and the Cudy
 is to check if the DNS IP address of the 4G can work normally.
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/nslookup.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-**To use NSLOOKUP for diagnosis, please follow the steps below.**
-
+To use NSLOOKUP for diagnosis, please follow the steps below.
 1. Enter the Lookup Hostname of tested host. 
-
 2. Click *NSLOOKUP* to start the diagnosis. The result will show as below.
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/nslookup-result.webp" alt="" width="800px" style="border: 1px solid #eee;" />    
@@ -57,6 +51,6 @@ is to check if the DNS IP address of the 4G can work normally.
 Tracks all the router behaviors. When the router does not work normally, download the system log and send it to our [Technical Support](mailto:support@cudy.com) for troubleshooting. 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/system-log2.webp" alt="" width="800px" style="border: 1px solid #eee;" />    
 
-- **Update**: Click to refresh the system log.
-- **Clear**: Click to erase all the system log up till now.
-- **Download**: Click to download the system log for technical support.
+- *Update*: Click to refresh the system log.
+- *Clear*: Click to erase all the system log up till now.
+- *Download*: Click to download the system log for technical support.

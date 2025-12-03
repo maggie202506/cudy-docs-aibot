@@ -2,7 +2,8 @@
 
 VPN (Virtual Private Network) helps you access Internet resources remotely, securely, and privately through tunneling technology. When you access the Internet, VPN encrypts your personal information and hides your IP address from the public. For VPN users, it looks like the devices are directly connected. Cudy router supports 6 types of VPN connections: PPTP, L2TP, OpenVPN, WireGuard, ZeroTier, IPSec (site-to-site). Please choose an appropriate VPN according to your needs and circumstances.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> Before you Enable *VPN* Server, it is recommended to configure Dynamic DNS Service or assign a Static IP Address for router’s WAN port and synchronize your System Time with Internet. 
+!!! Note
+    Before you Enable *VPN* Server, it is recommended to configure Dynamic DNS Service or assign a Static IP Address for router’s WAN port and synchronize your System Time with Internet. 
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/vpn-connection.webp" alt="" width="600px" style="display:block; margin:0 auto;" />
 
@@ -121,10 +122,8 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 
 4. Configure the *OpenVPN Server*.
     - Protocol: Select UDP or TCP as desired.
-
-        ◦ UDP: Faster but unreliable, ideal for real-time industrial protocols like PROFINET IO.
-
-        ◦ TCP: Slower but error-corrected, used for critical data transfers where packet loss is unacceptable.
+        - UDP: Faster but unreliable, ideal for real-time industrial protocols like PROFINET IO.
+        - TCP: Slower but error-corrected, used for critical data transfers where packet loss is unacceptable.
     
     - Service Port: 1194 by defalut, keep it or change it as needed.
     - VPN Subnet: Set up a VPN subnet segment.
@@ -275,7 +274,7 @@ Now your client devices can directly access the router's management web page via
 *STEP 1. Get both routers in the Headquarter and Branch Office ready.*
 
 1. Make sure both routers are connected to the Internet, but two network can not be in the same LAN segment. 
-For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the branches 	should be in a different LAN segment, say, 192.168.20.0/24.
+For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the branches should be in a different LAN segment, say, 192.168.20.0/24.
 
 2. Check and note down the WAN and LAN IP addresses of the Headquarter router and Branch Office router on their Status page. WAN IP of the headquarters router is the remote gateway of the branch offices, and its LAN IP is the remote subnet of the branch offices; and vice versa.
 
@@ -330,7 +329,8 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 
 Then, you can go confirm the connection between Headquarter router and Branch router.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> If one of the routers (for instance, the Branch router) does not have a public IP address, but the Headquarter router has a public IP address, you can: 
+!!! Note
+    If one of the routers (for instance, the Branch router) does not have a public IP address, but the Headquarter router has a public IP address, you can: 
 
 - Set Branch router in the Initiator Mode and change the Headquarter router from Initiator Mode to Responder Mode.
 - Change the remote gateway on the Headquarter router to be 0.0.0.0.
