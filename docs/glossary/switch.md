@@ -27,11 +27,11 @@
 ??? glossary-item "Access Port"
     A switch port configured to carry traffic for a single VLAN, typically used to connect end devices such as PCs or IP phones.
 
-??? glossary-item "ACL (Access Control List)"
-    A set of rules applied on a switch to permit or deny traffic based on criteria such as source/destination IP address, MAC address, or protocol type.
+??? glossary-item "ACL"
+    (Access Control List) A set of rules applied on a switch to permit or deny traffic based on criteria such as source/destination IP address, MAC address, or protocol type.
 
-??? glossary-item "ARP (Address Resolution Protocol)"
-    A protocol used to map an IP address to a corresponding MAC address within a local broadcast domain.
+??? glossary-item "ARP"
+    (Address Resolution Protocol) A protocol used to map an IP address to a corresponding MAC address within a local broadcast domain.
 
 ??? glossary-item "Auto-Negotiation"
     A mechanism that allows Ethernet devices to automatically determine and configure the optimal speed and duplex mode for a link.
@@ -49,8 +49,8 @@
 ??? glossary-item "Bandwidth Control"
     A traffic management feature that limits the maximum bandwidth available to a port or traffic class.
 
-??? glossary-item "BPDU (Bridge Protocol Data Unit)"
-    Control packets exchanged between switches to build and maintain a Spanning Tree topology.
+??? glossary-item "BPDU"
+    (Bridge Protocol Data Unit) Control packets exchanged between switches to build and maintain a Spanning Tree topology.
 
 ??? glossary-item "Broadcast"
     A communication method in which a frame is delivered to all devices within the same Layer 2 broadcast domain.
@@ -156,8 +156,8 @@
 ??? glossary-item "Ingress Filter"
     A security feature that drops incoming frames if the VLAN ID in the frame does not match the port's VLAN membership.
 
-??? glossary-item "ICMP (Internet Control Message Protocol)"
-    A protocol used for network diagnostics and error reporting, commonly utilized by ping and traceroute.
+??? glossary-item "ICMP"
+    (Internet Control Message Protocol) A protocol used for network diagnostics and error reporting, commonly utilized by ping and traceroute.
 
 ??? glossary-item "IEEE 802.1Q"
     The IEEE standard defining VLAN tagging in Ethernet frames.
@@ -188,8 +188,8 @@
 ??? glossary-item "Layer 3 Switch"
     A switch capable of performing both Layer 2 switching and Layer 3 routing functions.    
 
-??? glossary-item "LLDP (Link Layer Discovery Protocol)"
-    An IEEE 802.1AB protocol that allows network devices to advertise identity and capabilities to directly connected neighbors.
+??? glossary-item "LLDP"
+    (Link Layer Discovery Protocol) An IEEE 802.1AB protocol that allows network devices to advertise identity and capabilities to directly connected neighbors.
 
 ??? glossary-item "LLDP Config"
     (Link Layer Discovery Protocol Configuration) Settings for the vendor-neutral protocol used by devices to advertise their identity and capabilities.
@@ -252,8 +252,8 @@
 ??? glossary-item "Multicast"
     A transmission method where a single sender sends data to a specific group of interested receivers.
 
-??? glossary-item "MSTP (Multiple Spanning Tree Protocol)"
-    An IEEE 802.1s protocol that maps multiple VLANs to a reduced number of spanning tree instances.
+??? glossary-item "MSTP"
+    (Multiple Spanning Tree Protocol) An IEEE 802.1s protocol that maps multiple VLANs to a reduced number of spanning tree instances.
 
 ---
 
@@ -285,11 +285,11 @@
 ??? glossary-item "Ping Tool"
     A diagnostic utility that sends ICMP Echo Request packets to a target IP to check connectivity and measure latency.
 
-??? glossary-item "PD (Powered Device)"
-    A network device, such as an access point or IP camera, that receives power via PoE.
+??? glossary-item "PD"
+    (Powered Device) A network device, such as an access point or IP camera, that receives power via PoE.
 
-??? glossary-item "PoE (Power over Ethernet)"
-    A technology that delivers electrical power and data over standard Ethernet cabling.
+??? glossary-item "PoE"
+    (Power over Ethernet) A technology that delivers electrical power and data over standard Ethernet cabling.
 
 ??? glossary-item "PoE Budget"
     The total amount of power available on a PoE-capable switch for supplying connected devices.
@@ -324,8 +324,8 @@
 ??? glossary-item "Protocol Management"
     The configuration section for global network protocols like SNMP, LLDP, and IGMP.
 
-??? glossary-item "PSE (Power Sourcing Equipment)"
-    A device, typically a switch, that supplies power to PoE-enabled devices.
+??? glossary-item "PSE"
+    (Power Sourcing Equipment) A device, typically a switch, that supplies power to PoE-enabled devices.
 
 ??? glossary-item "PVID"
     (Port VLAN ID) The default VLAN ID assigned to any untagged frames entering a switch port.
@@ -333,8 +333,8 @@
 ---
 <a name="q"></a>
 **[ Q ]**
-??? glossary-item "QoS (Quality of Service)"
-    A set of techniques used to prioritize critical traffic and manage network congestion.
+??? glossary-item "QoS"
+    (Quality of Service) A set of techniques used to prioritize critical traffic and manage network congestion.
 
 ---
 
@@ -389,8 +389,8 @@
 ??? glossary-item "Storm Control"
     A security feature that limits the level of Broadcast, Multicast, or Unknown Unicast traffic to prevent network degradation.
 
-??? glossary-item "STP (Spanning Tree Protocol)"
-    An IEEE 802.1D protocol that prevents Layer 2 loops by creating a loop-free topology.
+??? glossary-item "STP"
+    (Spanning Tree Protocol) An IEEE 802.1D protocol that prevents Layer 2 loops by creating a loop-free topology.
 
 ??? glossary-item "Switching Capacity"
     The total amount of traffic a switch can handle across all ports simultaneously.
