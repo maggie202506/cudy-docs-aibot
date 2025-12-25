@@ -100,7 +100,10 @@ extra_javascript:
 
 markdown_extensions:
   - attr_list
+  - def_list
   - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -128,3 +131,7 @@ nav:
     - Turtorials: tutorials/index.md    
   - FAQ:
     - FAQ: faq/index.md
+  - Glossary:
+      - Overview: glossary/index.md
+      - Router: glossary/router.md
+      - Switch: glossary/switch.md

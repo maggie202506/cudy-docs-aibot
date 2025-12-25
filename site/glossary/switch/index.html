@@ -1,0 +1,1678 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for Cudy Products">
+      
+      
+        <meta name="author" content="Cudy Docs">
+      
+      
+        <link rel="canonical" href="https://docs.cudy.com/glossary/switch/">
+      
+      
+        <link rel="prev" href="../router/">
+      
+      
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+    
+    
+      
+        <title>Switch - Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35e1ed30.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/preview-panel.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#008CFF" data-md-color-accent="#008CFF">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#switch-glossary" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Docs" class="md-header__button md-logo" aria-label="Docs" data-md-component="logo">
+      
+  <img src="../../images/cudyicon.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Switch
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="#008CFF" data-md-color-accent="#008CFF"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="#006BB3" data-md-color-accent="#006BB3"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/cudytech-pr/User-Guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cudy-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../user_guide/" class="md-tabs__link">
+          
+  
+    
+  
+  User Guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../tutorials/" class="md-tabs__link">
+          
+  
+    
+  
+  Tutorials
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../faq/" class="md-tabs__link">
+          
+  
+    
+  
+  FAQ
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  Glossary
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Docs" class="md-nav__button md-logo" aria-label="Docs" data-md-component="logo">
+      
+  <img src="../../images/cudyicon.webp" alt="logo">
+
+    </a>
+    Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cudytech-pr/User-Guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cudy-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../user_guide/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    User Guide
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Wireless Router
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Wireless Router
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user_guide/wireless_router/wr3600/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WR3600
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user_guide/pon_router/gp1200/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GP1200
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Industrial Router
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Industrial Router
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user_guide/industrial_router/ir04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IR04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Switch
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Switch
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user_guide/switch/gs1024e/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GS1024E
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user_guide/switch/gs1016e/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GS1016E
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    AP Controller
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            AP Controller
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user_guide/ap_controller/c200p/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    C200P
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../tutorials/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tutorials
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../faq/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Glossary
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../router/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Router
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Switch
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+  <!-- Edit button -->
+  
+
+  <!--
+    Hack: check whether the content contains a h1 headline. If it
+    doesn't, the page title (or respectively site name) is used
+    as the main headline.
+  -->
+  
+
+  <!-- Markdown content -->
+  <h1 id="switch-glossary">Switch Glossary<a class="headerlink" href="#switch-glossary" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>Terms A-Z: Click to check the definition.</p>
+</blockquote>
+<p><strong>Index</strong>
+<a href="#a">A</a> | <a href="#b">B</a> | <a href="#c">C</a> | <a href="#d">D</a> | <a href="#e">E</a> | <a href="#f">F</a> | <a href="#g">G</a> | <a href="#h">H</a> | <a href="#i">I</a> | <a href="#j">J</a> | <a href="#k">K</a> | <a href="#l">L</a> | <a href="#m">M</a> | <a href="#n">N</a> | <a href="#o">O</a> | <a href="#p">P</a> | <a href="#q">Q</a> | <a href="#r">R</a> | <a href="#s">S</a> | <a href="#t">T</a> | <a href="#u">U</a> | <a href="#v">V</a> | <a href="#w">W</a> | <a href="#x">X</a> | <a href="#y">Y</a> | <a href="#z">Z</a></p>
+<hr />
+<p><a name="802.1"></a>
+<strong>[ 802.1 ]</strong></p>
+<details class="glossary-item">
+<summary>802.1Q VLAN</summary>
+<p>The IEEE standard for VLAN tagging in an Ethernet network. It adds a 4-byte header to Ethernet frames to identify the VLAN membership.</p>
+</details>
+<details class="glossary-item">
+<summary>802.1p</summary>
+<p>A Quality of Service (QoS) mechanism that prioritizes traffic based on the 3-bit priority field in the 802.1Q VLAN tag.</p>
+</details>
+<hr />
+<p><a name="a"></a>
+<strong>[ A ]</strong></p>
+<details class="glossary-item">
+<summary>Aging Time</summary>
+<p>The timeout period after which a switch removes a dynamic MAC address entry from its address table if no traffic is received from that source.</p>
+</details>
+<hr />
+<p><a name="b"></a>
+<strong>[ B ]</strong></p>
+<details class="glossary-item">
+<summary>Backup Restore</summary>
+<p>The utility used to save the switch's current configuration to a file (Backup) and write a previously saved configuration back to the device (Restore).</p>
+</details>
+<details class="glossary-item">
+<summary>DSCP</summary>
+<p>(Differentiated Services Code Point) A Layer 3 QoS mechanism that uses the 6-bit DiffServ field in the IP header to classify and prioritize traffic.</p>
+</details>
+<details class="glossary-item">
+<summary>Broadcast</summary>
+<p>A network transmission method where data is sent from one sender to all devices on the same local network segment.</p>
+</details>
+<hr />
+<p><a name="c"></a>
+<strong>[ C ]</strong></p>
+<details class="glossary-item">
+<summary>Cable Diagnostics</summary>
+<p>A feature that tests the physical condition of the Ethernet cables connected to the ports, detecting issues like shorts or cable length.</p>
+</details>
+<details class="glossary-item">
+<summary>Chassis ID</summary>
+<p>A unique identifier for the switch chassis, often the device's base MAC address, used for identification in discovery protocols like LLDP.</p>
+</details>
+<details class="glossary-item">
+<summary>Circuit ID</summary>
+<p>A sub-option in DHCP Snooping (Option 82) that identifies the specific physical port or VLAN from which a DHCP request was sent.</p>
+</details>
+<details class="glossary-item">
+<summary>Cost Metric</summary>
+<p>A value assigned to a link in Spanning Tree Protocol (STP). The protocol uses this to calculate the shortest (lowest cost) path to the Root Bridge.</p>
+</details>
+<hr />
+<p><a name="d"></a>
+<strong>[ D ]</strong></p>
+<details class="glossary-item">
+<summary>DHCP Snooping</summary>
+<p>A Layer 2 security feature that validates DHCP messages and filters out unauthorized (rogue) DHCP server responses.</p>
+</details>
+<details class="glossary-item">
+<summary>Duplex</summary>
+<p>Refers to the data transmission mode. <strong>Half-duplex</strong> allows one-way communication at a time; <strong>Full-duplex</strong> allows simultaneous two-way communication.</p>
+</details>
+<hr />
+<p><a name="e"></a>
+<strong>[ E ]</strong></p>
+<details class="glossary-item">
+<summary>EEE Config</summary>
+<p>(Energy-Efficient Ethernet) Configuration for the IEEE 802.3az standard, designed to reduce power consumption during periods of low data activity.</p>
+</details>
+<details class="glossary-item">
+<summary>Egress</summary>
+<p>Refers to the traffic that is leaving or exiting a switch port.</p>
+</details>
+<details class="glossary-item">
+<summary>Extended Power</summary>
+<p>A PoE feature that allows power delivery over distances exceeding the standard 100-meter limit, often at a reduced data rate.</p>
+</details>
+<hr />
+<p><a name="f"></a>
+<strong>[ F ]</strong></p>
+<details class="glossary-item">
+<summary>Fast-leave</summary>
+<p>An IGMP Snooping feature that allows the switch to immediately stop forwarding multicast traffic to a port when an IGMP Leave message is detected.</p>
+</details>
+<details class="glossary-item">
+<summary>Firmware Upgrade</summary>
+<p>The process of replacing the switch's current operating software with a newer version to fix bugs or add new features.</p>
+</details>
+<details class="glossary-item">
+<summary>Flow Control</summary>
+<p>A mechanism (IEEE 802.3x) that manages the data transmission rate between two nodes to prevent the receiver's buffer from overflowing.</p>
+</details>
+<details class="glossary-item">
+<summary>Forward Delay</summary>
+<p>The time a port spends in the Listening and Learning states before it starts forwarding data in Spanning Tree Protocol.</p>
+</details>
+<details class="glossary-item">
+<summary>Fullplex</summary>
+<p>A technical shorthand for <strong>Full Duplex</strong>, where a port can transmit and receive data simultaneously.</p>
+</details>
+<hr />
+<p><a name="i"></a>
+<strong>[ I ]</strong></p>
+<details class="glossary-item">
+<summary>IGMP Querier</summary>
+<p>A device (usually a router or L3 switch) that sends IGMP Query messages to discover which hosts belong to which multicast groups.</p>
+</details>
+<details class="glossary-item">
+<summary>IGMP Snooping</summary>
+<p>A mechanism that allows a Layer 2 switch to examine IGMP packets to maintain a multicast forwarding table, preventing multicast floods.</p>
+</details>
+<details class="glossary-item">
+<summary>Ingress</summary>
+<p>Refers to the traffic that is entering or coming into a switch port.</p>
+</details>
+<details class="glossary-item">
+<summary>Ingress Filter</summary>
+<p>A security feature that drops incoming frames if the VLAN ID in the frame does not match the port's VLAN membership.</p>
+</details>
+<hr />
+<p><a name="j"></a>
+<strong>[ J ]</strong></p>
+<details class="glossary-item">
+<summary>Jumbo Frame</summary>
+<p>Ethernet frames with a payload greater than the standard 1,500 bytes, typically up to 9,000 bytes, used to increase data transfer efficiency.</p>
+</details>
+<hr />
+<p><a name="l"></a>
+<strong>[ L ]</strong></p>
+<details class="glossary-item">
+<summary>LAG Member</summary>
+<p>(Link Aggregation Group Member) A physical port that is part of a logical bundled group (Trunk) to increase bandwidth and provide redundancy.</p>
+</details>
+<details class="glossary-item">
+<summary>LLDP Config</summary>
+<p>(Link Layer Discovery Protocol Configuration) Settings for the vendor-neutral protocol used by devices to advertise their identity and capabilities.</p>
+</details>
+<details class="glossary-item">
+<summary>LLDP Neighbor</summary>
+<p>Information about directly connected devices that are also running the Link Layer Discovery Protocol.</p>
+</details>
+<details class="glossary-item">
+<summary>Loop Prevention</summary>
+<p>A general term for techniques (like STP) used to detect and block physical loops in a network that could cause broadcast storms.</p>
+</details>
+<hr />
+<p><a name="m"></a>
+<strong>[ M ]</strong></p>
+<details class="glossary-item">
+<summary>MAC</summary>
+<p>(Media Access Control) The unique 48-bit hardware address assigned to a network interface controller.</p>
+</details>
+<details class="glossary-item">
+<summary>MAC Manage</summary>
+<p>The administrative interface for viewing the MAC address table, configuring static MAC entries, and setting security bindings.</p>
+</details>
+<details class="glossary-item">
+<summary>Max Age</summary>
+<p>The maximum amount of time an STP bridge waits without receiving a BPDU before concluding that the topology has changed.</p>
+</details>
+<details class="glossary-item">
+<summary>Med Capabilities</summary>
+<p>(LLDP-MED) Extensions to LLDP for Media Endpoint Discovery, used to automatically configure devices like VoIP phones.</p>
+</details>
+<details class="glossary-item">
+<summary>Mirrored port</summary>
+<p>The source port in a port mirroring setup; the port whose traffic is being monitored.</p>
+</details>
+<details class="glossary-item">
+<summary>Mirroring port</summary>
+<p>The destination port in a port mirroring setup; the port where the traffic analyst or packet sniffer is connected.</p>
+</details>
+<details class="glossary-item">
+<summary>MTU</summary>
+<p>(Maximum Transmission Unit) The largest size of a packet or frame that can be sent over a specific network interface.</p>
+</details>
+<details class="glossary-item">
+<summary>MTU VLAN</summary>
+<p>A VLAN configuration where multiple "leaf" ports are isolated from each other but share access to a single "uplink" port.</p>
+</details>
+<details class="glossary-item">
+<summary>Multicast</summary>
+<p>A transmission method where a single sender sends data to a specific group of interested receivers.</p>
+</details>
+<hr />
+<p><a name="n"></a>
+<strong>[ N ]</strong></p>
+<details class="glossary-item">
+<summary>Network Policy</summary>
+<p>Settings within LLDP-MED used to assign VLANs, priorities, and DSCP values to specific types of traffic, such as Voice.</p>
+</details>
+<hr />
+<p><a name="o"></a>
+<strong>[ O ]</strong></p>
+<details class="glossary-item">
+<summary>OUI</summary>
+<p>(Organizationally Unique Identifier) The first three bytes of a MAC address that identify the manufacturer of the device.</p>
+</details>
+<hr />
+<p><a name="p"></a>
+<strong>[ P ]</strong></p>
+<details class="glossary-item">
+<summary>Pair</summary>
+<p>Refers to the two-wire twisted pairs inside an Ethernet cable (e.g., Cat6 has 4 pairs).</p>
+</details>
+<details class="glossary-item">
+<summary>Ping Tool</summary>
+<p>A diagnostic utility that sends ICMP Echo Request packets to a target IP to check connectivity and measure latency.</p>
+</details>
+<details class="glossary-item">
+<summary>Port Management</summary>
+<p>The general administrative category for configuring physical port properties and statuses.</p>
+</details>
+<details class="glossary-item">
+<summary>Port Mirror</summary>
+<p>The feature that copies traffic from one port (source) to another port (destination) for network analysis.</p>
+</details>
+<details class="glossary-item">
+<summary>Port Settings</summary>
+<p>Individual port configurations including speed, duplex, flow control, and port description.</p>
+</details>
+<details class="glossary-item">
+<summary>Port Trunk</summary>
+<p>Also known as Link Aggregation; the process of combining multiple physical ports into one logical high-bandwidth link.</p>
+</details>
+<details class="glossary-item">
+<summary>Port-based</summary>
+<p>A classification method (often for QoS or VLANs) that applies rules based on the physical port the traffic enters.</p>
+</details>
+<details class="glossary-item">
+<summary>Port-based VLAN</summary>
+<p>A VLAN configuration where the VLAN membership is defined by the physical port on the switch.</p>
+</details>
+<details class="glossary-item">
+<summary>Priority</summary>
+<p>A value used to determine the importance of a packet (QoS) or the role of a device in a network protocol (STP Bridge Priority).</p>
+</details>
+<details class="glossary-item">
+<summary>Protocol Management</summary>
+<p>The configuration section for global network protocols like SNMP, LLDP, and IGMP.</p>
+</details>
+<details class="glossary-item">
+<summary>PVID</summary>
+<p>(Port VLAN ID) The default VLAN ID assigned to any untagged frames entering a switch port.</p>
+</details>
+<hr />
+<p><a name="r"></a>
+<strong>[ R ]</strong></p>
+<details class="glossary-item">
+<summary>Report Suppression</summary>
+<p>An IGMP Snooping feature that limits the number of IGMP Join reports forwarded to the router to reduce control plane traffic.</p>
+</details>
+<details class="glossary-item">
+<summary>Round Trip Time</summary>
+<p>(RTT) The time it takes for a signal to be sent plus the time it takes for an acknowledgment to be received.</p>
+</details>
+<details class="glossary-item">
+<summary>RSTP</summary>
+<p>(Rapid Spanning Tree Protocol) An evolution of STP (IEEE 802.1w) that provides faster convergence when a network topology changes.</p>
+</details>
+<details class="glossary-item">
+<summary>Rx bytes</summary>
+<p>The total number of data bytes received on a specific interface.</p>
+</details>
+<details class="glossary-item">
+<summary>Rx pkts</summary>
+<p>The total number of packets received on a specific interface.</p>
+</details>
+<hr />
+<p><a name="s"></a>
+<strong>[ S ]</strong></p>
+<details class="glossary-item">
+<summary>Session</summary>
+<p>A temporary logical connection or interaction between two communicating network devices or a user and the management interface.</p>
+</details>
+<details class="glossary-item">
+<summary>SNMP</summary>
+<p>(Simple Network Management Protocol) A protocol used for collecting information from and configuring network devices such as switches and routers.</p>
+</details>
+<details class="glossary-item">
+<summary>Snooping</summary>
+<p>The process of an intermediate device (like a switch) inspecting traffic (like DHCP/IGMP) to improve efficiency or security.</p>
+</details>
+<details class="glossary-item">
+<summary>SP</summary>
+<p>(Strict Priority) A QoS scheduling method that always empties the highest-priority queue before servicing any lower-priority queues.</p>
+</details>
+<details class="glossary-item">
+<summary>Spanning Tree</summary>
+<p>(STP) A Layer 2 protocol (IEEE 802.1D) that prevents logical loops in a network with redundant physical paths.</p>
+</details>
+<details class="glossary-item">
+<summary>Speed Limit</summary>
+<p>Also known as Rate Limiting; the process of limiting the maximum transmission rate on a port (Ingress or Egress).</p>
+</details>
+<details class="glossary-item">
+<summary>Storm Control</summary>
+<p>A security feature that limits the level of Broadcast, Multicast, or Unknown Unicast traffic to prevent network degradation.</p>
+</details>
+<details class="glossary-item">
+<summary>System Reboot</summary>
+<p>A command to restart the switch software and hardware without changing the configuration.</p>
+</details>
+<details class="glossary-item">
+<summary>System Reset</summary>
+<p>A command to restore the switch to its original factory default settings.</p>
+</details>
+<hr />
+<p><a name="t"></a>
+<strong>[ T ]</strong></p>
+<details class="glossary-item">
+<summary>Tagged port</summary>
+<p>A port configured to carry traffic for multiple VLANs, where each frame includes an 802.1Q tag identifying its VLAN.</p>
+</details>
+<details class="glossary-item">
+<summary>Threshold</summary>
+<p>A configured value that, when crossed, triggers an alert, log entry, or specific action by the switch management software.</p>
+</details>
+<details class="glossary-item">
+<summary>Traffic Monitor</summary>
+<p>A real-time display or log showing the data rate (Kbps/Mbps) and packet flow across the switch's interfaces.</p>
+</details>
+<details class="glossary-item">
+<summary>Transmit Hold Count</summary>
+<p>An STP parameter that limits the number of BPDUs the switch can send in a short interval to prevent CPU exhaustion.</p>
+</details>
+<details class="glossary-item">
+<summary>Trap Server</summary>
+<p>The IP address of the management station (NMS) where the switch sends unsolicited SNMP Trap messages.</p>
+</details>
+<details class="glossary-item">
+<summary>Trap type</summary>
+<p>Specific event categories (e.g., link up/down, cold start) that trigger an SNMP Trap notification.</p>
+</details>
+<details class="glossary-item">
+<summary>Trunk Group</summary>
+<p>A logical collection of physical ports configured to work together as a single Link Aggregation Group (LAG).</p>
+</details>
+<details class="glossary-item">
+<summary>TTL</summary>
+<p>(Time to Live) A field in an IP packet that limits the packet's lifetime. Each router it passes through decreases the TTL by one.</p>
+</details>
+<details class="glossary-item">
+<summary>Tx bytes</summary>
+<p>Statistics showing the total volume of data (<strong>Bytes</strong>) transmitted (sent) by a port.</p>
+</details>
+<details class="glossary-item">
+<summary>Tx Delay</summary>
+<p>Timing parameters for protocol packets (like LLDP); defines the delay between sending individual protocol frames.</p>
+</details>
+<details class="glossary-item">
+<summary>Tx Hold</summary>
+<p>A multiplier used to calculate the Time-to-Live (TTL) for information transmitted in discovery protocols.</p>
+</details>
+<details class="glossary-item">
+<summary>Tx Interval</summary>
+<p>The frequency (in seconds) at which a device sends out periodic protocol updates (like LLDP or STP).</p>
+</details>
+<details class="glossary-item">
+<summary>Tx pkts</summary>
+<p>Statistics showing the total number of packets transmitted (sent) by a port.</p>
+</details>
+<hr />
+<p><a name="u"></a>
+<strong>[ U ]</strong></p>
+<details class="glossary-item">
+<summary>Unicast</summary>
+<p>A transmission sent from a single source to a single specific destination on the network.</p>
+</details>
+<details class="glossary-item">
+<summary>Untagged port</summary>
+<p>A port where outgoing frames do not contain a VLAN tag; typically used for connecting end-user devices like PCs.</p>
+</details>
+<details class="glossary-item">
+<summary>Uplink</summary>
+<p>A port, often with higher speed, used to connect a local switch to a core switch, router, or the wider network.</p>
+</details>
+<hr />
+<p><a name="v"></a>
+<strong>[ V ]</strong></p>
+<details class="glossary-item">
+<summary>VID</summary>
+<p>(VLAN ID) The numerical ID (1–4094) used to identify a specific Virtual LAN within an Ethernet frame tag.</p>
+</details>
+<details class="glossary-item">
+<summary>Voice VLAN</summary>
+<p>A specialized VLAN that prioritizes voice traffic (VoIP) over data traffic to ensure call quality even during network congestion.</p>
+</details>
+<hr />
+<p><a name="w"></a>
+<strong>[ W ]</strong></p>
+<details class="glossary-item">
+<summary>WFQ</summary>
+<p>(Weighted Fair Queuing) A QoS scheduling algorithm that gives different traffic flows a "fair" share of bandwidth based on their assigned weights.</p>
+</details>
+<details class="glossary-item">
+<summary>WRR</summary>
+<p>(Weighted Round Robin) A QoS scheduling algorithm that cycles through queues and sends a certain amount of data from each, proportional to its weight.</p>
+</details>
+
+  <!-- Last update of source file -->
+  
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+        It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <!--  Controls are self-explanatory. Order can be changed. -->
+            <div class="pswp__counter"></div>
+            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+            <!-- <button class="pswp__button pswp__button--share" title="Share"></button> -->
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+            <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+            <!-- element will get class pswp__preloader--active when preloader is running -->
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div> 
+          </div>
+
+          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+          </button>
+
+          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+          </button>
+
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+    </div>
+</div>
+
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+  
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2025, Shenzhen Cudy Technology Co., Ltd.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="mailto:support@cudy.com" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48H48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0L0 176z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.cudy.com" target="_blank" rel="noopener" title="www.cudy.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.4c2.2 20.4 3.3 41.8 3.3 64zm28.8-64h123.1c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6 78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7 10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5 11.6 26 20.9 58.2 27 94.7zm-209 0H18.6c30-74.1 93.6-130.9 172-151.6-25.5 34.2-45.3 87.7-55.3 151.6zM8.1 192h123.1c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zm186.6 254.6c-11.6-26-20.9-58.2-27-94.6h176.6c-6.1 36.4-15.5 68.6-27 94.6-10.5 23.6-22.2 40.7-33.5 51.5-11.2 10.7-20.5 13.9-27.8 13.9s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6-78.4-20.7-142-77.5-172-151.6h116.7zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6 25.5-34.2 45.2-87.7 55.3-151.6h116.6z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/cudytech-pr" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.facebook.com/cudytech/" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/cudytech" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCi9XeBubGtEazL6KxO8In6w" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.instagram.com/cudytech" target="_blank" rel="noopener" title="www.instagram.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+        <!-- 确保保留super()调用 -->
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.highlight", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "toc.integrate", "footer.social"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js"></script>
+      
+        <script src="../../javascripts/analytics.js"></script>
+      
+        <script src="../../javascripts/extra.js"></script>
+      
+        <script src="../../javascripts/cookieconsent.js"></script>
+      
+        <script src="../../javascripts/lazyload.js"></script>
+      
+        <script src="../../javascripts/preview-panel.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
