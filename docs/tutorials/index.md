@@ -3,10 +3,20 @@ hide:
   - navigation
   - toc
 ---
+# Tutorials
+Follow step-by-step tutorials to set up, configure, and use Cudy products with ease.
 
-# Turtorials
-Learn how to use our devices correctly with detailed steps.
+- [How to set up your Cudy Router via Cudy APP?](10007_How_to_setup_your_Cudy_Router_via_Cudy_APP.md)
 
-* [How to recover Cudy devices' firmware via TFTP?](How_to_recover_Cudy_devices'_firmware_via_TFTP.md)
-* [How to set up parent control on the Cudy router?](How_to_set_up_Parent_Control_on_the_Cudy_router.md)
+- [How to set up parent control on the Cudy router?](How_to_set_up_Parent_Control_on_the_Cudy_router.md)
+
+- [How to configure IP Reservation on the Cudy router?](10005_How_to_configure_IP_Reservation_on_the_Cudy_router.md)
+
+- [How to recover Cudy devices' firmware via TFTP?](How_to_recover_Cudy_devices'_firmware_via_TFTP.md)
+
+- [How to change the NAT type on the Cudy router for game console?](10006_How_to_change_the_NAT_type_on_the_Cudy_router_for_game_console.md)
+
+
+!!! Tip
+    Still need help? Contact us at [support@cudy.com](mailto:support@cudy.com).
 

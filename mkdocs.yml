@@ -133,6 +133,6 @@ nav:
     - FAQ: faq/index.md
   - Glossary:
       - Overview: glossary/index.md
+      - Networking: glossary/networking.md      
       - Router: glossary/router.md
       - Switch: glossary/switch.md
-      - PON: glossary/pon.md

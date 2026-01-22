@@ -1,4 +1,4 @@
-# Switch Glossary
+# Switch Terms
 
 > Terms A-Z: Click to check the definition.
 

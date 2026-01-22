@@ -1,4 +1,4 @@
-# Router Glossary
+# Router Terms
 
 > Terms A-Z: Click to check the definition.
 
