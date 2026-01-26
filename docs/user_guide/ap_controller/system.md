@@ -142,7 +142,7 @@ Configure the parameters according to your ISP instructions, and click *Save & A
 - Data Model: Select the data model of the inform message sent to the ACS, according to your ISP's 
 instructions. 
     - TR-098: Legacy data model for basic home gateways.
-    - TR-181: Modern unified CPE standard with hierarchical nodes, supporting IoT/SDN and mandatory for industrial deployments post-2025.
+    - TR-181: A modern Broadband Forum Device:2 data model providing a hierarchical structure for CPE and connected device management. It supports IoT-related device modeling and is widely used in TR-069 and TR-369 (USP) management frameworks.
 - ACS URL: Enter the web address of the ACS provided by your ISP.
 - ACS Username/Password: (Optional) Enter the username/password to log in to the ACS server.
 - Connection Request Auth: If enabled, you may optionally enter the *Username* and *Password* for the ACS server to log in to the AP controller; otherwise just ignore it.
