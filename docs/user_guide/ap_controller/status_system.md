@@ -49,7 +49,7 @@ Shows path selection rules for data forwarding to optimize traffic routing and d
 - Table: Routing table type where this route is stored.
 
 ## System Log
-Tracks all the router behaviors. When the router does not work normally, download the system log and send it to our  [Technical Support](mailto:support@Cudy.com) for troubleshooting. 
+Tracks all the router behaviors. When the router does not work normally, download the system log and send it to our  [Technical Support](mailto:support@cudy.com) for troubleshooting. 
 
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/status-system5.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 

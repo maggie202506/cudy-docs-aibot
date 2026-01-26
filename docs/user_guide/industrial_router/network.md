@@ -162,7 +162,7 @@ To configure the static routing so that you can surf the Internet and visit my c
 
 1. Disable router B's DHCP function. Change the routers' LAN IP addresses to two different IP addresses on the same subnet. 
 
-2. Log in to router A's management web page [http://Cudy.net](http://Cudy.net), and go to *Advanced Settings -> Network -> Static Routing*.
+2. Log in to router A's management web page [http://cudy.net](http://cudy.net), and go to *Advanced Settings -> Network -> Static Routing*.
 
 3. Click *Add* and then enter the parameters as required.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/static-routing2.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
@@ -195,7 +195,7 @@ For example, I want to share my personal website I've built on the local network
 
 1. Assign a static IP address to your PC, for example 192.168.10.100.
 
-2. Log in to [http://Cudy.net](http://Cudy.net), and go to *Advanced Settings -> Network -> Port Forwards*.
+2. Log in to [http://cudy.net](http://cudy.net), and go to *Advanced Settings -> Network -> Port Forwards*.
 
 3. Click *Add* and then enter the required parameters.
 
@@ -270,7 +270,7 @@ For example, you want to get the home PC to join an online game without port res
 
 1. Assign a static IP address to your PC, for example 192.168.10.100.
 
-2. Log in to [http://Cudy.net](http://Cudy.net), and go to *Advanced Settings -> Network -> DMZ*.
+2. Log in to [http://cudy.net](http://cudy.net), and go to *Advanced Settings -> Network -> DMZ*.
 
 3. Enable *DMZ*, and enter the PC's IP address 192.168.10.100 manually in the (DMZ Host) *IP Address* field.
 
@@ -328,7 +328,7 @@ To use this function requires the main board and wired network adapter must supp
 
 *STEP 2: Go to configure the router.*
 
-1. Login in to [http://Cudy.net](http://Cudy.net) and go to *Advanced Settings -> Network -> Wake on LAN*.
+1. Login in to [http://cudy.net](http://cudy.net) and go to *Advanced Settings -> Network -> Wake on LAN*.
 
 2. Click *Add*.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/wake-on-lan.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
@@ -359,7 +359,7 @@ allows network-connected devices to access USB peripherals (e.g., modems, drives
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/usb.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Insert a USB device (FAT32/exFAT formatted) into the USB port on the router.
-2. Login in to [http://Cudy.net](http://Cudy.net) and go to *Advanced Settings -> Network -> USB Sharing*.
+2. Login in to [http://cudy.net](http://cudy.net) and go to *Advanced Settings -> Network -> USB Sharing*.
 3. Enable *USB Sharing* and then configure it.
     - Windows/macOS/Linux Access: Note down the provided IP for USB access.
     - Username: Note down the default username.

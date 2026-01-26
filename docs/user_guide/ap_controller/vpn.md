@@ -38,7 +38,7 @@ PPTP VPN is used to create a PPTP VPN connection for remote devices to access yo
 **STEP 2. Configure PPTP Client on Router B:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/wr3600 (86).webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router B's management web page *http://Cudy.net* or *192.168.10.1*. 
+1. Log into the Router B's management web page *http://cudy.net* or *192.168.10.1*. 
 
 2. Go to *General Settings -> VPN*. Enable VPN, and select *PPTP Client* as Protocol. 
 
@@ -88,7 +88,7 @@ L2TP VPN Server is used to create a L2TP VPN connection for remote devices to ac
 **STEP 2. Configure L2TP Client on Router B:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/wr3600 (87).webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router B's management web page https://Cudy.net (or 192.168.10.1). 
+1. Log into the Router B's management web page https://cudy.net (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable VPN, and select *L2TP Client* as Protocol. 
 
@@ -144,7 +144,7 @@ OpenVPN server requires a public IP. You can confirm whether the router has a pu
 **STEP 2. Configure OpenVPN Client on Router B:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/wr3600 (89).webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router B's management web page https://Cudy.net (or 192.168.10.1). 
+1. Log into the Router B's management web page https://cudy.net (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable VPN, and select *OpenVPN Client* as Protocol. 
 
@@ -205,7 +205,7 @@ WireGuard VPN server requires a public IP. You can confirm whether the router ha
 **STEP 2. Configure WireGuard Client on Router B:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/wr3600 (95).webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router B's management web page https://Cudy.net (or 192.168.10.1).
+1. Log into the Router B's management web page https://cudy.net (or 192.168.10.1).
 
 2. Go to *General Settings -> VPN*. Enable VPN, and select *WireGuard Client* as Protocol. 
 
@@ -317,7 +317,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 
 **STEP 3: Configure the IPSec VPN on the Router in the Branch Office.**
 
-1. Log into the Router B's management web page https://Cudy.net (or 192.168.10.1). 
+1. Log into the Router B's management web page https://cudy.net (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable VPN, and select *IPSec (site-to-site)* as Protocol. 
 

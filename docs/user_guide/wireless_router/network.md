@@ -138,7 +138,7 @@ To configure the static routing so that you can surf the Internet and visit my c
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/static-routing.webp" alt="" width="800px"/>
 
 1. Disable Router B’s DHCP function. Change the routers’ LAN IP addresses to two different IP addresses on the same subnet. 
-2. Log in to Router A’s management web page *http://Cudy.net*, and go to Advanced Settings -> Network -> Static Routing.
+2. Log in to Router A’s management web page *http://cudy.net*, and go to Advanced Settings -> Network -> Static Routing.
 3. Click Add, and enter the parameters as required.
 
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/static-routing2.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
@@ -165,7 +165,7 @@ For example, I want to share my personal website I’ve built on the local netwo
 
 1. Assign a static IP address to your PC, for example 192.168.10.100.
 
-2. Log in to *http://Cudy.net*, and go to Advanced Settings -> Network -> Port Forwards.
+2. Log in to *http://cudy.net*, and go to Advanced Settings -> Network -> Port Forwards.
 
 3. Click Add, and enter the required parameters.
     - Name: Give a name for the entry.
@@ -224,7 +224,7 @@ The DMZ host becomes a virtual server with all ports opened. When you are not cl
 For example, you want to get the home PC to join an online game without port restriction.You can set your PC as a DMZ host with all ports open. Please follow the steps below to configure it.
 
 1. Assign a static IP address to your PC, for example 192.168.10.100.
-2. Log in to *http://Cudy.net*, and go to Advanced Settings -> Network -> DMZ.
+2. Log in to *http://cudy.net*, and go to Advanced Settings -> Network -> DMZ.
 3. Enable DMZ, and enter the PC’s IP address 192.168.10.100 manually in the (DMZ Host) IP 	Address field.
 4. Click *Save & Apply*.
 
@@ -274,7 +274,7 @@ To use this function requires the main board and wired network adapter must supp
 
 **STEP 2: Go to configure the router then.**
 
-1. Login in to *http://Cudy.net* with the password you’ve created and go to Advanced Settings -> Network -> Wake on LAN.
+1. Login in to *http://cudy.net* with the password you’ve created and go to Advanced Settings -> Network -> Wake on LAN.
 2. Click *Add*.
 
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-wol.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />

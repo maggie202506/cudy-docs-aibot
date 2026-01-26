@@ -31,14 +31,14 @@ Please follow the steps below.
     <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/FAQ/10001/DHCPclient.webp" alt="dhcp" width="500px" style="display: block; margin: 0 auto;" >
 
 4. Verify that the router’s management address is correctly entered in the web browser.
-    You can use either [http://Cudy.net/](http://Cudy.net/) or [http://192.168.10.1/](http://192.168.10.1/)  to log in to the web interface of your Cudy router for initial setup. Please type and check carefully.
+    You can use either [http://cudy.net/](http://cudy.net/) or [http://192.168.10.1/](http://192.168.10.1/)  to log in to the web interface of your Cudy router for initial setup. Please type and check carefully.
 
 5. Try changing the access terminal or web browser.
     - If you can't open the login page of the router on a phone, please try another terminal, such as a laptop, pad etc.
     - You also can try other web browsers on the terminal.
 
 6. Try to use Cudy APP.
-    Most of our Cudy router can be managed by the Cudy APP. Please install Cudy APP and try to setup the router via APP. You can download Cudy APP in Google Play and Apple APP Store. Please check the details of the APP on the website [https://www.Cudy.com/Cudy_app](https://www.Cudy.com/Cudy_app).
+    Most of our Cudy router can be managed by the Cudy APP. Please install Cudy APP and try to setup the router via APP. You can download Cudy APP in Google Play and Apple APP Store. Please check the details of the APP on the website [https://www.cudy.com/Cudy_app](https://www.cudy.com/Cudy_app).
 
 7. Please check and shutdown the WEB proxy and VPN on the terminal. Then try again.
 

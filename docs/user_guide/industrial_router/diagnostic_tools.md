@@ -18,7 +18,7 @@ To use PING for diagnosis, please follow the steps below.
 2. Enter the IP Address or Hostname of the tested host.
 3. Click *PING* to start the diagnosis.
 
-The figure below indicates the proper connection between the router and the Cudy server (www.Cudy.com) tested through Ping.
+The figure below indicates the proper connection between the router and the Cudy server (www.cudy.com) tested through Ping.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/ping-result.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 -----
@@ -32,7 +32,7 @@ To use TRACEROUTE for diagnosis, please follow the steps below.
 2. Enter the IP Address or Hostname of the tested host.
 3. Click *TRACEROUTE* to start the diagnosis.
 
-The figure below indicates the proper connection between the router and the Cudy server (www.Cudy.com) tested through Traceroute.
+The figure below indicates the proper connection between the router and the Cudy server (www.cudy.com) tested through Traceroute.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/traceroute-result.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 -----
@@ -48,7 +48,7 @@ To use NSLOOKUP for diagnosis, please follow the steps below.
 
 -----
 ## System Log
-Tracks all the router behaviors. When the router does not work normally, download the system log and send it to our [Technical Support](mailto:support@Cudy.com) for troubleshooting. 
+Tracks all the router behaviors. When the router does not work normally, download the system log and send it to our [Technical Support](mailto:support@cudy.com) for troubleshooting. 
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/system-log2.webp" alt="" width="800px" style="border: 1px solid #eee;" />    
 
 - *Update*: Click to refresh the system log.

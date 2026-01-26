@@ -4,7 +4,7 @@
 
     <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/quick_setup.webp"  width="800" alt="" style="display: block; margin: 0 auto; border: 0.5px solid #eee;">
 
-2. Launch a browser, enter *Cudy.net* (or *192.168.10.1*) in the address bar, and create a password to log in. Then follow the step-by-step instructions to complete the Quick Setup.
+2. Launch a browser, enter *cudy.net* (or *192.168.10.1*) in the address bar, and create a password to log in. Then follow the step-by-step instructions to complete the Quick Setup.
 
     <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/quick_setup4.webp"  width="800" alt="" style="display: block; margin: 0 auto; border: 0.5px solid #eee;">
 

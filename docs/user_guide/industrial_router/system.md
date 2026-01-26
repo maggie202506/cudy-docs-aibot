@@ -22,14 +22,14 @@ is the time displayed while the router is running. The system time you configure
 
 ---
 ## Firmware
-The current firmware version and hardware version will be displayed. Click Browse... to locate and upload the latest firmware file you have already downloaded from www.Cudy.com. Wait a few minutes for the update and reboot to complete.
+The current firmware version and hardware version will be displayed. Click Browse... to locate and upload the latest firmware file you have already downloaded from www.cudy.com. Wait a few minutes for the update and reboot to complete.
 
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/firmware-upgrade.webp" alt="" width="500px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
 
 For more about firmware upgrading, please refer to [Advanced Settings-> Firmware](firmware.md)
 
 !!! Note
-    If you fail to update the firmware for the router, please contact our technical support [support@Cudy.com](mailto:support@Cudy.com).
+    If you fail to update the firmware for the router, please contact our technical support [support@cudy.com](mailto:support@cudy.com).
 
 ---
 ## Backup/Restore

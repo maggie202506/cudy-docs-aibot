@@ -7,7 +7,7 @@
   <a href="wireless_router/wr3600/">
     <div class="Cudy-product-category">Mesh Router</div>
     <img
-      src="https://www.Cudy.com/cdn/shop/files/WR3600_1.0_WR3600H_1.0_115feb9b-59d0-489a-bef0-62c5363e8cb3.png?v=1726273955"
+      src="https://www.cudy.com/cdn/shop/files/WR3600_1.0_WR3600H_1.0_115feb9b-59d0-489a-bef0-62c5363e8cb3.png?v=1726273955"
       alt="WR3600"
       class="no-zoom"
       onclick="event.stopPropagation()"
@@ -19,7 +19,7 @@
   <a href="pon_router/gp1200/">
     <div class="Cudy-product-category">xPON Router</div>
     <img
-      src="https://www.Cudy.com/cdn/shop/files/GP1200_1.1_-A.png?v=1741934941"
+      src="https://www.cudy.com/cdn/shop/files/GP1200_1.1_-A.png?v=1741934941"
       alt="GP1200"
       class="no-zoom"
       onclick="event.stopPropagation()"
@@ -49,7 +49,7 @@
   <a href="switch/gs1024e/">
     <div class="Cudy-product-category">24-Port Gigabit</div>
     <img
-      src="https://www.Cudy.com/cdn/shop/files/GS1024E_1.0_-A_d169bc99-8a4b-46c9-9376-98c3d47ec283.png?v=1724919688"
+      src="https://www.cudy.com/cdn/shop/files/GS1024E_1.0_-A_d169bc99-8a4b-46c9-9376-98c3d47ec283.png?v=1724919688"
       alt="GS1024E"
       class="no-zoom"
       onclick="event.stopPropagation()"
@@ -62,7 +62,7 @@
   <a href="switch/gs1016e/">
     <div class="Cudy-product-category">16-Port Gigabit</div>
     <img
-      src="https://www.Cudy.com/cdn/shop/files/GS1016E-1.png?v=1735199963"
+      src="https://www.cudy.com/cdn/shop/files/GS1016E-1.png?v=1735199963"
       alt="GS1016E"
       class="no-zoom"
       onclick="event.stopPropagation()"

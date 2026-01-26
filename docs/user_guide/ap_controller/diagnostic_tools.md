@@ -67,7 +67,7 @@ To query DNS servers to resolve domain names into IP addresses, helping troubles
 
 -----
 ## System Log
-Tracks all the AP controller behaviors. When the AP controller does not work normally, download the system log and send it to our [Technical Support](mailto:support@Cudy.com) for troubleshooting. 
+Tracks all the AP controller behaviors. When the AP controller does not work normally, download the system log and send it to our [Technical Support](mailto:support@cudy.com) for troubleshooting. 
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/system-log.webp" alt="" width="800px" style="border: 1px solid #eee;" />    
 
 - *Update*: Click to refresh the system log.

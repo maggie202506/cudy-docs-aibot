@@ -6,7 +6,7 @@ edit_uri: ""
 site_name: Docs
 site_description: Documentation for Cudy Products
 site_author: Cudy Docs
-site_url: https://docs.Cudy.com
+site_url: https://docs.cudy.com
 site_dir: site
 copyright: © 2026, Shenzhen Cudy Technology Co., Ltd.
 
@@ -60,9 +60,9 @@ extra:
   #   property: G-PEZ9H4DS1X
   social:
     - icon: fontawesome/solid/envelope
-      link: mailto:support@Cudy.com
+      link: mailto:support@cudy.com
     - icon: fontawesome/solid/globe
-      link: https://www.Cudy.com
+      link: https://www.cudy.com
     - icon: fontawesome/brands/github
       link: https://github.com/Cudytech-pr
     - icon: fontawesome/brands/facebook
@@ -73,7 +73,7 @@ extra:
       link: https://www.youtube.com/channel/UCi9XeBubGtEazL6KxO8In6w
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/Cudytech
-  cname: docs.Cudy.com
+  cname: docs.cudy.com
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css

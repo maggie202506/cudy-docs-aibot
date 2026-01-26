@@ -14,7 +14,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *STEP 1. Configure the PPTP Server on router A:*
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/pptp-server.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-1. Log into the router A’s management web page [https://Cudy.net](https://Cudy.net) (or 192.168.10.1). 
+1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select *PPTP Server* as Protocol. 
 
@@ -33,7 +33,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *STEP 2. Configure PPTP Client on router B:*
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/pptp-client.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-1. Log into the router A’s management web page  [https://Cudy.net](https://Cudy.net) (or 192.168.10.1). 
+1. Log into the router A’s management web page  [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select *PPTP Client* as Protocol. 
 
@@ -60,7 +60,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *STEP 1. Configure the L2TP Server on router A:*
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/l2tp-server.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-1. Log into the router A’s management web page [https://Cudy.net](https://Cudy.net) (or 192.168.10.1). 
+1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select *L2TP Server* as Protocol. 
 
@@ -81,7 +81,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *STEP 2. Configure L2TP Client on router B:*
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/l2tp-client.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-1. Log into the router A’s management web page [https://Cudy.net](https://Cudy.net) (or 192.168.10.1). 
+1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select L2TP Client as Protocol. 
 
@@ -111,7 +111,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *STEP 1. Configure the OpenVPN Server on router A:*
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/openvpn-server.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-1. Log into the router A’s management web page [https://Cudy.net](https://Cudy.net) (or 192.168.10.1). 
+1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select OpenVPN Server as Protocol. 
 
@@ -136,7 +136,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *STEP 2. Configure OpenVPN Client on router B:*
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/openvpn-client.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-1. Log into the router A’s management web page [https://Cudy.net](https://Cudy.net) (or 192.168.10.1). 
+1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select *OpenVPN Client* as Protocol. 
 
@@ -161,7 +161,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *STEP 1. Configure the WireGuard Server on router A:*
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/wireguard-server.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-1. Log into the router A’s management web page [https://Cudy.net](https://Cudy.net) (or 192.168.10.1).
+1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1).
 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select *WireGuard Server* as Protocol. 
 
@@ -188,7 +188,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *STEP 2. Configure WireGuard Client on router B:*
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/wireguard-client.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-1. Log into the router A’s management web page [https://Cudy.net](https://Cudy.net) (or 192.168.10.1).
+1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1).
 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select *WireGuard Client* as Protocol. 
 
@@ -231,7 +231,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *STEP 2. Configure ZeroTier Master on router A.*
     <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/zerotier-master.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-1. Log into the router A’s management web page [https://Cudy.net](https://Cudy.net) (or 192.168.10.1). 
+1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select *ZeroTier Master* as Protocol. 
 
@@ -281,7 +281,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/ipsec.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 *STEP 2: Configure the IPSec VPN on the router in the Headquarter.*
-1. Log into the router A’s management web page [https://Cudy.net](https://Cudy.net) (or 192.168.10.1). 
+1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select *IPSec (site-to-site)* as Protocol. 
 
@@ -306,7 +306,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 4. Click *Save & Apply*. 
 
 *STEP 3: Configure the IPSec VPN on the router in the Branch Office.*
-1. Log into the router A’s management web page [https://Cudy.net](https://Cudy.net) (or 192.168.10.1). 
+1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select *IPSec (site-to-site)* as Protocol. 
 

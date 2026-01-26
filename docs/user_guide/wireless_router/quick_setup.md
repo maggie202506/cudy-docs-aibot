@@ -3,7 +3,7 @@
 With a web-based utility, it is easy to configure and manage the router. The web-based utility can be used on any Windows, Mac OS or UNIX OS with a web browser, such as Microsoft Internet Explorer, Mozilla Firefox or Apple Safari. Follow the steps below to log in to your router.
 
 1. Connect your device to the router, either via Wi-Fi or Ethernet Cable.
-2. Launch a browser and enter [http://Cudy.net](http://Cudy.net) in the address bar.
+2. Launch a browser and enter [http://cudy.net](http://cudy.net) in the address bar.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/Cudynet.webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 3. Create an administrator password to log in the management web page.
@@ -27,7 +27,7 @@ With a web-based utility, it is easy to configure and manage the router. The web
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/quick-setup5.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 !!! Note
-    - If the login window does not appear, please refer to the FAQ or contact [support@Cudy.com](mailto:support@Cudy.com).
+    - If the login window does not appear, please refer to the FAQ or contact [support@cudy.com](mailto:support@cudy.com).
     - For more details about different WAN mode settings, refer to [General Settings -> WAN Mode].
     - It may take a few minutes for the router to successfully connect to the Internet.
 

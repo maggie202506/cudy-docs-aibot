@@ -8,7 +8,7 @@ It helps to set up unique restrictions on Internet access for each member of you
 
 **To set up a parental control on the Router, please follow the steps below.**
 
-1. Log in to [http://Cudy.net](http://Cudy.net) with the password you’ve set for the Cudy Router.
+1. Log in to [http://cudy.net](http://cudy.net) with the password you’ve set for the Cudy Router.
 2. Click the upper menu *Parental Control* and land the page.
 3. Click *Add*, set a profile name, click *Save & Apply* to create a profile for a family member.
 4. In the profile, you can make more specific settings as desired.

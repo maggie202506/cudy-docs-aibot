@@ -1,7 +1,7 @@
 # How to configure IP Reservation on the Cudy router?
 IP Reservation, is used to allocate a static IPv4 address to a MAC address.
 
-1. Please login to the web page of your Cudy router by [http://Cudy.net/](http://Cudy.net/) or [http://192.168.10.1/](http://192.168.10.1/). Input the password to login.
+1. Please login to the web page of your Cudy router by [http://cudy.net/](http://cudy.net/) or [http://192.168.10.1/](http://192.168.10.1/). Input the password to login.
 
 2. Click **Advanced Settings** -> **IP/MAC Binding** in the **Security** section.
 

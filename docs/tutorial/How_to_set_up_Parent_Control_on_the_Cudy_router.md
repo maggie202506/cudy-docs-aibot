@@ -7,7 +7,7 @@ Take WR3000 as an example to introduce how to set up the parental control functi
 
     2.Prevent kid from accessing designated websites, such as *www.facebook.com* and *www.youtube.com*.
 
-1. Please login to the web page of WR3000 by [http://Cudy.net/](http://Cudy.net/) or [http://192.168.10.1/](http://192.168.10.1/). Input the password to login.
+1. Please login to the web page of WR3000 by [http://cudy.net/](http://cudy.net/) or [http://192.168.10.1/](http://192.168.10.1/). Input the password to login.
 
 2. Check the Hostname and MAC address of the phone on the clients list. Go to **System Status** page, Click **More Details** on the **Devices** card, as shown below.
 

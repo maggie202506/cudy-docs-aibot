@@ -1,6 +1,6 @@
 # GS1016E
 ## Package Content
-<img src="https://www.Cudy.com/cdn/shop/files/GS1016E.jpg?v=1749632718">
+<img src="https://www.cudy.com/cdn/shop/files/GS1016E.jpg?v=1749632718">
 
 ---
 

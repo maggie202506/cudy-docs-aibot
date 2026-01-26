@@ -21,7 +21,7 @@ is used to test the connectivity between the Router and the tested host, and mea
 2. Enter the IP Address or Host name of the tested host.
 3. Click *PING* to start the diagnosis.
 
-The figure below indicates the proper connection between the Router and the Cudy server (www.Cudy.com) tested through Ping.
+The figure below indicates the proper connection between the Router and the Cudy server (www.cudy.com) tested through Ping.
 
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/ping2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
@@ -36,7 +36,7 @@ is used to test the route (path) your Router has passed to reach the tested host
 2. Enter the IP Address or Host name of the tested host.
 3. Click *TRACEROUTE* to start the diagnosis.
 
-The figure below indicates the proper connection between the Router and the Cudy server (www.Cudy.com) tested through Traceroute.
+The figure below indicates the proper connection between the Router and the Cudy server (www.cudy.com) tested through Traceroute.
 
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/traceroute2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
@@ -54,7 +54,7 @@ is to check if the DNS IP address of the WAN can work normally.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/nslookup2.webp" alt="" width="800px" style="border: 1px solid #eee;" />    
 
 ## System Log
-Tracks all the Router behaviors. When the Router does not work normally, download the system log and send it to our [Technical Support](mailto:support@Cudy.com) for troubleshooting. 
+Tracks all the Router behaviors. When the Router does not work normally, download the system log and send it to our [Technical Support](mailto:support@cudy.com) for troubleshooting. 
 
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/systemlog.webp" alt="" width="800px" style="border: 1px solid #eee;" />    
 

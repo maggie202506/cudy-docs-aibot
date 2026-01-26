@@ -1,7 +1,7 @@
 # How to change the NAT type on the Cudy router for game console?
 Some customers get a warning when play games with Cudy router. The router's NAT type is NAT3. You need to change the NAT type of router. Please follow the methods below.
 
-1. Check the IP address of your game console. You can check it on settings on your game console. You can also check it on the device list of your Cudy router. Please login to the web page of your Cudy router by [http://Cudy.net/](http://Cudy.net/) or [http://192.168.10.1/](http://192.168.10.1/). Input the password to login. As shown below. For example: the IP address is **192.168.200.76**.
+1. Check the IP address of your game console. You can check it on settings on your game console. You can also check it on the device list of your Cudy router. Please login to the web page of your Cudy router by [http://cudy.net/](http://cudy.net/) or [http://192.168.10.1/](http://192.168.10.1/). Input the password to login. As shown below. For example: the IP address is **192.168.200.76**.
 
     <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/FAQ/10006/Devices.webp" alt="Devices" width="800px" style="display: block; margin: 0 auto;">
 
