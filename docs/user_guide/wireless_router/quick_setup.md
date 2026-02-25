@@ -4,7 +4,7 @@ With a web-based utility, it is easy to configure and manage the router. The web
 
 1. Connect your device to the router, either via Wi-Fi or Ethernet Cable.
 2. Launch a browser and enter [http://cudy.net](http://cudy.net) in the address bar.
-<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/Cudynet.webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/cudynet.webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 3. Create an administrator password to log in the management web page.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/login.webp" alt="" width="300px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />

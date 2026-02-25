@@ -1,4 +1,5 @@
-# IR04
+!!! Note
+    This guide takes IR04 for example. Details may vary by model.
 
 ## Overview
 - Check the [package content](overview.md#package-content){ data-preview }.

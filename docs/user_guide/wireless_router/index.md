@@ -1,3 +1,6 @@
+!!! Note
+    This guide takes WR3600 for example. Details may vary by model.
+
 ## Overview
 - Check the [package content](overview.md#package-content){ data-preview }.
 - View the router's appearance—[front](overview.md#front-panel){ data-preview } and [back](overview.md#back-panel){ data-preview }.

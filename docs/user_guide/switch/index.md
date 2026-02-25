@@ -1,4 +1,5 @@
-# GS1024E
+!!! Note
+    This guide takes GS1024E for example. Details may vary by model.
 
 ## Overview
 - Check the [package content](overview_gs1024e.md#package-content){ data-preview }.

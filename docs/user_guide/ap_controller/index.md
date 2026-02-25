@@ -1,4 +1,5 @@
-# C200P
+!!! Note
+     This guide takes C200P for example. Details may vary by model.
 
 ## Overview
 - Check the [package content](overview.md#package-content){ data-preview }.
