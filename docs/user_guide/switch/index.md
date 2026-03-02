@@ -1,5 +1,13 @@
+# Switch
+
 !!! Note
+    **Supported Models:** GS108E, GS1016E, GS1024E...
+
     This guide takes GS1024E for example. Details may vary by model.
+    
+
+
+    
 
 ## Overview
 - Check the [package content](overview_gs1024e.md#package-content){ data-preview }.

@@ -1,4 +1,8 @@
+# AP Controller
+
 !!! Note
+    **Supported Models**: C200P...
+
      This guide takes C200P for example. Details may vary by model.
 
 ## Overview

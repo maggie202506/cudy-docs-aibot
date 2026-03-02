@@ -1,5 +1,10 @@
+# Industrial Router
+
 !!! Note
+    **Supported Models**: IR02, IR04...
+
     This guide takes IR04 for example. Details may vary by model.
+
 
 ## Overview
 - Check the [package content](overview.md#package-content){ data-preview }.

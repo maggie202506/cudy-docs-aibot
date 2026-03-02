@@ -1,5 +1,10 @@
+# Wireless Router
+
 !!! Note
+    **Supported Models:** WR11000, WR6500, WR6500H, WR3600, WR3600E/H, WR3000, WR3000E/H/P/S, TR3000, WR1500, WR1300, WR1300E/S, WR1200, WR1200E...
+
     This guide takes WR3600 for example. Details may vary by model.
+
 
 ## Overview
 - Check the [package content](overview.md#package-content){ data-preview }.

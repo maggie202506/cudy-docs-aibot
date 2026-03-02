@@ -120,12 +120,17 @@ markdown_extensions:
 nav:
   - Home: index.md
   - User Guide:
-    - Overview: user_guide/index.md
-    - Wireless Router: user_guide/wireless_router/index.md
-    - Industrial Router: user_guide/industrial_router/index.md
-    - xPON Router: user_guide/pon_router/index.md
-    - Switch: user_guide/switch/index.md
-    - AP Controller: user_guide/ap_controller/index.md       
+      - Wireless Router:
+          - Overview: user_guide/wireless_router/index.md
+      - Industrial Router:
+          - Overview: user_guide/industrial_router/index.md
+      - xPON Router:
+          - Overview: user_guide/pon_router/index.md
+      - AP Controller:
+          - Overview: user_guide/ap_controller/index.md   
+      - Switch:
+          - Overview: user_guide/switch/index.md
+          
   - Tutorial:
     - Turtorial: tutorial/index.md    
   - FAQ:
