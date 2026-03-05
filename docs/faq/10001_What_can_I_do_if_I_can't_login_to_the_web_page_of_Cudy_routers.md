@@ -24,7 +24,7 @@ Please follow the steps below.
         - Right-click the Wired or Wi-Fi adapter and select Properties.
         - Under the Networking tab, double-click Internet Protocol Version 4 (TCP/IPv4) Properties.
         
-        <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/faq/10001/TCPIP4.webp" alt="TCP/IP4" width="500px" style="display: block; margin: 0 auto;" >
+        <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/faq/10001/TCPIPV4.webp" alt="TCP/IP4" width="500px" style="display: block; margin: 0 auto;" >
 
     - Select the radio buttons next to Obtain an IP address automatically and Obtain DNS server address automatically.
 
