@@ -150,15 +150,10 @@ img.Cudyboxshadow {
     color: #ffffff !important;
 }
 
-/* 响应式 Footer：手机端 */
+/* 手机端隐藏 Footer */
 @media (max-width: 768px) {
-  .md-footer__inner {
-    padding: 0.5rem;
-    font-size: 0.9rem;
-  }
-  .md-footer-social {
-    flex-wrap: wrap;
-    gap: 0.3rem;
+  .md-footer {
+    display: none !important;
   }
 }
 
