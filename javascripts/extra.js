@@ -218,3 +218,70 @@ initPhotoSwipeFromDOM('.gl-lightbox');
 .md-breadcrumb a:hover {
   text-decoration: underline;
 }
+
+/* ===== Mobile Footer Auto Hide (Material for MkDocs) ===== */
+
+function initMobileFooterHide() {
+
+  const footer = document.querySelector(".md-footer");
+  const main = document.querySelector(".md-main"); // MkDocs 的滚动容器
+
+  if (!footer || !main) return;
+
+  let lastScrollTop = 0;
+
+  footer.classList.add("show");
+
+  main.addEventListener("scroll", function () {
+
+    if (window.innerWidth > 768) return;
+
+    let st = main.scrollTop;
+
+    if (st > lastScrollTop) {
+      // 向下滚动
+      footer.classList.remove("show");
+      footer.classList.add("hide");
+    } else {
+      // 向上滚动
+      footer.classList.remove("hide");
+      footer.classList.add("show");
+    }
+
+    lastScrollTop = st <= 0 ? 0 : st;
+
+  });
+
+}
+document.addEventListener("DOMContentLoaded", function() {
+  const footer = document.querySelector(".md-footer");
+  const main = document.querySelector(".md-main"); // Material 的滚动容器
+
+  if (!footer || !main) return;
+
+  let lastScrollTop = 0;
+  const delta = 5;
+
+  // 初始显示
+  footer.classList.add("show");
+
+  main.addEventListener("scroll", function () {
+    if (window.innerWidth > 768) return;
+
+    let st = main.scrollTop;
+
+    if (Math.abs(st - lastScrollTop) <= delta) return;
+
+    if (st > lastScrollTop) {
+      // 向下滚动 → 隐藏
+      footer.classList.remove("show");
+      footer.classList.add("hide");
+    } else {
+      // 向上滚动 → 显示
+      footer.classList.remove("hide");
+      footer.classList.add("show");
+    }
+
+    lastScrollTop = st <= 0 ? 0 : st;
+  });
+});
