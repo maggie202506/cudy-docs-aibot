@@ -1,5 +1,7 @@
 # Wireless Router
 
+<div class="product-grid">
+
   <a href="wr3600_h" class="product-card">
     <div class="product-img" style="background-image:url('https://www.cudy.com/cdn/shop/files/WR3600_1.0_WR3600H_1.0_4d1e8f65-209c-4236-b36c-d8b09b9ee6b0.png?v=1726274018')"></div>
     <div class="product-name">WR3600(H)</div>
