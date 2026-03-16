@@ -1,137 +1,142 @@
-# Repository
-repo_name: Cudy-docs
-repo_url: https://github.com/Cudytech-pr/User-Guide
-edit_uri: ""
+  # Repository
+  repo_name: Cudy-docs
+  repo_url: https://github.com/Cudytech-pr/User-Guide
+  edit_uri: ""
 
-site_name: Docs
-site_description: Documentation for Cudy Products
-site_author: Cudy Docs
-site_url: https://docs.cudy.com
-site_dir: site
-copyright: © 2026, Shenzhen Cudy Technology Co., Ltd.
+  site_name: Docs
+  site_description: Documentation for Cudy Products
+  site_author: Cudy Docs
+  site_url: https://docs.cudy.com
+  site_dir: site
+  copyright: © 2026, Shenzhen Cudy Technology Co., Ltd.
 
-docs_dir: docs
+  docs_dir: docs
 
-theme: 
-  name: material
-  logo: images/cudyicon.webp
-  custom_dir: overrides
-  features:
-    - search.highlight
-    - navigation.indexes
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - navigation.sections
-    - navigation.expand
-    - toc.integrate
-    - footer.social
-    - content.admonition
-  palette:
-    # Light Mode
-    - scheme: default 
-      primary: "#008CFF"  
-      accent: "#008CFF"  
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode 
-    # Dark Mode 
-    - scheme: slate 
-      primary: "#006BB3"  
-      accent: "#006BB3"  
-      toggle:
-        icon: material/toggle-switch 
-        name: Switch to light mode 
-  favicon: images/favicon.ico 
-
-
-# Plugins
-plugins:
-  - search
-  - include-markdown
-  - glightbox 
+  theme: 
+    name: material
+    logo: images/cudyicon.webp
+    custom_dir: overrides
+    features:
+      - search.highlight
+      - navigation.indexes
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.top
+      - navigation.tracking
+      - navigation.sections
+      - navigation.expand 
+      - footer.social
+      - content.admonition
+      
+    palette:
+      # Light Mode
+      - scheme: default 
+        primary: "#008CFF"  
+        accent: "#008CFF"  
+        toggle:
+          icon: material/toggle-switch-off-outline 
+          name: Switch to dark mode 
+      # Dark Mode 
+      - scheme: slate 
+        primary: "#006BB3"  
+        accent: "#006BB3"  
+        toggle:
+          icon: material/toggle-switch 
+          name: Switch to light mode 
+    favicon: images/favicon.ico 
 
 
-# Customization
-extra:
-  # analytics:
-  #   provider: google
-  #   property: G-PEZ9H4DS1X
-  social:
-    - icon: fontawesome/solid/envelope
-      link: mailto:support@cudy.com
-    - icon: fontawesome/solid/globe
-      link: https://www.cudy.com
-    - icon: fontawesome/brands/github
-      link: https://github.com/Cudytech-pr
-    - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/Cudytech/
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/Cudytech
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCi9XeBubGtEazL6KxO8In6w
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/Cudytech
-  cname: docs.cudy.com
+  # Plugins
+  plugins:
+    - search
+    - include-markdown
+    - glightbox
 
-extra_css:
-  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
-  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css
-  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
+  # Customization
+  extra:
+    # analytics:
+    #   provider: google
+    #   property: G-PEZ9H4DS1X
+    social:
+      - icon: fontawesome/solid/envelope
+        link: mailto:support@cudy.com
+      - icon: fontawesome/solid/globe
+        link: https://www.cudy.com
+      - icon: fontawesome/brands/github
+        link: https://github.com/Cudytech-pr
+      - icon: fontawesome/brands/facebook
+        link: https://www.facebook.com/Cudytech/
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/company/Cudytech
+      - icon: fontawesome/brands/youtube
+        link: https://www.youtube.com/channel/UCi9XeBubGtEazL6KxO8In6w
+      - icon: fontawesome/brands/instagram
+        link: https://www.instagram.com/Cudytech
+    cname: docs.cudy.com
 
-  # we can use the cdn or files
-  # - stylesheets/photoswipe.min.css
-  # - stylesheets/default-skin.min.css
-  - stylesheets/theme-tokens.css
-  - stylesheets/admonitions.css
-  - stylesheets/extra.css
-  - stylesheets/preview-panel.css  
+  extra_css:
+    - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
+    - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css
+    - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
 
-  
-extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
-  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
-  # we can use the cdn or files
-  # - javascripts/photoswipe.min.js
-  # - javascripts/photoswipe-ui-default.min.js
-  - javascripts/analytics.js
-  - javascripts/extra.js
-  - javascripts/cookieconsent.js
-  - javascripts/lazyload.js
-  - javascripts/preview-panel.js
+    # we can use the cdn or files
+    # - stylesheets/photoswipe.min.css
+    # - stylesheets/default-skin.min.css
+    - stylesheets/theme-tokens.css
+    - stylesheets/admonitions.css
+    - stylesheets/extra.css
+    - stylesheets/preview-panel.css  
 
-markdown_extensions:
-  - attr_list
-  - def_list
-  - md_in_html
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.details
-  - admonition
-  - toc:
-        permalink: true
-        toc_depth: 4
+    
+  extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
+    - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
+    - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
+    # we can use the cdn or files
+    # - javascripts/photoswipe.min.js
+    # - javascripts/photoswipe-ui-default.min.js
+    - javascripts/analytics.js
+    - javascripts/extra.js
+    - javascripts/cookieconsent.js
+    - javascripts/lazyload.js
+    - javascripts/preview-panel.js
+    - javascripts/nav-toggle.js
 
-nav:
-  - Home: index.md
-  - User Guide:
-    - Overview: user_guide/index.md
-    - Wireless Router: user_guide/wireless_router/index.md
-    - Industrial Router: user_guide/industrial_router/index.md
-    - xPON Router: user_guide/pon_router/index.md
-    - Switch: user_guide/switch/index.md
-    - AP Controller: user_guide/ap_controller/index.md       
-  - Tutorial:
-    - Turtorial: tutorial/index.md    
-  - FAQ:
-    - FAQ: faq/index.md
-  - Glossary:
-      - Overview: glossary/index.md
-      - Networking: glossary/networking.md      
-      - Router: glossary/router.md
-      - Switch: glossary/switch.md
+  markdown_extensions:
+    - attr_list
+    - def_list
+    - md_in_html
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.details
+    - admonition
+    - toc:
+          permalink: true
+          toc_depth: 4
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  nav:
+    - Home: index.md
+    - User Guide:
+        - user_guide/index.md
+        - Wireless Router: user_guide/wireless_router/index.md
+        - Mesh Wi-Fi System: user_guide/mesh_system/index.md
+        - Industrial Router: user_guide/industrial_router/index.md
+        - xPON Router: user_guide/pon_router/index.md
+        - Switch: user_guide/switch/index.md
+        - AP Controller: user_guide/ap_controller/index.md
+    - Tutorial:
+        - Tutorial: tutorial/index.md    
+    - FAQ:
+        - FAQ: faq/index.md
+    - Glossary:
+          - Overview: glossary/index.md
+          - Networking: glossary/networking.md      
+          - Router: glossary/router.md  
+          - Switch: glossary/switch.md
+    - About: about/index.md

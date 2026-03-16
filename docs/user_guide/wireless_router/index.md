@@ -1,103 +1,60 @@
-!!! Note
-    This guide takes WR3600 for example. Details may vary by model.
+# Wireless Router
 
-## Overview
-- Check the [package content](overview.md#package-content){ data-preview }.
-- View the router's appearance—[front](overview.md#front-panel){ data-preview } and [back](overview.md#back-panel){ data-preview }.
-- View the [interfaces](overview.md#back-panel){ data-preview } layout and description. 
-- Check the [LED](overview.md#front-panel){ data-preview } status and indication.
+<div class="product-grid">
 
-## Connect
-- [Position](connection.md#position-the-router){ data-preview } the router properly before connection.
-- Finish the [hardware connection](connection.md#connect-the-router){ data-preview } of the router.
+  <a href="wr3600_h" class="product-card">
+    <div class="product-img" style="background-image:url('https://www.cudy.com/cdn/shop/files/WR3600_1.0_WR3600H_1.0_4d1e8f65-209c-4236-b36c-d8b09b9ee6b0.png?v=1726274018')"></div>
+    <div class="product-name">WR3600(H)</div>
+  </a>
 
-## Quick Setup
-- Set up the router to the Internet with [web-based wizard](quick_setup.md#quick-setup){ data-preview }.
-- Set up the router to the Internet via [Cudy App](quick_setup.md#Cudy-app-setup){ data-preview }.
+  <a href="wr3000" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR3000-A1-1.png?v=1762823630')"></div>
+    <div class="product-name">WR3000</div>
+  </a>
 
----
+  <a href="wr3000e" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR3000E_d069b779-e0c9-4c91-b8fb-250a34f35a82.png?v=1717134531')"></div>
+    <div class="product-name">WR3000E</div>
+  </a>
 
-## Manage
-### I. System Status
+  <a href="wr3000h_p_s" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR3000H-A_f2944199-6b77-4769-a669-1267dfec08ba.png?v=1717136882')"></div>
+    <div class="product-name">WR3000H_P_S</div>
+  </a>
 
-On the **System Status** ([in Wireless Router Mode](https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/status-router.webp) or [in Wireless Access Point Mode](https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/status-ap.webp)) page, you can check the status of the router system, including:
+  <a href="wr1500" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR1500-A1.png?v=1762823649')"></div>
+    <div class="product-name">WR1500</div>
+  </a>
 
-- *Device* shows the number of devices connected to this Router, via Ethernet cable or 2.4G WiFi or 5G WiFi. Click [*More Details*](status.md#device){ data-preview } to know more information about these devices or configure the settings.
+  <a href="wr1300" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR1300-V3.0-A.png?v=1710322598')"></div>
+    <div class="product-name">WR1300</div>
+  </a>
 
-- *WAN* shows the WAN port connection status. Click [*More Details*](wan.md){ data-preview } to know more information about it or make changes on Settings page. 
+  <a href="wr1300e" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR1300E-A1_d91f0f17-a0f9-44c2-b5cc-f733f3ad5d7e.png?v=17103959228')"></div>
+    <div class="product-name">WR1300E</div>
+  </a>
 
-- *LAN* shows the connected LAN port status. Click [*More Details*](network.md#lan){ data-preview } to know more information about it or make changes.
+  <a href="wr1200" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR1200-A.png?v=1710323628')"></div>
+    <div class="product-name">WR1200</div>
+  </a>
 
-- *Wireless 2.4G/5G* shows the Wireless 2.4G/5G status. Click [*More Details*](wireless.md){ data-preview } to know more information about it or make changes on Settings page. 
+  <a href="wr300" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR300-A2.png?v=1710731891')"></div>
+    <div class="product-name">WR300</div>
+  </a>
 
-- *IPv6* shows IPv6 connection status. Click [*More Details*](IPv6.md){ data-preview } to know more information about it or make changes on Settings page.
+  <a href="wr300s" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR1200-A.png?v=1710323628')"></div>
+    <div class="product-name">WR300S</div>
+  </a>
 
-- *VPN* shows VPN connection status. Click [*More Details*](vpn.md){ data-preview } to know more information about it or make changes on Settings page.
+  <a href="tr3000" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/TR3000-A2.png?v=1763962419')"></div>
+    <div class="product-name">TR3000</div>
+  </a>  
 
-- *DHCP* shows the DHCP Server status. Click [*More Details*](dhcp.md#){ data-preview } to know more information about it or make changes on Settings page.
-
-- *System* shows the System status. Click [*More Details*](status.md#system){ data-preview } to view more information about it or make changes on Settings page.
-
-### II. General Settings
-- [WAN Mode](wan.md){ data-preview }: is to set your Internet connection. Select your Internet connection type from the drop-down list of Protocol. Follow the instructions on the page to complete the configuration.
-- [Wireless](wireless.md){ data-preview }: is to customize the router's wireless settings, including SSID and password, mode, channel, channel width and transmit power, and so on.
-- [VPN](vpn.md){ data-preview }: namely, Virtual Private Network, helps you access Internet resources remotely, securely, and privately through tunneling technology. When you access the Internet, VPN encrypts your personal information and hides your IP address from the public. For VPN users, it looks like the devices are directly connected. 
-- [Captive Portal](captive_portal.md){ data-preview }: allows you to design a portal page for network access verification. Customers are directed to view an advertisement or accept set terms before being granted Internet access. In this way, it offers unique marketing opportunities for small businesses to improve brand awareness and deliver marketing messages. 
-- [Firmware](firmware.md){ data-preview }: Update the router's firmware to be the latest version.
-
-### III. Advanced Settings
-
-[**Network**](network.md){ data-preview }
-
-- [LAN](network.md#lan){ data-preview }: Modify the router's LAN IP address, when necessary.
-- [Guest Network](network.md#guest-network){ data-preview }: Create a guest network without disturbing the main network's security and privacy.
-- [DHCP Server](dhcp.md#){ data-preview }: Specify the IP address for client devices by the router as a DHCP Server.
-- [IPv6](IPv6.md){ data-preview }: Set up an IPv6 Connection.
-- [IGMP](network.md#igmp){ data-preview }:  Manage and optimize multicast traffic for the client devices, like IPTV.
-- [IPTV/VLAN](network.md#iptvvlan){ data-preview }:  Enjoy IPTV or VoIP service.
-- [QoS](network.md#qos){ data-preview }: Prioritize connection of specific devices for a certain duration. 
-- [Custom DNS](network.md#custom-dns){ data-preview }: Customize a DNS server to be resolved through for DNS names.
-- [DDNS](network.md#ddns){ data-preview }: Map a domain name to the dynamic IP address of a network device.
-- [Static Routing](network.md#static-routing){ data-preview }: Manually configure routings for data forwarding.
-- [Port Forwards](network.md#port-forwards){ data-preview }: Set up public services on your local network with higher security.
-- [Port Trigger](network.md#port-trigger){ data-preview }: Specify a triggering port and its corresponding external ports.
-- [DMZ](network.md#dmz){ data-preview }: Disable DMZ unless necessary.
-- [Online Detection](network.md#online-detection){ data-preview }: Ensure your network always online and operational.
-- [TTL](network.md#ttl){ data-preview }: Set the maximum time for packets to survive in the network.
-- [Wake on LAN](network.md#wake-on-lan){ data-preview }: Allow a computer to be turned on or awakened by a network message.
-- [UPnP](network.md#upnp){ data-preview }: Allow applications or host devices to automatically find the front-end NAT device.
-
-[**Security**](security.md){ data-preview }
-
-- [Firewall](security.md#firewall){ data-preview }: Monitor and control incoming and outgoing network traffic based on predetermined security rules.
-- [MAC Filter](security.md#mac-filter){ data-preview }: Prevent unauthorized devices with certain MAC address from accessing the network.
-- [IP Filter](security.md#ip-filter){ data-preview }: Block or allow traffic to your network or system based on the IP addresses. 
-- [Domain Filter](security.md#domain-filter){ data-preview }: Control or limit access to specific websites or Internet services by filtering domain name requests. 
-- [IP/MAC Binding](security.md#ipmac-binding){ data-preview }: Bind network device's IP address to its MAC address. 
-- [WPS](security.md#wps){ data-preview }: Set up a security-protected Wi-Fi connection without sharing/entering credentials. 
-- [WiFi Schedule](security.md#wifi-schedule){ data-preview }: Turn on/off the router's wireless network automatically at a specific time.
-- [ALG](security.md#alg){ data-preview }: Inspect and modify application-layer data in network traffic to allow it to pass through firewalls and other security devices more easily.
-
-[**System**](system.md){ data-preview }
-
-- [System Time](system.md#system-time){ data-preview }: Configure the router's system time, necessary for some time-based functions.
-- [Firmware](system.md#firmware){ data-preview }: Upgrade the firmware to the latest version
-- [Backup/Restore](system.md#backuprestore){ data-preview }: Backup the configuration file or restore it
-- [Administration](system.md#administration){ data-preview }: Access and manage the router from the local or remote devices
-- [Admin Account](system.md#admin-account){ data-preview }: Change the router's login password
-- [Language](system.md#language){ data-preview }: Customize the router's web management language
-- [Timed Reboot](system.md#timed-reboot){ data-preview }: Schedule for the router rebooting
-- [Reboot](system.md#reboot){ data-preview }: Reboot the router for the settings or changes to take effect
-- [Reset](system.md#reset){ data-preview }: Restore the router to its factory default settings
-- [LED Control](system.md#led-control){ data-preview }: Control the router's LED
-- [TR069](system.md#tr069){ data-preview }: Configure the router's TR069 (CPE WAN Management)
-
-### IV. Parental Control
-- [Parental Control](parental_control.md){ data-preview } helps to set up unique restrictions on Internet access for each member of your family via Parental Control feature. You can block inappropriate content, set daily limits for the total time spent online and restrict Internet access to certain time of the day, etc. **This feature only works in Wireless router mode.**
-
-### V. Diagnostic Tools
-- [Diagnosis](diagnostic_tools.md#diagnosis){ data-preview }: The diagnosis result will indicate the status of Internet, Wireless, Devices, Services and System. You can click Download to reserve the diagnosis bin file. 
-- [PING](diagnostic_tools.md#ping){ data-preview }: Used to test the connectivity between the router and the tested host, and measure the round-trip time. 
-- [TRACEROUTE](diagnostic_tools.md#traceroute){ data-preview }: Used to test the route (path) your router has passed to reach the tested host, and measure transit delays of packets across an Internet Protocol network. 
-- [NSLOOKUP](diagnostic_tools.md#nslookup){ data-preview }: Check if the DNS IP address of the WAN can work normally. 
-- [System Log](diagnostic_tools.md#system-log){ data-preview }: Track all the router behaviors. When the router does not work normally, download the system log and send it to our Technical Support for troubleshooting.
+</div>

@@ -21,7 +21,7 @@
     - Server IP/IP Start/Limit: Set to assign IP address for the VPN Clients.
     - Username/Password: Set for the VPN client to access the VPN Server.
 
-5. Click Save & Apply.	
+5. Click *Save & Apply*.	
 
 **STEP 2. Configure PPTP Client on Router B:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/pptp-client.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
@@ -40,7 +40,7 @@
     - Server Address/ Username/Password: Enter the parameters provided by the PPTP Server.
     - Encryption: Enable to ensure the data security for the PPTP clients.	
 
-7. Click Save & Apply.
+7. Click *Save & Apply*.
 
 ---
 ## L2TP VPN 
@@ -59,7 +59,7 @@
     - MTU: Maximum Transmission Unit is 1400 by default. You may change it if necessary.
     - Username/Password: Set to authenticate the VPN clients to access the VPN Server.
 
-5. Click Save & Apply.
+5. Click *Save & Apply*.
 
 **STEP 2. Configure L2TP Client on Router B:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/l2tp-client.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
@@ -81,7 +81,7 @@
     - MTU: Maximum Transmission Unit is 1400 by default, you may change it if necessary.
     - Use custom tunnel IP: Enable and enter it if the L2TP Server provides a tunnel IP bound with the account.
 
-7. Click Save & Apply.
+7. Click *Save & Apply*.
 
 ---
 ## OpenVPN
@@ -99,7 +99,7 @@
     - VPN Subnet: Set up a VPN subnet segment.
     - Subnet Mask: Select or customize as needed.
 
-5. Click Save & Apply.
+5. Click *Save & Apply*.
 6. Click EXPORT to export the configuration file, for the OpenVPN Client to upload.
 
 **STEP 2. Configure OpenVPN Client on Router B:**
@@ -116,7 +116,7 @@
     - Remote Subnet: Select and configure to allow devices with the specified subnet to transmit data through VPN. IP address and Subnet mask are required.
 
 6. Click *Browse...* to locate the Configuration file (client.ovpn) you exported previously from the OpenVPN Server. The uploaded configuration file will be automatically read and the Server IP will be displayed.  
-7. Click Save & Apply.
+7. Click *Save & Apply*.
 
 ---
 ## WireGuard VPN
@@ -134,7 +134,7 @@
     - Listen Port: 51820 by default. You may change it if necessary.
     - MTU: Maximum Transmission Unit is 1400 by default. You may change it if necessary.
 
-5. Click Save & Apply. Then you will be required to configure the Client parameters.
+5. Click *Save & Apply*. Then you will be required to configure the Client parameters.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/client-edit.webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 6. Click Edit Items to add entries. Enter the required parameters and then click Save.
@@ -162,7 +162,7 @@
     - Remote Subnet: Select and configure to allow devices with the specified subnet to transmit data through VPN. IP address and Subnet mask are required.
 
 6. Click *Browse...* to locate the Configuration file (wg-client-x.conf) you exported previously from the WireGuard Server. The uploaded configuration file will be automatically read and such parameters as below will be displayed.  
-7. Confirm the parameters and then click Save & Apply.
+7. Confirm the parameters and then click *Save & Apply*.
 
 ---
 ## ZeroTier VPN
@@ -192,7 +192,7 @@
 2. Go to General Settings ->VPN. Enable VPN, and select ZeroTier Master as Protocol. 
 3. Select Client Access (Internet and Local Network/Internet/Local Network).
 4. Enter the ZeroTier Network ID noted down previously.
-5. Click Save & Apply. Then it will display the Device ID.
+5. Click *Save & Apply*. Then it will display the Device ID.
 6. Back to the ZeroTier web page, you will see One device has joined this network.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/zerotier5.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 

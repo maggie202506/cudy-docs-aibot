@@ -218,3 +218,19 @@ initPhotoSwipeFromDOM('.gl-lightbox');
 .md-breadcrumb a:hover {
   text-decoration: underline;
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  if (document.body.classList.contains("no-zoom")) {
+
+    document.querySelectorAll(".md-content img").forEach(img => {
+      img.style.pointerEvents = "none";
+      img.onclick = null;
+    });
+
+  }
+});
+
+nav li > ul {
+    transition: all 0.3s ease;
+    overflow: hidden;
+}

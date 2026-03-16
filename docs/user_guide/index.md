@@ -1,209 +1,124 @@
-# Model Reference
+# User Guide
 
-!!! Tip
-    User guides for each product series generally apply to the models listed. Minor variations may exist. For more details, please contact our [technical support](mailto:support@cudy.com).
+## [Wireless Router](wireless_router/index.md)
 
-<style>
-  /* 1. 让表格容器宽度自适应 */
-  .Cudy-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0 0 40px 0;
-    display: block; /* 关键：将 table 转为块级元素 */
-  }
+<div class="product-grid">
 
-  /* 2. 让 tr 变成 Flex 容器，支持换行 */
-  .Cudy-table tr {
-    display: flex;
-    flex-wrap: wrap;       /* 核心：空间不足时自动换行 */
-    justify-content: flex-start; /* 左对齐 */
-    border: none;
-  }
+  <a href="wireless_router/wr3600_h" class="product-card">
+    <div class="product-img" style="background-image:url('https://www.cudy.com/cdn/shop/files/WR3600_1.0_WR3600H_1.0_4d1e8f65-209c-4236-b36c-d8b09b9ee6b0.png?v=1726274018')"></div>
+    <div class="product-name">WR3600(H)</div>
+  </a>
 
-  /* 3. 设置单元格在不同设备上的宽度 */
-  .Cudy-table td {
-    display: block;        /* 关键：将 td 转为块级元素 */
-    width: 14.28%;         /* PC端默认 1/7 宽度 */
-    min-width: 140px;      /* 保证图片和文字不会缩得太小 */
-    text-align: center;
-    padding: 15px 5px;
-    box-sizing: border-box;
-  }
+  <a href="wireless_router/wr3000" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR3000-A1-1.png?v=1762823630')"></div>
+    <div class="product-name">WR3000</div>
+  </a>
 
-  /* 4. 图片自适应调整 */
-  .Cudy-table img {
-    height: 70px;
-    max-width: 100%;
-    object-fit: contain;
-    cursor: pointer;
-    transition: .2s ease;
-  }
+  <a href="wireless_router/wr3000e" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR3000E_d069b779-e0c9-4c91-b8fb-250a34f35a82.png?v=1717134531')"></div>
+    <div class="product-name">WR3000E</div>
+  </a>
 
-  .Cudy-table img:hover {
-    transform: scale(1.08);
-  }
+  <a href="wireless_router/wr3000h_p_s" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR3000H-A_f2944199-6b77-4769-a669-1267dfec08ba.png?v=1717136882')"></div>
+    <div class="product-name">WR3000H_P_S</div>
+  </a>
 
-  .Cudy-model {
-    font-size: 14px;
-    margin-top: 8px;
-    color: #333;
-    font-weight: 500;
-    line-height: 1.2;
-  }
+  <a href="wireless_router/wr1500" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR1500-A1.png?v=1762823649')"></div>
+    <div class="product-name">WR1500</div>
+  </a>
 
-  /* --- 移动端适配响应式断点 --- */
+  <a href="wireless_router/wr1300" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR1300-V3.0-A.png?v=1710322598')"></div>
+    <div class="product-name">WR1300</div>
+  </a>
 
-  /* 平板端：每行显示 4 个 */
-  @media screen and (max-width: 1024px) {
-    .Cudy-table td {
-      width: 25%; 
-    }
-  }
+  <a href="wireless_router/wr1300e" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR1300E-A1_d91f0f17-a0f9-44c2-b5cc-f733f3ad5d7e.png?v=17103959228')"></div>
+    <div class="product-name">WR1300E</div>
+  </a>
 
-  /* 手机端：每行显示 2 个 */
-  @media screen and (max-width: 600px) {
-    .Cudy-table td {
-      width: 50%; 
-      padding: 10px 5px;
-    }
-    .Cudy-table img {
-      height: 60px; /* 手机端稍微缩小图片 */
-    }
-    .Cudy-model {
-      font-size: 13px;
-    }
-  }
+  <a href="wireless_router/wr1200" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR1200-A.png?v=1710323628')"></div>
+    <div class="product-name">WR1200</div>
+  </a>
 
-  /* 弹窗样式 (保持原样) */
-  .Cudy-modal {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    padding-top: 60px;
-    left: 0; top: 0; width: 100%; height: 100%;
-    background: rgba(0,0,0,.85);
-    text-align: center;
-  }
-  .Cudy-modal img { max-width: 85%; max-height: 80%; }
-  .Cudy-close { position: absolute; top: 20px; right: 40px; font-size: 30px; color: #fff; cursor: pointer; }
-</style>
+  <a href="wireless_router/wr300" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR300-A2.png?v=1710731891')"></div>
+    <div class="product-name">WR300</div>
+  </a>
 
-<h2><a href="/user_guide/wireless_router/">Wireless Router</a></h2>
-<table class="Cudy-table">
-  <tr>
-    <td>
-      <img src="https://www.cudy.com/cdn/shop/files/WR11000_1.0.png?v=1719212885" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR11000</div>
-    </td>
-    <td>
-      <img src="https://www.cudy.com/cdn/shop/files/WR11000_1.0.png?v=1719212885" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR6500(H)</div>
-    </td>
-    <td>
-      <img src="https://www.cudy.com/cdn/shop/files/WR3600E_1.0_-0.png?v=1715926051" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR3600E</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/WR3600_1.0_WR3600H_1.0_4d1e8f65-209c-4236-b36c-d8b09b9ee6b0.png?v=1726274018" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR3600(H)</div>
-    </td>  
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/TR3000-A2.png?v=1763962419" onclick="openModal(this.src)">
-      <div class="Cudy-model">TR3000</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/WR3000H-A_f2944199-6b77-4769-a669-1267dfec08ba.png?v=1717136882" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR3000S/P/H</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/WR3000E_d069b779-e0c9-4c91-b8fb-250a34f35a82.png?v=1717134531" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR3000E</div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/WR3000-A1-1.png?v=1762823630" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR3000</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/WR1500-A1.png?v=1762823649" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR1500</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/WR1300-V3.0-A.png?v=1710322598" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR1300</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/WR1300S-1.0-1.png?v=1721610105" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR1300S</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/WR1300E-A1_d91f0f17-a0f9-44c2-b5cc-f733f3ad5d7e.png?v=1710395922" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR1300E</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/WR300-A2_dfa3c210-e9e5-4f86-ab8e-7236f4d9f911.png?v=1715242342" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR1200E</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/WR1200-A.png?v=1710323628" onclick="openModal(this.src)">
-      <div class="Cudy-model">WR1200</div>
-    </td>
-  </tr>  
-</table>
+  <a href="wireless_router/wr300s" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/WR1200-A.png?v=1710323628')"></div>
+    <div class="product-name">WR300S</div>
+  </a>
 
-<h2><a href="/user_guide/industrial_router/">Industrial Router</a></h2>
-<table class="Cudy-table">
-  <tr>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/IR02-1.png?v=1754532485" onclick="openModal(this.src)">
-      <div class="Cudy-model">IR02</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/IR04_1.0.png?v=1747214391" onclick="openModal(this.src)">
-      <div class="Cudy-model">IR04</div>
-    </td>
-  </tr>
-</table>
+  <a href="wireless_router/tr3000" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/TR3000-A2.png?v=1763962419')"></div>
+    <div class="product-name">TR3000</div>
+  </a>  
 
-<h2><a href="/user_guide/pon_router/">xPON Router</a></h2>
-<table class="Cudy-table">
-  <tr>
-    <td>
-      <img src="https://www.cudy.com/cdn/shop/files/GP1200_1.1_-A.png?v=1741934941" onclick="openModal(this.src)">
-      <div class="Cudy-model">GP1200(V)</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/GP3000V-0.png?v=1766456329" onclick="openModal(this.src)">
-      <div class="Cudy-model">GP3000(V)</div>
-    </td>
-  </tr>
-</table>
+</div>
 
-<h2><a href="/user_guide/switch/">Switch</a></h2>
-<table class="Cudy-table">
-  <tr>
-    <td>
-      <img src="https://www.cudy.com/cdn/shop/files/GS1024E_1.0_-A_d169bc99-8a4b-46c9-9376-98c3d47ec283.png?v=1724919688" onclick="openModal(this.src)">
-      <div class="Cudy-model">GS1024E</div>
-    </td>
-    <td>
-      <img src="https://www.cudy.com/cdn/shop/files/GS1016E-1.png?v=1735199963" onclick="openModal(this.src)">
-      <div class="Cudy-model">GS1016E</div>
-    </td>
-    <td>
-      <img src="http://www.cudy.com/cdn/shop/files/GS108E-2.0-A-RGB.png?v=1770801545" onclick="openModal(this.src)">
-      <div class="Cudy-model">GS108E</div>
-    </td>
-  </tr>
-</table>
+## [Mesh Wi-Fi System](mesh_system/index.md)
 
-<h2><a href="/user_guide/ap_controller/">AP Controller</a></h2>
-<table class="Cudy-table">
-  <tr>
-    <td>
-      <img src="http://cdn.shopify.com/s/files/1/0673/4748/0820/files/C200P-1.png?v=1743583768" onclick="openModal(this.src)">
-      <div class="Cudy-model">C200P</div>
-    </td>
-  </tr>
-</table>
+<div class="product-grid">
+
+  <a href="mesh_system/m1200" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/M1200-KIT-2-PACK_ad1c6562-922c-46a8-86d0-973c6905fb51.png?v=1720591296&width=1445')"></div>
+    <div class="product-name">M1200</div>
+  </a>
+
+</div>
+
+## [Industrial Router](industrial_router/index.md)
+
+<div class="product-grid">
+
+  <a href="industrial_router/ir04/" class="product-card">
+    <div class="product-img" style="background-image:url('http://www.cudy.com/cdn/shop/files/IR04_1.0.png?v=1747214391')"></div>
+    <div class="product-name">IR04</div>
+  </a>
+
+</div>
+
+
+## [xPON Router](pon_router/index.md)
+
+<div class="product-grid">
+
+  <a href="pon_router/gp1200_v/" class="product-card">
+    <div class="product-img" style="background-image:url('https://www.cudy.com/cdn/shop/files/GP1200_1.1_-A.png?v=1741934941')"></div>
+    <div class="product-name">GP1200(V)</div>
+  </a>
+
+</div>
+
+
+## [Switch](switch/index.md)
+
+<div class="product-grid">
+
+  <a href="switch/gs1024e/" class="product-card">
+    <div class="product-img" style="background-image:url('https://www.cudy.com/cdn/shop/files/GS1024E_1.0_-A_d169bc99-8a4b-46c9-9376-98c3d47ec283.png?v=1724919688')"></div>
+    <div class="product-name">GS1024E</div>
+  </a>
+
+  <a href="switch/gs1016e/" class="product-card">
+    <div class="product-img" style="background-image:url('https://www.cudy.com/cdn/shop/files/GS1016E-1.png?v=1735199963')"></div>
+    <div class="product-name">GS1016E</div>
+  </a>
+
+</div>
+
+## [AP Controller](ap_controller/index.md)
+
+<div class="product-grid">
+
+  <a href="ap_controller/c200p/" class="product-card">
+    <div class="product-img" style="background-image:url('http://cdn.shopify.com/s/files/1/0673/4748/0820/files/C200P-1.png?v=1743583768')"></div>
+    <div class="product-name">C200P</div>
+  </a>
+
+</div>
