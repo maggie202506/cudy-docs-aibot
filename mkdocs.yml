@@ -126,6 +126,7 @@
         - user_guide/index.md
         - Wireless Router: user_guide/wireless_router/index.md
         - Mesh Wi-Fi System: user_guide/mesh_system/index.md
+        - 4G/5G Router: user_guide/4g5g_router/index.md
         - Industrial Router: user_guide/industrial_router/index.md
         - xPON Router: user_guide/pon_router/index.md
         - Switch: user_guide/switch/index.md
