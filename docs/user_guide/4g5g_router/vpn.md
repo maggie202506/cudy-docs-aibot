@@ -13,7 +13,7 @@
 **STEP 1. Configure the PPTP Server on Router A:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-pptp-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
+1. Log into the Router A’s management web page [cudy.net](https://cudy.net) (or *192.168.10.1*). 
 2. Go to General Settings ->VPN. Enable VPN, and select PPTP Server as Protocol. 
 3. Select Client Access (Internet and Local Network/Internet/Local Network).
 4. Configure the PPTP Server.
@@ -26,7 +26,7 @@
 **STEP 2. Configure PPTP Client on Router B:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-pptp-client.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
+1. Log into the Router A’s management web page [cudy.net](https://cudy.net) (or *192.168.10.1*). 
 2. Go to General Settings ->VPN. Enable VPN, and select PPTP Client as Protocol. 
 3. Select Allow all devices or Ban all devices as Default Rule.
 4. Enable Site-to-Site to allow communication between VPN server and Clients.
@@ -49,7 +49,7 @@
 **STEP 1. Configure the L2TP Server on Router A:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-l2tp-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
+1. Log into the Router A’s management web page [cudy.net](https://cudy.net) (or *192.168.10.1*). 
 2. Go to General Settings ->VPN. Enable VPN, and select L2TP Server as Protocol. 
 3. Select Client Access (Internet and Local Network/Internet/Local Network).
 4. Configure the L2TP Server.
@@ -64,7 +64,7 @@
 **STEP 2. Configure L2TP Client on Router B:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-l2tp-client.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
+1. Log into the Router A’s management web page [cudy.net](https://cudy.net) (or *192.168.10.1*). 
 2. Go to General Settings ->VPN. Enable VPN, and select L2TP Client as Protocol. 
 3. Select Allow all devices or Ban all devices as Default Rule.
 4. Enable Site-to-Site to allow communication between VPN server and Clients.
@@ -90,7 +90,7 @@
 **STEP 1. Configure the OpenVPN Server on Router A:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-openvpn-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
+1. Log into the Router A’s management web page [cudy.net](https://cudy.net) (or *192.168.10.1*). 
 2. Go to General Settings ->VPN. Enable VPN, and select OpenVPN Server as Protocol. 
 3. Select the Client Access (Internet and Local Network / Internet / Local Network).
 4. Configure the OpenVPN Server.
@@ -105,7 +105,7 @@
 **STEP 2. Configure OpenVPN Client on Router B:**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-openvpn-client.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
+1. Log into the Router A’s management web page [cudy.net](https://cudy.net) (or *192.168.10.1*). 
 2. Go to General Settings ->VPN. Enable VPN, and select OpenVPN Client as Protocol. 
 3. Select Allow all devices or Ban all devices as Default Rule.
 4. Enable Site-to-Site to allow communication between VPN server and Clients.
@@ -122,12 +122,12 @@
 ## WireGuard VPN
 **WireGuard VPN Server** is used to create a Wire Guard VPN connection for remote devices to access your home network. WireGuard VPN server requires a public IP. You can confirm whether the router has a public IP on the router management page System Status -> WAN -> More details -> Status. If the public IP displayed is consistent with the IP address of the router's WAN port, it means that the router has a public IP. Please follow the steps below to set up a WireGuard VPN connection.
 
-<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-wireguard-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
-
 **STEP 1. Configure the WireGuard Server on Router A:**
 
-1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1).
+1. Log into the Router A’s management web page [cudy.net](https://cudy.net) (or *192.168.10.1*).
 2. Go to General Settings ->VPN. Enable VPN, and select WireGuard Server as Protocol. 
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-wiredguard-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+
 3. Select Client Access (Internet and Local Network / Internet / Local Network).
 4. Configure the WireGuard Server:
     - IP Address: 10.10.10.1 by default. You may change it if necessary.
@@ -149,10 +149,11 @@
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/client-export.webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **STEP 2. Configure WireGuard Client on Router B:**
-<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-wireguard-client.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1).
+1. Log into the Router A’s management web page [cudy.net](https://cudy.net) (or *192.168.10.1*).
 2. Go to General Settings ->VPN. Enable VPN, and select WireGuard Client as Protocol. 
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-wiredguard-client.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+
 3. Select Allow all devices or Ban all devices as Default Rule.
 4. Enable Site-to-Site to allow communication between VPN server and Clients.
 5. Select VPN Policy. 
@@ -188,7 +189,7 @@
 **STEP 2. Configure ZeroTier Master on Router A.**
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-zerotier-master.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
+1. Log into the Router A’s management web page[cudy.net](https://cudy.net) (or *192.168.10.1*). 
 2. Go to General Settings ->VPN. Enable VPN, and select ZeroTier Master as Protocol. 
 3. Select Client Access (Internet and Local Network/Internet/Local Network).
 4. Enter the ZeroTier Network ID noted down previously.
@@ -229,7 +230,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 
 **STEP 2: Configure the IPSec VPN on the Router in the Headquarter.**
 
-1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
+1. Log into the Router A’s management web page [cudy.net](https://cudy.net) (or *192.168.10.1*). 
 2. Go to General Settings ->VPN. Enable VPN, and select IPSec (site-to-site) as Protocol. 
     <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-ipsec.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
@@ -250,7 +251,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 
 **STEP 3: Configure the IPSec VPN on the Router in the Branch Office.**
 
-1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
+1. Log into the Router A’s management web page [cudy.net](https://cudy.net)(or *192.168.10.1*). 
 2. Go to General Settings ->VPN. Enable VPN, and select IPSec (site-to-site) as Protocol. 
     <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/vpn-ipsec.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
     

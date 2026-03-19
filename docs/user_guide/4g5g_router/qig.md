@@ -17,7 +17,7 @@ Follow the instructions below to get your router ready for use fast and easy.
     - With an Ethernet cable: Turn off the Wi-Fi on your device and connect it to the router's LAN port with an Ethernet cable.
         <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/qs-wired.webp" alt="" width="350px" style="display: block; margin: 0 auto;" />
 
-5. Launch a browser, enter *[cudy.net](www.cudy.net)* (or *[192.168.10.1](192.168.10.1)*) in the address bar, and create an administrator password to log in.
+5. Launch a browser, enter [cudy.net](https://cudy.net) (or *192.168.10.1*) in the address bar, and create an administrator password to log in.
 
 6. Follow the step-by-step instructions to finish the *Quick Setup*.
     - Select your *Time Zone*. Click *Next*.
