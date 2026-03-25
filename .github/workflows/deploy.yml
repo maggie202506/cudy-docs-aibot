@@ -1,0 +1,36 @@
+name: Deploy MkDocs
+
+on:
+  push:
+    branches:
+      - main   # 你现在用的主分支
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 拉代码
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. 安装 Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      # 3. 安装依赖
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material
+
+      # 👉 如果你有插件（比如 i18n），在这里加：
+      # pip install mkdocs-static-i18n
+
+      # 4. 部署
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
