@@ -1,6 +1,38 @@
 (function () {
   const WORKER_URL = "https://cudydocs.maggie-chen-d09.workers.dev";
 
+  // 所有产品型号与 URL 映射
+  const PRODUCT_MAP = [
+    { model: "WR3600H",   url: "/user_guide/wireless_router/wr3600_h" },
+    { model: "WR3600",    url: "/user_guide/wireless_router/wr3600_h" },
+    { model: "WR3000E",   url: "/user_guide/wireless_router/wr3000e" },
+    { model: "WR3000H",   url: "/user_guide/wireless_router/wr3000h_p_s" },
+    { model: "WR3000P",   url: "/user_guide/wireless_router/wr3000h_p_s" },
+    { model: "WR3000S",   url: "/user_guide/wireless_router/wr3000h_p_s" },
+    { model: "WR3000",    url: "/user_guide/wireless_router/wr3000" },
+    { model: "WR1500",    url: "/user_guide/wireless_router/wr1500" },
+    { model: "WR1300E",   url: "/user_guide/wireless_router/wr1300e" },
+    { model: "WR1300",    url: "/user_guide/wireless_router/wr1300" },
+    { model: "WR1200",    url: "/user_guide/wireless_router/wr1200" },
+    { model: "WR300S",    url: "/user_guide/wireless_router/wr300s" },
+    { model: "WR300",     url: "/user_guide/wireless_router/wr300" },
+    { model: "TR3000",    url: "/user_guide/wireless_router/tr3000" },
+    { model: "M1200",     url: "/user_guide/mesh_system/m1200" },
+    { model: "P2",        url: "/user_guide/4g5g_router/p2" },
+    { model: "IR04",      url: "/user_guide/industrial_router/ir04/" },
+    { model: "GP1200V",   url: "/user_guide/pon_router/gp1200_v/" },
+    { model: "GP1200",    url: "/user_guide/pon_router/gp1200_v/" },
+    { model: "GS1024E",   url: "/user_guide/switch/gs1024e/" },
+    { model: "GS1016E",   url: "/user_guide/switch/gs1016e/" },
+    { model: "C200P",     url: "/user_guide/ap_controller/c200p/" },
+  ];
+
+  // 检测消息里是否含有产品型号
+  function detectModels(text) {
+    const upper = text.toUpperCase().replace(/[\s\-_]/g, "");
+    return PRODUCT_MAP.filter(p => upper.includes(p.model.replace(/[\s\-_]/g, "")));
+  }
+
   const UI_TEXT = {
     en: {
       title: "Cudy Support",
@@ -12,7 +44,7 @@
       error: "Sorry, something went wrong. Please try again.",
       contactBtn: "📧 Contact Support",
       contactTitle: "Contact Support",
-      contactBack: "← Back to Chat",
+      contactBack: "⬅️ Back to Chat",
       contactName: "Your Name",
       contactEmail: "Your Email",
       contactMessage: "Describe your issue...",
@@ -23,6 +55,9 @@
       contactNameRequired: "Please enter your name.",
       contactEmailRequired: "Please enter a valid email.",
       contactMessageRequired: "Please describe your issue.",
+      ugPrompt: "📖 We found a User Guide for",
+      ugView: "View User Guide",
+      ugChat: "Continue Chatting",
     },
     zh: {
       title: "Cudy 智能客服",
@@ -34,7 +69,7 @@
       error: "抱歉，出现了一些问题，请稍后重试。",
       contactBtn: "📧 联系客服",
       contactTitle: "联系客服",
-      contactBack: "← 返回对话",
+      contactBack: "⬅️ 返回对话",
       contactName: "你的姓名",
       contactEmail: "你的邮箱",
       contactMessage: "请描述你的问题...",
@@ -45,6 +80,9 @@
       contactNameRequired: "请输入你的姓名。",
       contactEmailRequired: "请输入有效的邮箱地址。",
       contactMessageRequired: "请描述你的问题。",
+      ugPrompt: "📖 我们找到了该型号的用户手册：",
+      ugView: "查看用户手册",
+      ugChat: "继续提问",
     },
   };
 
@@ -54,6 +92,11 @@
   let isContactView = false;
   let history = [];
 
+  // 生成唯一 Session ID，窗口关闭前保持不变
+  const sessionId = "s_" + Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+  const isMobile = () => window.innerWidth <= 600;
+
+  // ── BUILD UI ────────────────────────────────────────────────────────────────
   const root = document.createElement("div");
   root.id = "cudy-chatbot-root";
   document.body.appendChild(root);
@@ -86,7 +129,6 @@
         <button id="cudy-lang-btn"></button>
       </div>
 
-      <!-- 聊天视图 -->
       <div id="cudy-chat-view">
         <div id="cudy-messages"></div>
         <div id="cudy-contact-bar">
@@ -102,19 +144,12 @@
         </div>
       </div>
 
-      <!-- 联系表单视图 -->
       <div id="cudy-contact-view" style="display:none">
         <div id="cudy-contact-form">
           <button id="cudy-back-btn"></button>
-          <div class="cudy-field">
-            <input id="cudy-name" type="text" autocomplete="name"/>
-          </div>
-          <div class="cudy-field">
-            <input id="cudy-email" type="email" autocomplete="email"/>
-          </div>
-          <div class="cudy-field">
-            <textarea id="cudy-msg" rows="5"></textarea>
-          </div>
+          <div class="cudy-field"><input id="cudy-name" type="text" autocomplete="name"/></div>
+          <div class="cudy-field"><input id="cudy-email" type="email" autocomplete="email"/></div>
+          <div class="cudy-field"><textarea id="cudy-msg" rows="5"></textarea></div>
           <div id="cudy-form-feedback"></div>
           <button id="cudy-form-send-btn"></button>
         </div>
@@ -122,39 +157,59 @@
     </div>
   `;
 
-  // ── REFS ──────────────────────────────────────────────────────────────────
-  const fab = document.getElementById("cudy-fab");
-  const panel = document.getElementById("cudy-panel");
-  const messagesEl = document.getElementById("cudy-messages");
-  const inputEl = document.getElementById("cudy-input");
-  const sendBtn = document.getElementById("cudy-send-btn");
-  const langBtn = document.getElementById("cudy-lang-btn");
-  const titleEl = document.getElementById("cudy-title");
-  const subtitleEl = document.getElementById("cudy-subtitle");
-  const contactBtn = document.getElementById("cudy-contact-btn");
-  const chatView = document.getElementById("cudy-chat-view");
-  const contactView = document.getElementById("cudy-contact-view");
-  const backBtn = document.getElementById("cudy-back-btn");
-  const nameInput = document.getElementById("cudy-name");
-  const emailInput = document.getElementById("cudy-email");
-  const msgInput = document.getElementById("cudy-msg");
-  const formFeedback = document.getElementById("cudy-form-feedback");
-  const formSendBtn = document.getElementById("cudy-form-send-btn");
+  // ── REFS ────────────────────────────────────────────────────────────────────
+  const fab           = document.getElementById("cudy-fab");
+  const panel         = document.getElementById("cudy-panel");
+  const messagesEl    = document.getElementById("cudy-messages");
+  const inputEl       = document.getElementById("cudy-input");
+  const sendBtn       = document.getElementById("cudy-send-btn");
+  const langBtn       = document.getElementById("cudy-lang-btn");
+  const titleEl       = document.getElementById("cudy-title");
+  const subtitleEl    = document.getElementById("cudy-subtitle");
+  const contactBtn    = document.getElementById("cudy-contact-btn");
+  const chatView      = document.getElementById("cudy-chat-view");
+  const contactView   = document.getElementById("cudy-contact-view");
+  const backBtn       = document.getElementById("cudy-back-btn");
+  const nameInput     = document.getElementById("cudy-name");
+  const emailInput    = document.getElementById("cudy-email");
+  const msgInput      = document.getElementById("cudy-msg");
+  const formFeedback  = document.getElementById("cudy-form-feedback");
+  const formSendBtn   = document.getElementById("cudy-form-send-btn");
 
   function t(key) { return UI_TEXT[lang][key]; }
 
   function updateUIText() {
-    titleEl.textContent = isContactView ? t("contactTitle") : t("title");
+    titleEl.textContent    = isContactView ? t("contactTitle") : t("title");
     subtitleEl.textContent = isContactView ? "" : t("subtitle");
-    inputEl.placeholder = t("placeholder");
-    sendBtn.title = t("send");
-    langBtn.textContent = t("lang");
+    inputEl.placeholder    = t("placeholder");
+    sendBtn.title          = t("send");
+    langBtn.textContent    = t("lang");
     contactBtn.textContent = t("contactBtn");
-    backBtn.textContent = t("contactBack");
-    nameInput.placeholder = t("contactName");
+    backBtn.textContent    = t("contactBack");
+    nameInput.placeholder  = t("contactName");
     emailInput.placeholder = t("contactEmail");
-    msgInput.placeholder = t("contactMessage");
+    msgInput.placeholder   = t("contactMessage");
     formSendBtn.textContent = t("contactSend");
+  }
+
+  // ── MODEL SUGGESTION CARD ───────────────────────────────────────────────────
+  function appendModelCard(models) {
+    models.forEach(product => {
+      const wrap = document.createElement("div");
+      wrap.className = "cudy-msg cudy-msg-bot";
+      wrap.innerHTML = `
+        <div class="cudy-bubble cudy-model-card">
+          <div class="cudy-model-card-text">${t("ugPrompt")} <strong>${product.model}</strong></div>
+          <div class="cudy-model-card-btns">
+            <a href="https://docs.cudy.com${product.url}" target="_blank" class="cudy-card-btn cudy-card-btn-primary">${t("ugView")}</a>
+            <button class="cudy-card-btn cudy-card-btn-secondary">${t("ugChat")}</button>
+          </div>
+        </div>
+      `;
+      wrap.querySelector(".cudy-card-btn-secondary").addEventListener("click", () => wrap.remove());
+      messagesEl.appendChild(wrap);
+    });
+    messagesEl.scrollTop = messagesEl.scrollHeight;
   }
 
   function appendMessage(role, text, isTemp = false) {
@@ -184,24 +239,40 @@
 
   function showContactView(show) {
     isContactView = show;
-    chatView.style.display = show ? "none" : "flex";
+    chatView.style.display   = show ? "none" : "flex";
     contactView.style.display = show ? "flex" : "none";
     formFeedback.textContent = "";
-    formFeedback.className = "";
+    formFeedback.className   = "";
     updateUIText();
   }
 
-  // ── TOGGLE ────────────────────────────────────────────────────────────────
-  fab.addEventListener("click", () => {
-    isOpen = !isOpen;
-    panel.className = isOpen ? "cudy-panel-open" : "cudy-panel-closed";
-    fab.querySelector(".cudy-icon-chat").style.display = isOpen ? "none" : "flex";
-    fab.querySelector(".cudy-icon-close").style.display = isOpen ? "flex" : "none";
-    if (isOpen && messagesEl.children.length === 0) appendMessage("bot", t("welcome"));
-    if (isOpen) setTimeout(() => inputEl.focus(), 300);
-  });
+  // ── OPEN / CLOSE ────────────────────────────────────────────────────────────
+  function openPanel() {
+    isOpen = true;
+    if (isMobile()) {
+      panel.classList.add("cudy-panel-fullscreen");
+      document.body.style.overflow = "hidden";
+    }
+    panel.className = isMobile()
+      ? "cudy-panel-open cudy-panel-fullscreen"
+      : "cudy-panel-open";
+    fab.querySelector(".cudy-icon-chat").style.display = "none";
+    fab.querySelector(".cudy-icon-close").style.display = "flex";
+    if (messagesEl.children.length === 0) appendMessage("bot", t("welcome"));
+    setTimeout(() => inputEl.focus(), 300);
+  }
 
-  // ── LANGUAGE ──────────────────────────────────────────────────────────────
+  function closePanel() {
+    isOpen = false;
+    panel.className = "cudy-panel-closed";
+    document.body.style.overflow = "";
+    fab.querySelector(".cudy-icon-chat").style.display = "flex";
+    fab.querySelector(".cudy-icon-close").style.display = "none";
+  }
+
+  fab.addEventListener("click", () => isOpen ? closePanel() : openPanel());
+
+  // ── LANGUAGE ────────────────────────────────────────────────────────────────
   langBtn.addEventListener("click", () => {
     lang = lang === "en" ? "zh" : "en";
     history = [];
@@ -211,25 +282,25 @@
     appendMessage("bot", t("welcome"));
   });
 
-  // ── CONTACT VIEW ──────────────────────────────────────────────────────────
+  // ── CONTACT FORM ────────────────────────────────────────────────────────────
   contactBtn.addEventListener("click", () => showContactView(true));
-  backBtn.addEventListener("click", () => showContactView(false));
+  backBtn.addEventListener("click",    () => showContactView(false));
 
   formSendBtn.addEventListener("click", async () => {
-    const name = nameInput.value.trim();
-    const email = emailInput.value.trim();
+    const name    = nameInput.value.trim();
+    const email   = emailInput.value.trim();
     const message = msgInput.value.trim();
-
     formFeedback.textContent = "";
-    if (!name) { formFeedback.textContent = t("contactNameRequired"); formFeedback.className = "cudy-feedback-error"; return; }
-    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { formFeedback.textContent = t("contactEmailRequired"); formFeedback.className = "cudy-feedback-error"; return; }
+
+    if (!name)    { formFeedback.textContent = t("contactNameRequired");    formFeedback.className = "cudy-feedback-error"; return; }
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                    formFeedback.textContent = t("contactEmailRequired");   formFeedback.className = "cudy-feedback-error"; return; }
     if (!message) { formFeedback.textContent = t("contactMessageRequired"); formFeedback.className = "cudy-feedback-error"; return; }
 
     formSendBtn.disabled = true;
     formSendBtn.textContent = t("contactSending");
-
     try {
-      const res = await fetch(WORKER_URL, {
+      const res  = await fetch(WORKER_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ action: "contact", name, email, message, lang }),
@@ -237,20 +308,17 @@
       const data = await res.json();
       if (!res.ok || !data.success) throw new Error();
       formFeedback.textContent = t("contactSuccess");
-      formFeedback.className = "cudy-feedback-success";
-      nameInput.value = "";
-      emailInput.value = "";
-      msgInput.value = "";
+      formFeedback.className   = "cudy-feedback-success";
+      nameInput.value = emailInput.value = msgInput.value = "";
     } catch {
       formFeedback.textContent = t("contactError");
-      formFeedback.className = "cudy-feedback-error";
+      formFeedback.className   = "cudy-feedback-error";
     }
-
     formSendBtn.disabled = false;
     formSendBtn.textContent = t("contactSend");
   });
 
-  // ── SEND CHAT MESSAGE ─────────────────────────────────────────────────────
+  // ── SEND CHAT ───────────────────────────────────────────────────────────────
   async function sendMessage() {
     const text = inputEl.value.trim();
     if (!text || isLoading) return;
@@ -261,14 +329,19 @@
     sendBtn.disabled = true;
 
     appendMessage("user", text);
+
+    // 检测型号，先显示跳转卡片
+    const matched = detectModels(text);
+    if (matched.length > 0) appendModelCard(matched);
+
     history.push({ role: "user", content: text });
     appendMessage("bot", "", true);
 
     try {
-      const res = await fetch(WORKER_URL, {
+      const res  = await fetch(WORKER_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: history, lang, source: window.location.pathname }),
+        body: JSON.stringify({ messages: history, lang, source: window.location.pathname, sessionId }),
       });
       const data = await res.json();
       if (!res.ok || data.error) throw new Error(data.error || "Unknown error");
